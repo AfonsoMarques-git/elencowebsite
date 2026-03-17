@@ -1,0 +1,321 @@
+/*--------------------------------------------------------------
+  == Sharing Buttons
+  --------------------------------------------------------------*/
+
+.tmpcoder-sharing-buttons .tmpcoder-sharing-icon {
+	overflow: hidden;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	color: #ffffff !important;
+}
+
+.tmpcoder-sharing-buttons .tmpcoder-sharing-icon i {
+	display: block;
+	text-align: center;
+}
+
+.tmpcoder-sharing-label {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+}
+
+.elementor-widget-tmpcoder-sharing-buttons.elementor-grid-0 .tmpcoder-sharing-buttons,
+.elementor-widget-tmpcoder-sharing-buttons[class*="elementor-grid-pro-"] .tmpcoder-sharing-buttons {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.elementor-widget-tmpcoder-sharing-buttons:not(.elementor-grid-0):not(.elementor-grid-pro-3):not(.elementor-grid-pro-4):not(.elementor-grid-pro-5):not(.elementor-grid-pro-6) .tmpcoder-sharing-label-off .tmpcoder-sharing-icon i {
+	width: 100% !important;
+}
+
+.tmpcoder-sharing-buttons.tmpcoder-sharing-col-1 .tmpcoder-sharing-icon {
+	width: 100%;
+	margin-right: 0 !important;
+}
+
+.tmpcoder-sharing-buttons .tmpcoder-sharing-icon:last-child,
+.tmpcoder-sharing-col-1 .tmpcoder-sharing-buttons .tmpcoder-sharing-icon,
+.tmpcoder-sharing-col-2 .tmpcoder-sharing-buttons .tmpcoder-sharing-icon:nth-child(2n),
+.tmpcoder-sharing-col-3 .tmpcoder-sharing-buttons .tmpcoder-sharing-icon:nth-child(3n),
+.tmpcoder-sharing-col-4 .tmpcoder-sharing-buttons .tmpcoder-sharing-icon:nth-child(4n),
+.tmpcoder-sharing-col-5 .tmpcoder-sharing-buttons .tmpcoder-sharing-icon:nth-child(5n),
+.tmpcoder-sharing-col-6 .tmpcoder-sharing-buttons .tmpcoder-sharing-icon:nth-child(6n) {
+	margin-right: 0 !important;
+}
+
+.tmpcoder-sharing-buttons .tmpcoder-sharing-icon {
+	-webkit-transition-property: opacity, border-color;
+	-o-transition-property: opacity, border-color;
+	transition-property: opacity, border-color;
+	-webkit-transition-timing-function: linear;
+	-o-transition-timing-function: linear;
+	transition-timing-function: linear;
+}
+
+.tmpcoder-sharing-buttons .tmpcoder-sharing-icon i,
+.tmpcoder-sharing-buttons .tmpcoder-sharing-icon span {
+	-webkit-transition-property: color, background-color;
+	-o-transition-property: color, background-color;
+	transition-property: color, background-color;
+	-webkit-transition-timing-function: linear;
+	-o-transition-timing-function: linear;
+	transition-timing-function: linear;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-icon:hover {
+	opacity: 0.85;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-facebook-f i,
+.tmpcoder-sharing-official .tmpcoder-sharing-facebook-f span {
+	background-color: #3b5998;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-twitter i,
+.tmpcoder-sharing-official .tmpcoder-sharing-twitter span {
+	background-color: #1da1f2;
+}
+.tmpcoder-sharing-official .tmpcoder-sharing-x-twitter i,
+.tmpcoder-sharing-official .tmpcoder-sharing-x-twitter span {
+	background-color: #000;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-linkedin-in i,
+.tmpcoder-sharing-official .tmpcoder-sharing-linkedin-in span {
+	background-color: #0077b5;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-pinterest-p i,
+.tmpcoder-sharing-official .tmpcoder-sharing-pinterest-p span {
+	background-color: #bd081c;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-reddit i,
+.tmpcoder-sharing-official .tmpcoder-sharing-reddit span {
+	background-color: #ff4500;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-tumblr i,
+.tmpcoder-sharing-official .tmpcoder-sharing-tumblr span {
+	background-color: #35465c;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-digg i,
+.tmpcoder-sharing-official .tmpcoder-sharing-digg span {
+	background-color: #005be2;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-xing i,
+.tmpcoder-sharing-official .tmpcoder-sharing-xing span {
+	background-color: #026466;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-vk i,
+.tmpcoder-sharing-official .tmpcoder-sharing-vk span {
+	background-color: #45668e;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-odnoklassniki i,
+.tmpcoder-sharing-official .tmpcoder-sharing-odnoklassniki span {
+	background-color: #f4731c;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-get-pocket i,
+.tmpcoder-sharing-official .tmpcoder-sharing-get-pocket span {
+	background-color: #ef3f56;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-skype i,
+.tmpcoder-sharing-official .tmpcoder-sharing-skype span {
+	background-color: #00aff0;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-whatsapp i,
+.tmpcoder-sharing-official .tmpcoder-sharing-whatsapp span {
+	background-color: #25d366;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-telegram i,
+.tmpcoder-sharing-official .tmpcoder-sharing-telegram span {
+	background-color: #2ca5e0;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-envelope i,
+.tmpcoder-sharing-official .tmpcoder-sharing-envelope span {
+	background-color: #c13B2c;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-print i,
+.tmpcoder-sharing-official .tmpcoder-sharing-print span {
+	background-color: #96c859;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-facebook-f {
+	border-color: #3b5998;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-twitter {
+	border-color: #000;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-linkedin-in {
+	border-color: #0077b5;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-pinterest-p {
+	border-color: #bd081c;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-reddit {
+	border-color: #ff4500;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-tumblr {
+	border-color: #35465c;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-digg {
+	border-color: #005be2;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-xing {
+	border-color: #026466;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-vk {
+	border-color: #45668e;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-odnoklassniki {
+	border-color: #f4731c;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-get-pocket {
+	border-color: #ef3f56;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-skype {
+	border-color: #00aff0;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-whatsapp {
+	border-color: #25d366;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-telegram {
+	border-color: #2ca5e0;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-envelope {
+	border-color: #c13B2c;
+}
+
+.tmpcoder-sharing-official .tmpcoder-sharing-print {
+	border-color: #96c859;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-facebook-f i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-facebook-f span {
+	color: #3b5998;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-twitter i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-twitter span {
+	color: #fff;
+	background-color: transparent;
+}
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-x-twitter i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-x-twitter span {
+	color: #fff;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-linkedin-in i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-linkedin-in span {
+	color: #0077b5;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-pinterest-p i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-pinterest-p span {
+	color: #bd081c;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-reddit i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-reddit span {
+	color: #ff4500;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-tumblr i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-tumblr span {
+	color: #35465c;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-digg i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-digg span {
+	color: #005be2;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-xing i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-xing span {
+	color: #026466;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-vk i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-vk span {
+	color: #45668e;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-odnoklassniki i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-odnoklassniki span {
+	color: #f4731c;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-get-pocket i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-get-pocket span {
+	color: #ef3f56;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-skype i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-skype span {
+	color: #00aff0;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-whatsapp i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-whatsapp span {
+	color: #25d366;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-telegram i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-telegram span {
+	color: #2ca5e0;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-envelope i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-envelope span {
+	color: #c13B2c;
+	background-color: transparent;
+}
+
+.tmpcoder-sharing-official.tmpcoder-sharing-icon-tr .tmpcoder-sharing-print i,
+.tmpcoder-sharing-official.tmpcoder-sharing-label-tr .tmpcoder-sharing-print span {
+	color: #96c859;
+	background-color: transparent;
+}

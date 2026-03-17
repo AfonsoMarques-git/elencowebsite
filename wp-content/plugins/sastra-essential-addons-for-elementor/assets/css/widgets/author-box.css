@@ -1,0 +1,45 @@
+/* Author Box */
+.tmpcoder-author-box-image {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.tmpcoder-author-box-arrange-left .tmpcoder-author-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.tmpcoder-author-box-arrange-right .tmpcoder-author-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+
+.tmpcoder-author-box-arrange-left .tmpcoder-author-box-image,
+.tmpcoder-author-box-arrange-right .tmpcoder-author-box-image {
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+}
+
+.tmpcoder-author-box-arrange-left .tmpcoder-author-box-text,
+.tmpcoder-author-box-arrange-right .tmpcoder-author-box-text {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+}
+
+.tmpcoder-author-box-btn {
+	display: inline-block;
+}
+
+.tmpcoder-author-box-arrange-vertical .tmpcoder-author-box {
+	display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; 
+}

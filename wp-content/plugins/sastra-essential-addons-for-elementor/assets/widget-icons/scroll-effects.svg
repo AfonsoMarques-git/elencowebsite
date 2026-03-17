@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-9b7e95e0-0cb2-4f8a-be2b-eb4e7dbd6b0b" data-name="svg2562" xmlns="http://www.w3.org/2000/svg" width="15.53" height="20.24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15.53 20.24">
+  <defs>
+    <mask id="uuid-3d78fedc-bd31-470a-8312-b86adf8f3440" data-name="mask" x="-2.27" y=".12" width="20" height="21.12" maskUnits="userSpaceOnUse">
+      <g id="uuid-e54b14a0-26a6-40e4-b54d-3e5418b52112" data-name="custom">
+        <rect id="uuid-e21531ac-7ee1-41e7-9f9d-16d1704ae0b6" data-name="bg" x="-2.27" y=".12" width="20" height="20" fill="#fff"/>
+        <g>
+          <path id="uuid-82d72700-8260-434e-8d3d-ef03a2b51f60" data-name="path2588" d="M8.51,4.06h0c0,.43-.35.78-.78.78s-.78-.35-.78-.78.35-.78.78-.78.78.35.78.78" fill="#fff"/>
+          <path id="uuid-c1cf5785-eb96-493d-83a7-4f9a696825cf" data-name="path2592" d="M8.51,4.06h0c0,.43-.35.78-.78.78s-.78-.35-.78-.78.35-.78.78-.78.78.35.78.78" fill="#fff"/>
+          <path id="uuid-d69cb7c0-172a-438c-be41-7e624ffbc8c2" data-name="path2596" d="M8.51,7.19h0c0,.43-.35.78-.78.78s-.78-.35-.78-.78.35-.78.78-.78.78.35.78.78" fill="#fff"/>
+          <path id="uuid-6190d0b0-0533-4fd2-a6bc-0cf045266d6e" data-name="path2600" d="M8.51,7.19h0c0,.43-.35.78-.78.78s-.78-.35-.78-.78.35-.78.78-.78.78.35.78.78" fill="#fff"/>
+          <path id="uuid-d352fed1-634d-4031-a04f-0353017bb33f" data-name="path2604" d="M8.51,10.31h0c0,.43-.35.78-.78.78s-.78-.35-.78-.78.35-.78.78-.78.78.35.78.78" fill="#fff"/>
+          <path id="uuid-c4bc9421-48ed-4a4b-91d0-1ae9c10ba585" data-name="path2608" d="M8.51,10.31h0c0,.43-.35.78-.78.78s-.78-.35-.78-.78.35-.78.78-.78.78.35.78.78" fill="#fff"/>
+        </g>
+      </g>
+    </mask>
+    <clipPath id="uuid-03cce946-71e0-48db-9639-927e0f880718">
+      <rect x="-2.27" y="1.12" width="20" height="20" fill="none"/>
+    </clipPath>
+  </defs>
+  <g mask="url(#uuid-3d78fedc-bd31-470a-8312-b86adf8f3440)">
+    <g id="uuid-c915a289-1933-4d17-baa2-225b38ac54a0" data-name="g2568">
+      <g id="uuid-978bd943-ebc5-49fa-81ab-911efd086232" data-name="g2570">
+        <path id="uuid-d350086f-8188-4aeb-b974-b0af1b6bacd0" data-name="path2572" d="M11.95,14.06l-4.21,4.47-4.23-4.47" fill="none" stroke="#3a3a3a" stroke-miterlimit="13.33" stroke-width="1.5"/>
+      </g>
+      <g id="uuid-3b2f2b4c-1037-40a0-9cf4-bd350703fb59" data-name="g2574">
+        <g clip-path="url(#uuid-03cce946-71e0-48db-9639-927e0f880718)">
+          <g id="uuid-91c035eb-92a8-4d07-b055-02b10f33bdc4" data-name="g2576">
+            <g id="uuid-d6ff0791-774b-47f3-99d0-650ec04e1c79" data-name="g2586">
+              <path id="uuid-f084fae3-bfc9-44bb-a3e6-e5dfa5027ed1" data-name="path2588" d="M8.86,2.66h0c0,.62-.5,1.12-1.12,1.12s-1.12-.5-1.12-1.12.5-1.12,1.12-1.12,1.12.5,1.12,1.12"/>
+            </g>
+            <g id="uuid-4bcf8fb9-37cb-4957-bc3f-843e88632e0e" data-name="g2590">
+              <path id="uuid-e6281672-0e97-4e0c-9ea5-5cd8e7334b5f" data-name="path2592" d="M8.86,2.66h0c0,.62-.5,1.12-1.12,1.12s-1.12-.5-1.12-1.12.5-1.12,1.12-1.12,1.12.5,1.12,1.12" fill="#3a3a3a"/>
+            </g>
+            <g id="uuid-195d03b0-3428-4efa-a965-ae2ed9c130f8" data-name="g2594">
+              <path id="uuid-ada18161-3a58-4fe2-a5c2-7b6b53e79496" data-name="path2596" d="M8.86,7.16h0c0,.62-.5,1.12-1.12,1.12s-1.12-.5-1.12-1.12.5-1.12,1.12-1.12,1.12.5,1.12,1.12"/>
+            </g>
+            <g id="uuid-13bc4351-3b8b-46b7-875a-18ffb3778e96" data-name="g2598">
+              <path id="uuid-e305616b-da36-4b0b-989a-c06accb86618" data-name="path2600" d="M8.86,7.16h0c0,.62-.5,1.12-1.12,1.12s-1.12-.5-1.12-1.12.5-1.12,1.12-1.12,1.12.5,1.12,1.12" fill="#3a3a3a"/>
+            </g>
+            <g id="uuid-3381fb5a-ecb5-44f2-bfbf-abaa5b01757b" data-name="g2602">
+              <path id="uuid-504a575b-505e-4ff6-9d95-44f6399b3887" data-name="path2604" d="M8.86,11.66h0c0,.62-.5,1.12-1.12,1.12s-1.12-.5-1.12-1.12.5-1.12,1.12-1.12,1.12.5,1.12,1.12"/>
+            </g>
+            <g id="uuid-69f0100d-e5ab-463f-8574-a234e53acce3" data-name="g2606">
+              <path id="uuid-6ac66574-be65-4f10-a62b-0bee0d81d6d9" data-name="path2608" d="M8.86,11.66h0c0,.62-.5,1.12-1.12,1.12s-1.12-.5-1.12-1.12.5-1.12,1.12-1.12,1.12.5,1.12,1.12" fill="#3a3a3a"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

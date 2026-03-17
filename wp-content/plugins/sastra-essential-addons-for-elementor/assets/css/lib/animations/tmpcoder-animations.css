@@ -1,0 +1,1356 @@
+/*!
+ * TMPCODER Animations
+ * Version: 1.0
+ * Author: TemplatesCoder
+ * Author URL: https://spexoaddons.com/
+
+ * TMPCODER Animations Copyright TemplatesCoder 2023.
+ */
+
+.tmpcoder-anim-transparency {
+	opacity: 0;
+}
+
+.tmpcoder-element-fade-in,
+.tmpcoder-overlay-fade-in {
+	opacity: 0;
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-anim-size-small.tmpcoder-element-fade-in,
+.tmpcoder-animation-wrap-active .tmpcoder-anim-size-small.tmpcoder-overlay-fade-in,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-anim-size-small.tmpcoder-element-fade-in,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-anim-size-small.tmpcoder-overlay-fade-in,
+.tmpcoder-animation-wrap:hover .tmpcoder-anim-size-small.tmpcoder-element-fade-in,
+..tmpcoder-animation-wrap:hover .tmpcoder-anim-size-small.tmpcoder-overlay-fade-in,
+.tmpcoder-animation-enter > .tmpcoder-anim-size-small.tmpcoder-overlay-fade-in {
+	opacity: 0.4;
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-anim-size-medium.tmpcoder-element-fade-in,
+.tmpcoder-animation-wrap-active .tmpcoder-anim-size-medium.tmpcoder-overlay-fade-in,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-anim-size-medium.tmpcoder-element-fade-in,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-anim-size-medium.tmpcoder-overlay-fade-in,
+.tmpcoder-animation-wrap:hover .tmpcoder-anim-size-medium.tmpcoder-element-fade-in,
+.tmpcoder-animation-wrap:hover .tmpcoder-anim-size-medium.tmpcoder-overlay-fade-in,
+.tmpcoder-animation-enter > .tmpcoder-anim-size-medium.tmpcoder-overlay-fade-in {
+	opacity: 0.75;
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-anim-size-large.tmpcoder-element-fade-in,
+.tmpcoder-animation-wrap-active .tmpcoder-anim-size-large.tmpcoder-overlay-fade-in,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-anim-size-large.tmpcoder-element-fade-in,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-anim-size-large.tmpcoder-overlay-fade-in,
+.tmpcoder-animation-wrap:hover .tmpcoder-anim-size-large.tmpcoder-element-fade-in,
+.tmpcoder-animation-wrap:hover .tmpcoder-anim-size-large.tmpcoder-overlay-fade-in,
+.tmpcoder-animation-enter > .tmpcoder-anim-size-large.tmpcoder-overlay-fade-in {
+	opacity: 1;
+}
+
+.tmpcoder-element-fade-out,
+.tmpcoder-overlay-fade-out {
+	opacity: 1;
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-anim-size-small.tmpcoder-element-fade-out,
+.tmpcoder-animation-wrap-active .tmpcoder-anim-size-small.tmpcoder-overlay-fade-out,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-anim-size-small.tmpcoder-element-fade-out,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-anim-size-small.tmpcoder-overlay-fade-out,
+.tmpcoder-animation-wrap:hover .tmpcoder-anim-size-small.tmpcoder-element-fade-out,
+.tmpcoder-animation-wrap:hover .tmpcoder-anim-size-small.tmpcoder-overlay-fade-out,
+.tmpcoder-animation-enter > .tmpcoder-anim-size-small.tmpcoder-overlay-fade-out {
+	opacity: 0.75;
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-anim-size-medium.tmpcoder-element-fade-out,
+.tmpcoder-animation-wrap-active .tmpcoder-anim-size-medium.tmpcoder-overlay-fade-out,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-anim-size-medium.tmpcoder-element-fade-out,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-anim-size-medium.tmpcoder-overlay-fade-out,
+.tmpcoder-animation-wrap:hover .tmpcoder-anim-size-medium.tmpcoder-element-fade-out,
+.tmpcoder-animation-wrap:hover .tmpcoder-anim-size-medium.tmpcoder-overlay-fade-out,
+.tmpcoder-animation-enter > .tmpcoder-anim-size-medium.tmpcoder-overlay-fade-out {
+	opacity: 0.4;
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-anim-size-large.tmpcoder-element-fade-out,
+.tmpcoder-animation-wrap-active .tmpcoder-anim-size-large.tmpcoder-overlay-fade-out,
+.tmpcoder-animation-wrap-hover .tmpcoder-anim-size-large.tmpcoder-element-fade-out,
+.tmpcoder-animation-wrap-hover .tmpcoder-anim-size-large.tmpcoder-overlay-fade-out,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-anim-size-large.tmpcoder-element-fade-out,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-anim-size-large.tmpcoder-overlay-fade-out,
+.tmpcoder-animation-wrap:hover .tmpcoder-anim-size-large.tmpcoder-element-fade-out,
+.tmpcoder-animation-wrap:hover .tmpcoder-anim-size-large.tmpcoder-overlay-fade-out,
+.tmpcoder-animation-enter > .tmpcoder-anim-size-large.tmpcoder-overlay-fade-out {
+	opacity: 0;
+}
+
+.tmpcoder-anim-size-small.tmpcoder-element-slide-top {
+	-webkit-transform: translateY(-30%);
+	    -ms-transform: translateY(-30%);
+	        transform: translateY(-30%);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-element-slide-top {
+	-webkit-transform: translateY(-100%);
+	    -ms-transform: translateY(-100%);
+	        transform: translateY(-100%);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-element-slide-top {
+	-webkit-transform: translateY(-200%);
+	    -ms-transform: translateY(-200%);
+	        transform: translateY(-200%);
+}
+
+.tmpcoder-anim-size-small.tmpcoder-overlay-slide-top {
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-overlay-slide-top {
+	-webkit-transform: translateY(-70%);
+	    -ms-transform: translateY(-70%);
+	        transform: translateY(-70%);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-overlay-slide-top {
+	-webkit-transform: translateY(-100%);
+	    -ms-transform: translateY(-100%);
+	        transform: translateY(-100%);
+}
+
+.tmpcoder-anim-size-small.tmpcoder-element-slide-bottom {
+	-webkit-transform: translateY(30%);
+	    -ms-transform: translateY(30%);
+	        transform: translateY(30%);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-element-slide-bottom {
+	-webkit-transform: translateY(100%);
+	    -ms-transform: translateY(100%);
+	        transform: translateY(100%);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-element-slide-bottom {
+	-webkit-transform: translateY(200%);
+	    -ms-transform: translateY(200%);
+	        transform: translateY(200%);
+}
+
+.tmpcoder-anim-size-small.tmpcoder-overlay-slide-bottom {
+	-webkit-transform: translateY(50%);
+	    -ms-transform: translateY(50%);
+	        transform: translateY(50%);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-overlay-slide-bottom {
+	-webkit-transform: translateY(70%);
+	    -ms-transform: translateY(70%);
+	        transform: translateY(70%);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-overlay-slide-bottom {
+	-webkit-transform: translateY(100%);
+	    -ms-transform: translateY(100%);
+	        transform: translateY(100%);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-element-slide-top,
+.tmpcoder-animation-wrap-active .tmpcoder-overlay-slide-top,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-element-slide-top,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-overlay-slide-top,
+.tmpcoder-animation-wrap:hover .tmpcoder-element-slide-top,
+.tmpcoder-animation-wrap:hover .tmpcoder-overlay-slide-top,
+.tmpcoder-animation-enter > .tmpcoder-overlay-slide-top,
+.tmpcoder-animation-wrap-active .tmpcoder-element-slide-bottom,
+.tmpcoder-animation-wrap-active .tmpcoder-overlay-slide-bottom,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-element-slide-bottom,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-overlay-slide-bottom,
+.tmpcoder-animation-wrap:hover .tmpcoder-element-slide-bottom,
+.tmpcoder-animation-wrap:hover .tmpcoder-overlay-slide-bottom,
+.tmpcoder-animation-enter > .tmpcoder-overlay-slide-bottom {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	    -ms-transform: translateY(0);
+	        transform: translateY(0);
+}
+
+.tmpcoder-anim-size-small.tmpcoder-element-slide-right {
+	-webkit-transform: translateX(30%);
+	    -ms-transform: translateX(30%);
+	        transform: translateX(30%);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-element-slide-right {
+	-webkit-transform: translateX(150%);
+	    -ms-transform: translateX(150%);
+	        transform: translateX(150%);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-element-slide-right {
+	-webkit-transform: translateX(300%);
+	    -ms-transform: translateX(300%);
+	        transform: translateX(300%);
+}
+
+.tmpcoder-anim-size-small.tmpcoder-overlay-slide-right {
+	-webkit-transform: translateX(50%);
+	    -ms-transform: translateX(50%);
+	        transform: translateX(50%);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-overlay-slide-right {
+	-webkit-transform: translateX(70%);
+	    -ms-transform: translateX(70%);
+	        transform: translateX(70%);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-overlay-slide-right {
+	-webkit-transform: translateX(100%);
+	    -ms-transform: translateX(100%);
+	        transform: translateX(100%);
+}
+
+.tmpcoder-anim-size-small.tmpcoder-element-slide-left {
+	-webkit-transform: translateX(-30%);
+	    -ms-transform: translateX(-30%);
+	        transform: translateX(-30%);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-element-slide-left {
+	-webkit-transform: translateX(-150%);
+	    -ms-transform: translateX(-150%);
+	        transform: translateX(-150%);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-element-slide-left {
+	-webkit-transform: translateX(-300%);
+	    -ms-transform: translateX(-300%);
+	        transform: translateX(-300%);
+}
+
+.tmpcoder-anim-size-small.tmpcoder-overlay-slide-left {
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-overlay-slide-left {
+	-webkit-transform: translateX(-70%);
+	    -ms-transform: translateX(-70%);
+	        transform: translateX(-70%);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-overlay-slide-left {
+	-webkit-transform: translateX(-100%);
+	    -ms-transform: translateX(-100%);
+	        transform: translateX(-100%);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-element-slide-right,
+.tmpcoder-animation-wrap-active .tmpcoder-overlay-slide-right,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-element-slide-right,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-overlay-slide-right,
+.tmpcoder-animation-wrap:hover .tmpcoder-element-slide-right,
+.tmpcoder-animation-wrap:hover .tmpcoder-overlay-slide-right,
+.tmpcoder-animation-enter > .tmpcoder-overlay-slide-right,
+.tmpcoder-animation-wrap-active .tmpcoder-element-slide-left,
+.tmpcoder-animation-wrap-active .tmpcoder-overlay-slide-left,
+.tmpcoder-animation-wrap-hover .tmpcoder-element-slide-left,
+.tmpcoder-animation-wrap-hover .tmpcoder-overlay-slide-left,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-element-slide-left,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-overlay-slide-left,
+.tmpcoder-animation-wrap:hover .tmpcoder-element-slide-left,
+.tmpcoder-animation-wrap:hover .tmpcoder-overlay-slide-left,
+.tmpcoder-animation-enter > .tmpcoder-overlay-slide-left {
+	opacity: 1;
+	-webkit-transform: translateX(0);
+	    -ms-transform: translateX(0);
+	        transform: translateX(0);
+}
+
+.tmpcoder-element-slide-x-right,
+.tmpcoder-element-slide-x-left {
+	position: relative;
+	overflow: hidden;
+}
+
+.tmpcoder-element-slide-x-right .inner-block,
+.tmpcoder-element-slide-x-left .inner-block {
+	position: relative;
+	-webkit-transition-duration: inherit;
+	     -o-transition-duration: inherit;
+	        transition-duration: inherit;
+}
+
+.tmpcoder-element-slide-x-right .inner-block {
+	right: -100%;
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-element-slide-x-right .inner-block,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-element-slide-x-right .inner-block,
+.tmpcoder-animation-wrap:hover .tmpcoder-element-slide-x-right .inner-block  {
+	right: 0;
+}
+
+.tmpcoder-element-slide-x-left .inner-block {
+	left: -100%;
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-element-slide-x-left .inner-block,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-element-slide-x-left .inner-block,
+.tmpcoder-animation-wrap:hover .tmpcoder-element-slide-x-left .inner-block {
+	left: 0;
+}
+
+.tmpcoder-element-skew-top,
+.tmpcoder-overlay-skew-top {
+	-webkit-transform-origin: center top 0;
+	    -ms-transform-origin: center top 0;
+	        transform-origin: center top 0;
+}
+
+.tmpcoder-overlay-skew-top {
+	top: 0 !important;
+}
+
+.tmpcoder-anim-size-small.tmpcoder-element-skew-top,
+.tmpcoder-anim-size-small.tmpcoder-overlay-skew-top {
+	-webkit-transform: perspective(600px) rotateX(-30deg);
+	        transform: perspective(600px) rotateX(-30deg);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-element-skew-top,
+.tmpcoder-anim-size-medium.tmpcoder-overlay-skew-top {
+	-webkit-transform: perspective(600px) rotateX(-50deg);
+	        transform: perspective(600px) rotateX(-50deg);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-element-skew-top,
+.tmpcoder-anim-size-large.tmpcoder-overlay-skew-top {
+	-webkit-transform: perspective(600px) rotateX(-90deg);
+	        transform: perspective(600px) rotateX(-90deg);
+}
+
+.tmpcoder-element-skew-bottom,
+.tmpcoder-overlay-skew-bottom {
+	-webkit-transform-origin: center bottom 0;
+	    -ms-transform-origin: center bottom 0;
+	        transform-origin: center bottom 0;
+}
+
+.tmpcoder-overlay-skew-bottom {
+	top: auto !important;
+	bottom: 0 !important;
+}
+
+.tmpcoder-anim-size-small.tmpcoder-element-skew-bottom,
+.tmpcoder-anim-size-small.tmpcoder-overlay-skew-bottom {
+	-webkit-transform: perspective(600px) rotateX(30deg);
+	        transform: perspective(600px) rotateX(30deg);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-element-skew-bottom,
+.tmpcoder-anim-size-medium.tmpcoder-overlay-skew-bottom {
+	-webkit-transform: perspective(600px) rotateX(50deg);
+	        transform: perspective(600px) rotateX(50deg);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-element-skew-bottom,
+.tmpcoder-anim-size-large.tmpcoder-overlay-skew-bottom {
+	-webkit-transform: perspective(600px) rotateX(90deg);
+	        transform: perspective(600px) rotateX(90deg);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-element-skew-top,
+.tmpcoder-animation-wrap-active .tmpcoder-overlay-skew-top,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-element-skew-top,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-overlay-skew-top,
+.tmpcoder-animation-wrap:hover .tmpcoder-element-skew-top,
+.tmpcoder-animation-wrap:hover .tmpcoder-overlay-skew-top,
+.tmpcoder-animation-enter > .tmpcoder-overlay-skew-top,
+.tmpcoder-animation-wrap-active .tmpcoder-element-skew-bottom,
+.tmpcoder-animation-wrap-active .tmpcoder-overlay-skew-bottom,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-element-skew-bottom,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-overlay-skew-bottom,
+.tmpcoder-animation-wrap:hover .tmpcoder-element-skew-bottom,
+.tmpcoder-animation-wrap:hover .tmpcoder-overlay-skew-bottom,
+.tmpcoder-animation-enter > .tmpcoder-overlay-skew-bottom {
+	opacity: 1;
+	-webkit-transform: perspective(600px) rotateX(0deg);
+	        transform: perspective(600px) rotateX(0deg);
+}
+
+.tmpcoder-element-skew-right,
+.tmpcoder-overlay-skew-right {
+	-webkit-transform-origin: center right 0;
+	    -ms-transform-origin: center right 0;
+	        transform-origin: center right 0;
+}
+
+.tmpcoder-overlay-skew-right {
+	left: auto !important;
+	right: 0 !important;
+}
+
+.tmpcoder-anim-size-small.tmpcoder-element-skew-right,
+.tmpcoder-anim-size-small.tmpcoder-overlay-skew-right {
+	-webkit-transform: perspective(600px) rotateY(-30deg);
+	        transform: perspective(600px) rotateY(-30deg);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-element-skew-right,
+.tmpcoder-anim-size-medium.tmpcoder-overlay-skew-right {
+	-webkit-transform: perspective(600px) rotateY(-50deg);
+	        transform: perspective(600px) rotateY(-50deg);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-element-skew-right,
+.tmpcoder-anim-size-large.tmpcoder-overlay-skew-right {
+	-webkit-transform: perspective(600px) rotateY(-90deg);
+	        transform: perspective(600px) rotateY(-90deg);
+}
+
+.tmpcoder-element-skew-left,
+.tmpcoder-overlay-skew-left {
+	-webkit-transform-origin: center left 0;
+	    -ms-transform-origin: center left 0;
+	        transform-origin: center left 0;
+}
+
+.tmpcoder-overlay-skew-left {
+	left: 0 !important;
+}
+
+.tmpcoder-anim-size-small.tmpcoder-element-skew-left,
+.tmpcoder-anim-size-small.tmpcoder-overlay-skew-left {
+	-webkit-transform: perspective(600px) rotateY(30deg);
+	        transform: perspective(600px) rotateY(30deg);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-element-skew-left,
+.tmpcoder-anim-size-medium.tmpcoder-overlay-skew-left {
+	-webkit-transform: perspective(600px) rotateY(50deg);
+	        transform: perspective(600px) rotateY(50deg);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-element-skew-left,
+.tmpcoder-anim-size-large.tmpcoder-overlay-skew-left {
+	-webkit-transform: perspective(600px) rotateY(90deg);
+	        transform: perspective(600px) rotateY(90deg);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-element-skew-right,
+.tmpcoder-animation-wrap-active .tmpcoder-overlay-skew-right,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-element-skew-right,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-overlay-skew-right,
+.tmpcoder-animation-wrap:hover .tmpcoder-element-skew-right,
+.tmpcoder-animation-wrap:hover .tmpcoder-overlay-skew-right,
+.tmpcoder-animation-enter > .tmpcoder-overlay-skew-right,
+.tmpcoder-animation-wrap-active .tmpcoder-element-skew-left,
+.tmpcoder-animation-wrap-active .tmpcoder-overlay-skew-left,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-element-skew-left,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-overlay-skew-left,
+.tmpcoder-animation-wrap:hover .tmpcoder-element-skew-left,
+.tmpcoder-animation-wrap:hover .tmpcoder-overlay-skew-left,
+.tmpcoder-animation-enter > .tmpcoder-overlay-skew-left {
+	opacity: 1;
+	-webkit-transform: perspective(600px) rotateY(0deg);
+	        transform: perspective(600px) rotateY(0deg);
+}
+
+.tmpcoder-anim-size-small.tmpcoder-element-scale-up,
+.tmpcoder-anim-size-small.tmpcoder-overlay-scale-up {
+	-webkit-transform: scale(0.9);
+	    -ms-transform: scale(0.9);
+	        transform: scale(0.9);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-element-scale-up,
+.tmpcoder-anim-size-medium.tmpcoder-overlay-scale-up {
+	-webkit-transform: scale(0.6);
+	    -ms-transform: scale(0.6);
+	        transform: scale(0.6);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-element-scale-up,
+.tmpcoder-anim-size-large.tmpcoder-overlay-scale-up {
+	-webkit-transform: scale(0.2);
+	    -ms-transform: scale(0.2);
+	        transform: scale(0.2);
+}
+
+.tmpcoder-anim-size-small.tmpcoder-element-scale-down,
+.tmpcoder-anim-size-small.tmpcoder-overlay-scale-down {
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-element-scale-down,
+.tmpcoder-anim-size-medium.tmpcoder-overlay-scale-down {
+	-webkit-transform: scale(1.4);
+	    -ms-transform: scale(1.4);
+	        transform: scale(1.4);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-element-scale-down,
+.tmpcoder-anim-size-large.tmpcoder-overlay-scale-down {
+	-webkit-transform: scale(1.9);
+	    -ms-transform: scale(1.9);
+	        transform: scale(1.9);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-element-scale-up,
+.tmpcoder-animation-wrap-active .tmpcoder-overlay-scale-up,
+.tmpcoder-animation-wrap:hover .tmpcoder-element-scale-up,
+.tmpcoder-animation-wrap:hover .tmpcoder-overlay-scale-up,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-element-scale-up,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-overlay-scale-up,
+.tmpcoder-animation-enter > .tmpcoder-overlay-scale-up,
+.tmpcoder-animation-wrap-active .tmpcoder-element-scale-down,
+.tmpcoder-animation-wrap-active .tmpcoder-overlay-scale-down,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-element-scale-down,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-overlay-scale-down,
+.tmpcoder-animation-wrap:hover .tmpcoder-element-scale-down,
+.tmpcoder-animation-wrap:hover .tmpcoder-overlay-scale-down,
+.tmpcoder-animation-enter > .tmpcoder-overlay-scale-down {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	    -ms-transform: scale(1);
+	        transform: scale(1);
+}
+
+.tmpcoder-anim-size-small.tmpcoder-element-roll-right,
+.tmpcoder-anim-size-small.tmpcoder-overlay-roll-right {
+	-webkit-transform: translateX(100%) rotate(90deg);
+	    -ms-transform: translateX(100%) rotate(90deg);
+	        transform: translateX(100%) rotate(90deg);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-element-roll-right,
+.tmpcoder-anim-size-medium.tmpcoder-overlay-roll-right {
+	-webkit-transform: translateX(100%) rotate(240deg);
+	    -ms-transform: translateX(100%) rotate(240deg);
+	        transform: translateX(100%) rotate(240deg);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-element-roll-right,
+.tmpcoder-anim-size-large.tmpcoder-overlay-roll-right {
+	-webkit-transform: translateX(100%) rotate(360deg);
+	    -ms-transform: translateX(100%) rotate(360deg);
+	        transform: translateX(100%) rotate(360deg);
+}
+
+.tmpcoder-anim-size-small.tmpcoder-element-roll-left,
+.tmpcoder-anim-size-small.tmpcoder-overlay-roll-left {
+	-webkit-transform: translateX(-100%) rotate(-90deg);
+	    -ms-transform: translateX(-100%) rotate(-90deg);
+	        transform: translateX(-100%) rotate(-90deg);
+}
+
+.tmpcoder-anim-size-medium.tmpcoder-element-roll-left,
+.tmpcoder-anim-size-medium.tmpcoder-overlay-roll-left {
+	-webkit-transform: translateX(-100%) rotate(-240deg);
+	    -ms-transform: translateX(-100%) rotate(-240deg);
+	        transform: translateX(-100%) rotate(-240deg);
+}
+
+.tmpcoder-anim-size-large.tmpcoder-element-roll-left,
+.tmpcoder-anim-size-large.tmpcoder-overlay-roll-left {
+	-webkit-transform: translateX(-100%) rotate(-360deg);
+	    -ms-transform: translateX(-100%) rotate(-360deg);
+	        transform: translateX(-100%) rotate(-360deg);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-element-roll-right,
+.tmpcoder-animation-wrap-active .tmpcoder-overlay-roll-right,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-element-roll-right,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-overlay-roll-right,
+.tmpcoder-animation-wrap:hover .tmpcoder-element-roll-right,
+.tmpcoder-animation-wrap:hover .tmpcoder-overlay-roll-right,
+.tmpcoder-animation-enter > .tmpcoder-overlay-roll-right,
+.tmpcoder-animation-wrap-active .tmpcoder-element-roll-left,
+.tmpcoder-animation-wrap-active .tmpcoder-overlay-roll-left,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-element-roll-left,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-overlay-roll-left,
+.tmpcoder-animation-wrap:hover .tmpcoder-element-roll-left,
+.tmpcoder-animation-wrap:hover .tmpcoder-overlay-roll-left,
+.tmpcoder-animation-enter > .tmpcoder-overlay-roll-left {
+	opacity: 1;
+	-webkit-transform: translateX(0) rotate(0);
+	    -ms-transform: translateX(0) rotate(0);
+	        transform: translateX(0) rotate(0);
+}
+
+
+/* Timing Functions */
+
+.tmpcoder-anim-timing-linear {
+	-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+	-o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+	transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+}
+
+.tmpcoder-anim-timing-ease-default {
+	-webkit-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000);
+	transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+
+.tmpcoder-anim-timing-ease-in {
+	-webkit-transition-timing-function: cubic-bezier(0.420, 0.000, 1.000, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.420, 0.000, 1.000, 1.000);
+	transition-timing-function: cubic-bezier(0.420, 0.000, 1.000, 1.000);
+}
+
+.tmpcoder-anim-timing-ease-out {
+	-webkit-transition-timing-function: cubic-bezier(0.000, 0.000, 0.580, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.000, 0.000, 0.580, 1.000);
+	transition-timing-function: cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.tmpcoder-anim-timing-ease-in-out {
+	-webkit-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
+	transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);
+}
+
+.tmpcoder-anim-timing-ease-in-quad {
+	-webkit-transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530);
+	-o-transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530);
+	transition-timing-function: cubic-bezier(0.550, 0.085, 0.680, 0.530);
+}
+
+.tmpcoder-anim-timing-ease-in-cubic {
+	-webkit-transition-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	-o-transition-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+	transition-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+}
+
+.tmpcoder-anim-timing-ease-in-quart {
+	-webkit-transition-timing-function: cubic-bezier(0.895, 0.030, 0.685, 0.220);
+	-o-transition-timing-function: cubic-bezier(0.895, 0.030, 0.685, 0.220);
+	transition-timing-function: cubic-bezier(0.895, 0.030, 0.685, 0.220);
+}
+
+.tmpcoder-anim-timing-ease-in-quint {
+	-webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+	-o-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+	transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+}
+
+.tmpcoder-anim-timing-ease-in-sine {
+	-webkit-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+	-o-transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+	transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+}
+
+.tmpcoder-anim-timing-ease-in-expo {
+	-webkit-transition-timing-function: cubic-bezier(0.950, 0.050, 0.795, 0.035);
+	-o-transition-timing-function: cubic-bezier(0.950, 0.050, 0.795, 0.035);
+	transition-timing-function: cubic-bezier(0.950, 0.050, 0.795, 0.035);
+}
+
+.tmpcoder-anim-timing-ease-in-circ {
+	-webkit-transition-timing-function: cubic-bezier(0.600, 0.040, 0.980, 0.335);
+	-o-transition-timing-function: cubic-bezier(0.600, 0.040, 0.980, 0.335);
+	transition-timing-function: cubic-bezier(0.600, 0.040, 0.980, 0.335);
+}
+
+.tmpcoder-anim-timing-ease-in-back {
+	-webkit-transition-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045);
+	-o-transition-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045);
+	transition-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045);
+}
+
+.tmpcoder-anim-timing-ease-out-quad {
+	-webkit-transition-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	-o-transition-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	transition-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+.tmpcoder-anim-timing-ease-out-cubic {
+	-webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+	transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+.tmpcoder-anim-timing-ease-out-quart {
+	-webkit-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+	transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+}
+
+.tmpcoder-anim-timing-ease-out-quint {
+	-webkit-transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+	transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+}
+
+.tmpcoder-anim-timing-ease-out-sine {
+	-webkit-transition-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+	transition-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+}
+
+.tmpcoder-anim-timing-ease-out-expo {
+	-webkit-transition-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	transition-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000);
+}
+
+.tmpcoder-anim-timing-ease-out-circ {
+	-webkit-transition-timing-function: cubic-bezier(0.075, 0.820, 0.165, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.075, 0.820, 0.165, 1.000);
+	transition-timing-function: cubic-bezier(0.075, 0.820, 0.165, 1.000);
+}
+
+.tmpcoder-anim-timing-ease-out-back {
+	-webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	-o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+.tmpcoder-anim-timing-ease-in-out-quad {
+	-webkit-transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	-o-transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	transition-timing-function: cubic-bezier(0.455, 0.030, 0.515, 0.955)
+}
+
+.tmpcoder-anim-timing-ease-in-out-cubic {
+	-webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+.tmpcoder-anim-timing-ease-in-out-quart {
+	-webkit-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+	transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+.tmpcoder-anim-timing-ease-in-out-quint {
+	-webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+}
+
+.tmpcoder-anim-timing-ease-in-out-sine {
+	-webkit-transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+	-o-transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+	transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+}
+
+.tmpcoder-anim-timing-ease-in-out-expo {
+	-webkit-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-o-transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+}
+
+.tmpcoder-anim-timing-ease-in-out-circ {
+	-webkit-transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+	-o-transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+	transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.tmpcoder-anim-timing-ease-in-out-back {
+	-webkit-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+	-o-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+	transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+
+/* Image Effects */
+
+.tmpcoder-slide.tmpcoder-effect-dir-top:hover div > img {
+	-webkit-transform: translateY(-100%);
+	    -ms-transform: translateY(-100%);
+	        transform: translateY(-100%);
+}
+
+.tmpcoder-slide.tmpcoder-effect-dir-bottom:hover div > img {
+	-webkit-transform: translateY(100%);
+	    -ms-transform: translateY(100%);
+	        transform: translateY(100%);
+}
+
+.tmpcoder-slide.tmpcoder-effect-dir-right:hover div > img {
+	-webkit-transform: translateX(100%);
+	    -ms-transform: translateX(100%);
+	        transform: translateX(100%);
+}
+
+.tmpcoder-slide.tmpcoder-effect-dir-left:hover div > img {
+	-webkit-transform: translateX(-100%);
+	    -ms-transform: translateX(-100%);
+	        transform: translateX(-100%);
+}
+
+.tmpcoder-zoom-in.tmpcoder-effect-size-small:hover div > img {
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+.tmpcoder-zoom-in.tmpcoder-effect-size-medium:hover div > img {
+	-webkit-transform: scale(1.3);
+	    -ms-transform: scale(1.3);
+	        transform: scale(1.3);
+}
+
+.tmpcoder-zoom-in.tmpcoder-effect-size-large:hover div > img {
+	-webkit-transform: scale(1.5);
+	    -ms-transform: scale(1.5);
+	        transform: scale(1.5);
+}
+
+.tmpcoder-zoom-out.tmpcoder-effect-size-small > div > img {
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+.tmpcoder-zoom-out.tmpcoder-effect-size-medium > div > img {
+	-webkit-transform: scale(1.3);
+	    -ms-transform: scale(1.3);
+	        transform: scale(1.3);
+}
+
+.tmpcoder-zoom-out.tmpcoder-effect-size-large > div > img {
+	-webkit-transform: scale(1.5);
+	    -ms-transform: scale(1.5);
+	        transform: scale(1.5);
+}
+
+.tmpcoder-zoom-out.tmpcoder-effect-size-small:hover img,
+.tmpcoder-zoom-out.tmpcoder-effect-size-medium:hover img,
+.tmpcoder-zoom-out.tmpcoder-effect-size-large:hover img {
+	-webkit-transform: scale(1);
+	    -ms-transform: scale(1);
+	        transform: scale(1);
+}
+
+.tmpcoder-grayscale-in.tmpcoder-effect-size-small:hover div > img {
+	-webkit-filter: grayscale(0.3);
+	filter: grayscale(0.3);
+}
+
+.tmpcoder-grayscale-in.tmpcoder-effect-size-medium:hover div > img {
+	-webkit-filter: grayscale(0.6);
+	filter: grayscale(0.6);
+}
+
+.tmpcoder-grayscale-in.tmpcoder-effect-size-large:hover div > img {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}
+
+.tmpcoder-grayscale-out.tmpcoder-effect-size-small > div > img {
+	-webkit-filter: grayscale(0.3);
+	filter: grayscale(0.3);
+}
+
+.tmpcoder-grayscale-out.tmpcoder-effect-size-medium > div > img {
+	-webkit-filter: grayscale(0.6);
+	filter: grayscale(0.6);
+}
+
+.tmpcoder-grayscale-out.tmpcoder-effect-size-large > div > img {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}
+
+.tmpcoder-grayscale-out.tmpcoder-effect-size-small:hover img,
+.tmpcoder-grayscale-out.tmpcoder-effect-size-medium:hover img,
+.tmpcoder-grayscale-out.tmpcoder-effect-size-large:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.tmpcoder-blur-in.tmpcoder-effect-size-small:hover div > img {
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
+}
+
+.tmpcoder-blur-in.tmpcoder-effect-size-medium:hover div > img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+
+.tmpcoder-blur-in.tmpcoder-effect-size-large:hover div > img {
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+}
+
+.tmpcoder-blur-out.tmpcoder-effect-size-small > div > img {
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
+}
+
+.tmpcoder-blur-out.tmpcoder-effect-size-medium > div > img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+
+.tmpcoder-blur-out.tmpcoder-effect-size-large > div > img {
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+}
+
+.tmpcoder-blur-out.tmpcoder-effect-size-small:hover div > img,
+.tmpcoder-blur-out.tmpcoder-effect-size-medium:hover div > img,
+.tmpcoder-blur-out.tmpcoder-effect-size-large:hover div > img {
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+}
+
+.tmpcoder-slide.tmpcoder-effect-dir-top:hover .tmpcoder-accordion-background {
+	-webkit-transform: translateY(-100%);
+	    -ms-transform: translateY(-100%);
+	        transform: translateY(-100%);
+}
+
+.tmpcoder-slide.tmpcoder-effect-dir-bottom:hover .tmpcoder-accordion-background {
+	-webkit-transform: translateY(100%);
+	    -ms-transform: translateY(100%);
+	        transform: translateY(100%);
+}
+
+.tmpcoder-slide.tmpcoder-effect-dir-right:hover .tmpcoder-accordion-background {
+	-webkit-transform: translateX(100%);
+	    -ms-transform: translateX(100%);
+	        transform: translateX(100%);
+}
+
+.tmpcoder-slide.tmpcoder-effect-dir-left:hover .tmpcoder-accordion-background {
+	-webkit-transform: translateX(-100%);
+	    -ms-transform: translateX(-100%);
+	        transform: translateX(-100%);
+}
+
+.tmpcoder-zoom-in.tmpcoder-effect-size-small:hover .tmpcoder-accordion-background {
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+.tmpcoder-zoom-in.tmpcoder-effect-size-medium:hover .tmpcoder-accordion-background {
+	-webkit-transform: scale(1.3);
+	    -ms-transform: scale(1.3);
+	        transform: scale(1.3);
+}
+
+.tmpcoder-zoom-in.tmpcoder-effect-size-large:hover .tmpcoder-accordion-background {
+	-webkit-transform: scale(1.5);
+	    -ms-transform: scale(1.5);
+	        transform: scale(1.5);
+}
+
+.tmpcoder-zoom-out.tmpcoder-effect-size-small .tmpcoder-accordion-background {
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+.tmpcoder-zoom-out.tmpcoder-effect-size-medium .tmpcoder-accordion-background {
+	-webkit-transform: scale(1.3);
+	    -ms-transform: scale(1.3);
+	        transform: scale(1.3);
+}
+
+.tmpcoder-zoom-out.tmpcoder-effect-size-large .tmpcoder-accordion-background {
+	-webkit-transform: scale(1.5);
+	    -ms-transform: scale(1.5);
+	        transform: scale(1.5);
+}
+
+.tmpcoder-zoom-out.tmpcoder-effect-size-small:hover .tmpcoder-accordion-background,
+.tmpcoder-zoom-out.tmpcoder-effect-size-medium:hover .tmpcoder-accordion-background,
+.tmpcoder-zoom-out.tmpcoder-effect-size-large:hover .tmpcoder-accordion-background {
+	-webkit-transform: scale(1);
+	    -ms-transform: scale(1);
+	        transform: scale(1);
+}
+
+.tmpcoder-grayscale-in.tmpcoder-effect-size-small:hover .tmpcoder-accordion-background {
+	-webkit-filter: grayscale(0.3);
+	filter: grayscale(0.3);
+}
+
+.tmpcoder-grayscale-in.tmpcoder-effect-size-medium:hover .tmpcoder-accordion-background {
+	-webkit-filter: grayscale(0.6);
+	filter: grayscale(0.6);
+}
+
+.tmpcoder-grayscale-in.tmpcoder-effect-size-large:hover .tmpcoder-accordion-background {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}
+
+.tmpcoder-grayscale-out.tmpcoder-effect-size-small .tmpcoder-accordion-background {
+	-webkit-filter: grayscale(0.3);
+	filter: grayscale(0.3);
+}
+
+.tmpcoder-grayscale-out.tmpcoder-effect-size-medium .tmpcoder-accordion-background {
+	-webkit-filter: grayscale(0.6);
+	filter: grayscale(0.6);
+}
+
+.tmpcoder-grayscale-out.tmpcoder-effect-size-large .tmpcoder-accordion-background {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}
+
+.tmpcoder-grayscale-out.tmpcoder-effect-size-small:hover .tmpcoder-accordion-background,
+.tmpcoder-grayscale-out.tmpcoder-effect-size-medium:hover .tmpcoder-accordion-background,
+.tmpcoder-grayscale-out.tmpcoder-effect-size-large:hover .tmpcoder-accordion-background {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.tmpcoder-blur-in.tmpcoder-effect-size-small:hover .tmpcoder-accordion-background {
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
+}
+
+.tmpcoder-blur-in.tmpcoder-effect-size-medium:hover .tmpcoder-accordion-background {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+
+.tmpcoder-blur-in.tmpcoder-effect-size-large:hover .tmpcoder-accordion-background {
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+}
+
+.tmpcoder-blur-out.tmpcoder-effect-size-small .tmpcoder-accordion-background {
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
+}
+
+.tmpcoder-blur-out.tmpcoder-effect-size-medium .tmpcoder-accordion-background {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+
+.tmpcoder-blur-out.tmpcoder-effect-size-large .tmpcoder-accordion-background {
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+}
+
+.tmpcoder-blur-out.tmpcoder-effect-size-small:hover .tmpcoder-accordion-background,
+.tmpcoder-blur-out.tmpcoder-effect-size-medium:hover .tmpcoder-accordion-background,
+.tmpcoder-blur-out.tmpcoder-effect-size-large:hover .tmpcoder-accordion-background {
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+}
+
+
+/* Background Animation */
+
+.tmpcoder-animation-wrap-active .tmpcoder-bg-anim-zoom-in,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-bg-anim-zoom-in,
+.tmpcoder-animation-wrap:hover .tmpcoder-bg-anim-zoom-in{
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.tmpcoder-bg-anim-zoom-out {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-bg-anim-zoom-out,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-bg-anim-zoom-out,
+.tmpcoder-animation-wrap:hover .tmpcoder-bg-anim-zoom-out {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.tmpcoder-bg-anim-move-left {
+	-webkit-transform: scale(1.2) translateX(8%);
+	-ms-transform: scale(1.2) translateX(8%);
+	transform: scale(1.2) translateX(8%);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-bg-anim-move-left,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-bg-anim-move-left,
+.tmpcoder-animation-wrap:hover .tmpcoder-bg-anim-move-left {
+	-webkit-transform: scale(1.2) translateX(-8%);
+	-ms-transform: scale(1.2) translateX(-8%);
+	transform: scale(1.2) translateX(-8%);
+}
+
+.tmpcoder-bg-anim-move-right {
+	-webkit-transform: scale(1.2) translateX(-8%);
+	-ms-transform: scale(1.2) translateX(-8%);
+	transform: scale(1.2) translateX(-8%);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-bg-anim-move-right,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-bg-anim-move-right,
+.tmpcoder-animation-wrap:hover .tmpcoder-bg-anim-move-right {
+	-webkit-transform: scale(1.2) translateX(8%);
+	-ms-transform: scale(1.2) translateX(8%);
+	transform: scale(1.2) translateX(8%);
+}
+
+.tmpcoder-bg-anim-move-up {
+	-webkit-transform: scale(1.2) translateY(8%);
+	-ms-transform: scale(1.2) translateY(8%);
+	transform: scale(1.2) translateY(8%);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-bg-anim-move-up,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-bg-anim-move-up,
+.tmpcoder-animation-wrap:hover .tmpcoder-bg-anim-move-up {
+	-webkit-transform: scale(1.2) translateY(-8%);
+	-ms-transform: scale(1.2) translateY(-8%);
+	transform: scale(1.2) translateY(-8%);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-bg-anim-move-down,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-bg-anim-move-down,
+.tmpcoder-animation-wrap:hover .tmpcoder-bg-anim-move-down {
+	-webkit-transform: scale(1.2) translateY(-8%);
+	-ms-transform: scale(1.2) translateY(-8%);
+	transform: scale(1.2) translateY(-8%);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-bg-anim-move-down,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-bg-anim-move-down,
+.tmpcoder-animation-wrap:hover .tmpcoder-bg-anim-move-down {
+	-webkit-transform: scale(1.2) translateY(8%);
+	-ms-transform: scale(1.2) translateY(8%);
+	transform: scale(1.2) translateY(8%);
+}
+
+/* Border Animations*/
+
+/* Layla */
+.tmpcoder-border-anim-layla::before,
+.tmpcoder-border-anim-layla::after {
+	position: absolute;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
+	-o-transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+}
+
+.tmpcoder-border-anim-layla::before {
+	-webkit-transform: scale(0,1);
+	-ms-transform: scale(0,1);
+	    transform: scale(0,1);
+	-webkit-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	    transform-origin: 0 0;
+}
+
+.tmpcoder-border-anim-layla::after {
+	-webkit-transform: scale(1,0);
+	-ms-transform: scale(1,0);
+	    transform: scale(1,0);
+	-webkit-transform-origin: 100% 0;
+	-ms-transform-origin: 100% 0;
+	    transform-origin: 100% 0;
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-border-anim-layla::before,
+.tmpcoder-animation-wrap-active .tmpcoder-border-anim-layla::after,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-border-anim-layla::before,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-border-anim-layla::after,
+.tmpcoder-animation-wrap:hover .tmpcoder-border-anim-layla::before,
+.tmpcoder-animation-wrap:hover .tmpcoder-border-anim-layla::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	    transform: scale(1);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-border-anim-layla::after,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-border-anim-layla::after,
+.tmpcoder-animation-wrap:hover .tmpcoder-border-anim-layla::after {
+	-webkit-transition-delay: 0.15s;
+	-o-transition-delay: 0.15s;
+	   transition-delay: 0.15s;
+}
+
+/* Oscar */
+.tmpcoder-border-anim-oscar::before {
+	position: absolute;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
+	-o-transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	    transform: scale(0.9);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-border-anim-oscar::before,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-border-anim-oscar::before,
+.tmpcoder-animation-wrap:hover .tmpcoder-border-anim-oscar::before {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	    transform: scale(1);
+}
+
+/* Bubba */
+.tmpcoder-border-anim-bubba::before,
+.tmpcoder-border-anim-bubba::after {
+	position: absolute;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
+	-o-transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+}
+
+.tmpcoder-border-anim-bubba::before {
+	-webkit-transform: scale(0,1);
+	-ms-transform: scale(0,1);
+	    transform: scale(0,1);
+}
+
+.tmpcoder-border-anim-bubba::after {
+	-webkit-transform: scale(1,0);
+	-ms-transform: scale(1,0);
+	    transform: scale(1,0);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-border-anim-bubba::before,
+.tmpcoder-animation-wrap-active .tmpcoder-border-anim-bubba::after,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-border-anim-bubba::before,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-border-anim-bubba::after,
+.tmpcoder-animation-wrap:hover .tmpcoder-border-anim-bubba::before,
+.tmpcoder-animation-wrap:hover .tmpcoder-border-anim-bubba::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	    transform: scale(1);
+}
+
+/* Romeo */
+.tmpcoder-border-anim-romeo::before,
+.tmpcoder-border-anim-romeo::after {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 80%;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
+	-o-transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-border-anim-romeo::before,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-border-anim-romeo::before,
+.tmpcoder-animation-wrap:hover .tmpcoder-border-anim-romeo::before {
+	opacity: 1;
+	-webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+	transform: translate3d(-50%,-50%,0) rotate(45deg);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-border-anim-romeo::after,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-border-anim-romeo::after,
+.tmpcoder-animation-wrap:hover .tmpcoder-border-anim-romeo::after {
+	opacity: 1;
+	-webkit-transform: translate3d(-50%,-50%,0) rotate(-45deg);
+	transform: translate3d(-50%,-50%,0) rotate(-45deg);
+}
+
+/* Chicho */
+.tmpcoder-border-anim-chicho::before {
+	position: absolute;
+	content: '';
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	    transform: scale(1.1);
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
+	-o-transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-border-anim-chicho::before,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-border-anim-chicho::before,
+.tmpcoder-animation-wrap:hover .tmpcoder-border-anim-chicho::before {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	    transform: scale(1);
+}
+
+/* Apollo */
+.tmpcoder-border-anim-apollo::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	-webkit-transition: -webkit-transform 0.6s;
+	transition: -webkit-transform 0.6s;
+	-o-transition: transform 0.6s;
+	transition: transform 0.6s;
+	transition: transform 0.6s, -webkit-transform 0.6s;
+	-webkit-transform: scale3d(2.9,2.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+	transform: scale3d(2.9,2.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-border-anim-apollo::before,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-border-anim-apollo::before,
+.tmpcoder-animation-wrap:hover .tmpcoder-border-anim-apollo::before {
+	-webkit-transform: scale3d(2.9,2.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+	transform: scale3d(2.9,2.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+}
+
+/* Jazz */
+.tmpcoder-border-anim-jazz::after {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, -webkit-transform 0.35s;
+	-o-transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	opacity: 0;
+	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,0,1);
+	transform: rotate3d(0,0,1,45deg) scale3d(1,0,1);
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	    transform-origin: 50% 50%;
+}
+
+.tmpcoder-animation-wrap-active .tmpcoder-border-anim-jazz::after,
+.tmpcoder-grid-media-wrap:hover .tmpcoder-animation-wrap .tmpcoder-border-anim-jazz::after,
+.tmpcoder-animation-wrap:hover .tmpcoder-border-anim-jazz::after {
+	opacity: 1;
+	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
+	transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
+}

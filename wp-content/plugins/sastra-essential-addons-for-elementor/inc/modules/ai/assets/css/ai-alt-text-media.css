@@ -1,0 +1,318 @@
+/**
+ * Spexo AI Alt Text Media Styles
+ * 
+ * Styles for AI alt text generation in Media Library
+ *
+ * @package Spexo_Addons
+ * @since 1.0.28
+ */
+
+/* AI Alt Text Status Column */
+.spexo-ai-alt-text-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 32px;
+}
+
+.spexo-ai-alt-text-status span {
+    font-size: 13px;
+    color: #495057;
+    line-height: 1.4;
+}
+
+/* AI Generate Alt Text Button */
+.spexo-ai-generate-alt-button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(102, 126, 234, 0.3);
+}
+.spexo-ai-modal-alt-gen-container .spexo-ai-generate-modal-button {
+    background: linear-gradient(135deg, #6A1B9A, #E91E63) !important;
+    border: none !important;
+    color: white !important;
+    padding: 0px 10px;
+    border-radius: 3px !important;
+    font-size: 12px !important;
+    line-height: 2.15384615 !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 2px 6px rgba(106, 27, 154, 0.25) !important;
+    text-shadow: none !important;
+    height: auto !important;
+    line-height: normal !important;
+}
+
+.spexo-ai-generate-alt-button:hover {
+    background: linear-gradient(135deg, #7B1FA2, #D81B60) !important;
+    box-shadow: 0 3px 10px rgba(106, 27, 154, 0.35) !important;
+    transform: translateY(-1px) !important;
+}
+.spexo-ai-modal-alt-gen-container .spexo-ai-generate-modal-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    color: white;
+}
+
+.spexo-ai-generate-alt-button:disabled {
+    background: linear-gradient(135deg, #d6d6d6, #a0a0a0);
+    cursor: default;
+    opacity: 0.7;
+    transform: none;
+    box-shadow: none;
+}
+
+/* AI Alt Text Result */
+.spexo-ai-alt-text-result {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-left: 8px;
+    display: none;
+}
+
+.spexo-ai-alt-text-result.success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    display: inline-block;
+}
+
+.spexo-ai-alt-text-result.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    display: inline-block;
+}
+
+.spexo-ai-alt-text-result.loading {
+    background: #e2e3e5;
+    color: #383d41;
+    border: 1px solid #d6d8db;
+    display: inline-block;
+}
+
+/* AI Status Inline */
+.spexo-ai-status-inline {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+/* AI Spinner Inline */
+.spexo-ai-spinner-inline {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #e9ecef;
+    border-top: 2px solid #667eea;
+    border-radius: 50%;
+    animation: spexo-ai-spin 1s linear infinite;
+    margin-left: 8px;
+}
+
+/* AI Alt Text Column Header */
+.wp-list-table .column-spexo_ai_alt_text {
+    width: 120px;
+}
+
+/* Media Library Integration */
+.wp-list-table .spexo-ai-alt-text-status {
+    padding: 8px 0;
+}
+
+/* Responsive Design for Media Library */
+@media (max-width: 768px) {
+    .spexo-ai-alt-text-status {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+    
+    .spexo-ai-generate-alt-button {
+        font-size: 10px;
+        padding: 3px 6px;
+    }
+    
+    .spexo-ai-alt-text-result {
+        margin-left: 0;
+        margin-top: 4px;
+    }
+    
+    .spexo-ai-status-inline {
+        margin-left: 0;
+        margin-top: 4px;
+    }
+    
+    .spexo-ai-spinner-inline {
+        margin-left: 0;
+        margin-top: 4px;
+    }
+}
+
+/* Loading Animation */
+@keyframes spexo-ai-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Success Animation */
+@keyframes spexo-ai-success {
+    0% { 
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    50% { 
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% { 
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.spexo-ai-alt-text-result.success {
+    animation: spexo-ai-success 0.5s ease;
+}
+
+/* Error Animation */
+@keyframes spexo-ai-error {
+    0% { 
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    100% { 
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.spexo-ai-alt-text-result.error {
+    animation: spexo-ai-error 0.3s ease;
+}
+
+/* Button Loading State */
+.spexo-ai-generate-alt-button.is-loading {
+    position: relative;
+    color: transparent;
+}
+
+.spexo-ai-generate-alt-button.is-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    margin: -6px 0 0 -6px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-top: 2px solid white;
+    border-radius: 50%;
+    animation: spexo-ai-spin 1s linear infinite;
+}
+
+/* Hover Effects */
+.spexo-ai-generate-alt-button:not(:disabled):hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+/* Focus States */
+.spexo-ai-generate-alt-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.3);
+}
+
+/* Accessibility */
+.spexo-ai-generate-alt-button:focus-visible {
+    outline: 2px solid #667eea;
+    outline-offset: 2px;
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    .spexo-ai-alt-text-status span {
+        color: #e2e8f0;
+    }
+    
+    .spexo-ai-alt-text-result.success {
+        background: #22543d;
+        color: #9ae6b4;
+        border-color: #38a169;
+    }
+    
+    .spexo-ai-alt-text-result.error {
+        background: #742a2a;
+        color: #feb2b2;
+        border-color: #e53e3e;
+    }
+    
+    .spexo-ai-alt-text-result.loading {
+        background: #4a5568;
+        color: #e2e8f0;
+        border-color: #718096;
+    }
+    
+    .spexo-ai-spinner-inline {
+        border-color: #4a5568;
+        border-top-color: #667eea;
+    }
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    .spexo-ai-generate-alt-button {
+        border: 2px solid #000;
+    }
+    
+    .spexo-ai-alt-text-result {
+        border-width: 2px;
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    .spexo-ai-generate-alt-button {
+        transition: none;
+    }
+    
+    .spexo-ai-generate-alt-button:hover {
+        transform: none;
+    }
+    
+    .spexo-ai-alt-text-result.success {
+        animation: none;
+    }
+    
+    .spexo-ai-alt-text-result.error {
+        animation: none;
+    }
+    
+    .spexo-ai-spinner-inline {
+        animation: none;
+    }
+    
+    .spexo-ai-generate-alt-button.is-loading::after {
+        animation: none;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .spexo-ai-generate-alt-button,
+    .spexo-ai-alt-text-result,
+    .spexo-ai-spinner-inline {
+        display: none;
+    }
+}

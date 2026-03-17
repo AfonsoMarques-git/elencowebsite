@@ -1,0 +1,190 @@
+.tmpcoder-pointer-item {
+	position: relative
+}
+
+.tmpcoder-pointer-double-line .tmpcoder-pointer-item:after,
+.tmpcoder-pointer-double-line .tmpcoder-pointer-item:before,
+.tmpcoder-pointer-underline .tmpcoder-pointer-item:after,
+.tmpcoder-pointer-overline .tmpcoder-pointer-item:before {
+	content: '';
+	display: block;
+	height: 4px;
+	width: 100%;
+	left: 0;
+	background-color: #55595c;
+	z-index: 2;
+}
+
+.tmpcoder-pointer-fx-none .tmpcoder-pointer-item:after,
+.tmpcoder-pointer-fx-none .tmpcoder-pointer-item:before {
+	opacity: 0;
+	-webkit-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+}
+
+.tmpcoder-pointer-fx-none .tmpcoder-pointer-item:hover:after,
+.tmpcoder-pointer-fx-none .tmpcoder-pointer-item:hover:before {
+	opacity: 1
+}
+
+.tmpcoder-pointer-fx-fade .tmpcoder-pointer-item:before,
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-drop .tmpcoder-pointer-item:after,
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-drop .tmpcoder-pointer-item:before,
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-fade .tmpcoder-pointer-item:after,
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-grow .tmpcoder-pointer-item:after,
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-grow .tmpcoder-pointer-item:before {
+	opacity: 0;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
+}
+
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-fade .tmpcoder-pointer-item:hover:after,
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-fade .tmpcoder-pointer-item:hover:before {
+	opacity: 1
+}
+
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-slide .tmpcoder-pointer-item:after,
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-slide .tmpcoder-pointer-item:before {
+	width: 0;
+	-webkit-transition: all .3s cubic-bezier(.175, .885, .32, 1.075);
+	-o-transition: all .3s cubic-bezier(.175, .885, .32, 1.075);
+	transition: all .3s cubic-bezier(.175, .885, .32, 1.075)
+}
+
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-slide .tmpcoder-pointer-item:hover:after,
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-slide .tmpcoder-pointer-item:hover:before {
+	width: 100%;
+}
+
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-grow .tmpcoder-pointer-item:after,
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-grow .tmpcoder-pointer-item:before {
+	position: absolute;
+	width: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	-webkit-transition: all .3s cubic-bezier(0, 0, .16, .95);
+	-o-transition: all .3s cubic-bezier(0, 0, .16, .95);
+	-webkit-transition: all .3s ease(0, 0, .16, .95);
+	-o-transition: all .3s ease(0, 0, .16, .95);
+	transition: all .3s ease(0, 0, .16, .95)
+}
+
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-grow .tmpcoder-pointer-item:hover:after,
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-grow .tmpcoder-pointer-item:hover:before {
+	opacity: 1;
+	width: 100%
+}
+
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-drop .tmpcoder-pointer-item:before {
+	position: absolute;
+	top: -10px
+}
+
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-drop .tmpcoder-pointer-item:hover:before {
+	top: 0;
+	opacity: 1
+}
+
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-drop .tmpcoder-pointer-item:after {
+	position: absolute;
+	bottom: -10px
+}
+
+.tmpcoder-pointer-line-fx.tmpcoder-pointer-fx-drop .tmpcoder-pointer-item:hover:after {
+	bottom: 0;
+	opacity: 1
+}
+
+.tmpcoder-pointer-border-fx .tmpcoder-pointer-item:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+	border: 2px solid #000;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
+}
+
+.tmpcoder-pointer-border-fx .tmpcoder-pointer-item:hover:before {
+	opacity: 1
+}
+
+.tmpcoder-pointer-background-fx.tmpcoder-pointer-fx-grow .tmpcoder-pointer-item:before,
+.tmpcoder-pointer-border-fx.tmpcoder-pointer-fx-grow .tmpcoder-pointer-item:before {
+	-webkit-transform: scale(.9);
+	-ms-transform: scale(.9);
+	transform: scale(.9)
+}
+
+.tmpcoder-pointer-background-fx.tmpcoder-pointer-fx-shrink .tmpcoder-pointer-item:before,
+.tmpcoder-pointer-border-fx.tmpcoder-pointer-fx-shrink .tmpcoder-pointer-item:before {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1)
+}
+
+.tmpcoder-pointer-background-fx.tmpcoder-pointer-fx-grow .tmpcoder-pointer-item:hover:before,
+.tmpcoder-pointer-background-fx.tmpcoder-pointer-fx-shrink .tmpcoder-pointer-item:hover:before,
+.tmpcoder-pointer-background-fx.tmpcoder-pointer-fx-sweep .tmpcoder-pointer-item:hover:before,
+.tmpcoder-pointer-border-fx.tmpcoder-pointer-fx-grow .tmpcoder-pointer-item:hover:before,
+.tmpcoder-pointer-border-fx.tmpcoder-pointer-fx-shrink .tmpcoder-pointer-item:hover:before {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1)
+}
+
+.tmpcoder-pointer-background-fx .tmpcoder-pointer-item:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	opacity: 0;
+	background: #000;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
+}
+
+.tmpcoder-pointer-background-fx .tmpcoder-pointer-item:hover:before {
+	opacity: 1
+}
+
+.tmpcoder-pointer-background-fx.tmpcoder-pointer-fx-sweep .tmpcoder-pointer-item:before {
+	-webkit-transform: translateY(-12%);
+	-ms-transform: translateY(-12%);
+	transform: translateY(-12%)
+}
+
+.tmpcoder-pointer-background-fx.tmpcoder-pointer-fx-skew .tmpcoder-pointer-item:before {
+	-webkit-transform: perspective(600px) rotateX(90deg);
+	transform: perspective(600px) rotateX(90deg);
+	-webkit-transform-origin: center bottom 0;
+	-ms-transform-origin: center bottom 0;
+	transform-origin: center bottom 0
+}
+
+.tmpcoder-pointer-background-fx.tmpcoder-pointer-fx-skew .tmpcoder-pointer-item:hover:before {
+	-webkit-transform: perspective(600px) rotateX(0);
+	transform: perspective(600px) rotateX(0)
+}
+
+.tmpcoder-sub-mega-menu .tmpcoder-nav-menu .tmpcoder-pointer-item:hover:after,
+.tmpcoder-sub-mega-menu .tmpcoder-nav-menu .tmpcoder-pointer-item:hover:before,
+.tmpcoder-pointer-border-fx .tmpcoder-sub-mega-menu .tmpcoder-nav-menu .tmpcoder-pointer-item:hover:before,
+.tmpcoder-pointer-background-fx .tmpcoder-sub-mega-menu .tmpcoder-nav-menu .tmpcoder-pointer-item:hover:before {
+	width: 0;
+	opacity: 0;
+}

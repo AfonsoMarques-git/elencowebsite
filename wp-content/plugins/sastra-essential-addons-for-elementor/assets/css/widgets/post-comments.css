@@ -1,0 +1,144 @@
+/* Post Comments */
+.tmpcoder-comments-list,
+.tmpcoder-comments-list ul.children {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.tmpcoder-comment-avatar {
+	float: left;
+	overflow: hidden;
+}
+
+.tmpcoder-comment-avatar img {
+	margin: 0 !important;
+	position: static !important;
+}
+
+.tmpcoder-comment-metadata>* {
+	display: inline-block;
+}
+
+.tmpcoder-comment-metadata p {
+	display: block;
+}
+
+.tmpcoder-comments-wrap .comment-reply-link {
+	float: none !important;
+}
+
+.tmpcoder-comment-reply-separate.tmpcoder-comment-reply-align-right .tmpcoder-comment-reply {
+	text-align: right;
+}
+
+.tmpcoder-comment-reply-inline.tmpcoder-comment-reply-align-right .tmpcoder-comment-reply {
+	float: right;
+}
+
+.tmpcoder-comment-reply-inline.tmpcoder-comment-reply-align-left .tmpcoder-comment-reply:before {
+	content: '\00a0|\00a0';
+}
+
+.tmpcoder-comment-reply a,
+.tmpcoder-comments-navigation a,
+.tmpcoder-comments-navigation span {
+	display: inline-block;
+}
+
+.tmpcoder-comments-navigation-center,
+.tmpcoder-comments-navigation-justify {
+	text-align: center;
+}
+
+.tmpcoder-comments-navigation-left {
+	text-align: left;
+}
+
+.tmpcoder-comments-navigation-right {
+	text-align: right;
+}
+
+.tmpcoder-comments-navigation-justify a.prev {
+	float: left;
+}
+
+.tmpcoder-comments-navigation-justify a.next {
+	float: right;
+}
+
+.tmpcoder-comment-form .comment-notes {
+	display: none;
+}
+
+.tmpcoder-comment-form-text,
+.tmpcoder-comment-form-text textarea,
+.tmpcoder-comment-form-author input,
+.tmpcoder-comment-form-email input,
+.tmpcoder-comment-form-url input {
+	display: block;
+	width: 100%;
+}
+
+.tmpcoder-comment-form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.tmpcoder-comment-form label {
+	margin-bottom: 10px;
+}
+
+.tmpcoder-comment-form-fields {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.tmpcoder-cf-no-url .tmpcoder-comment-form-email {
+	margin-right: 0 !important;
+}
+
+.tmpcoder-cf-style-1 .tmpcoder-comment-form-fields,
+.tmpcoder-cf-style-4 .tmpcoder-comment-form-fields {
+	display: block;
+}
+
+.tmpcoder-comment-form .tmpcoder-comment-form-fields>div {
+	width: 100%;
+}
+
+.tmpcoder-cf-style-2 .tmpcoder-comment-form-fields,
+.tmpcoder-cf-style-5 .tmpcoder-comment-form-fields,
+.tmpcoder-comment-form[class*="tmpcoder-cf-pro"] .tmpcoder-comment-form-fields {
+	display: block;
+	width: 60%;
+}
+
+.tmpcoder-cf-style-2 .tmpcoder-comment-form-fields>div,
+.tmpcoder-cf-style-5 .tmpcoder-comment-form-fields>div,
+.tmpcoder-comment-form[class*="tmpcoder-cf-pro"]>div {
+	margin-right: 0 !important;
+}
+
+.tmpcoder-cf-style-4.tmpcoder-comment-form .tmpcoder-comment-form-fields,
+.tmpcoder-cf-style-5.tmpcoder-comment-form .tmpcoder-comment-form-fields,
+.tmpcoder-cf-style-6.tmpcoder-comment-form .tmpcoder-comment-form-fields,
+.tmpcoder-comment-form[class*="tmpcoder-cf-pro"] .tmpcoder-comment-form-fields {
+	-webkit-box-ordinal-group: 0;
+	-ms-flex-order: -1;
+	order: -1;
+}
+
+.tmpcoder-submit-comment {
+	cursor: pointer;
+}
+
+.tmpcoder-comments-list .comment-respond {
+	margin-bottom: 30px;
+}

@@ -1,0 +1,111 @@
+/*--------------------------------------------------------------
+ == Taxonomy List
+--------------------------------------------------------------*/
+
+.tmpcoder-taxonomy-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.tmpcoder-taxonomy-list li:not(.tmpcoder-sub-hidden) {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.tmpcoder-taxonomy-list li a {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+}
+
+.tmpcoder-taxonomy-list li .tmpcoder-tax-dropdown {
+	width: auto;
+	cursor: pointer;
+}
+
+.tmpcoder-sub-hidden {
+	display: none;
+}
+
+.tmpcoder-taxonomy-list li {
+	text-align: left;
+}
+
+.tmpcoder-taxonomy-list li a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.tmpcoder-taxonomy-list i {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.tmpcoder-taxonomy-list-vertical .tmpcoder-taxonomy-list i,
+.tmpcoder-taxonomy-list span {
+	line-height: 1.5;
+	vertical-align: middle;
+}
+
+.tmpcoder-taxonomy-list-horizontal .tmpcoder-taxonomy-list li a,
+.tmpcoder-taxonomy-list .tmpcoder-tax-wrap {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.tmpcoder-term-count {
+	display: block;
+}
+
+.tmpcoder-taxonomy-list-horizontal .tmpcoder-taxonomy-list {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.tmpcoder-taxonomy-list-vertical .tmpcoder-taxonomy-list {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.tmpcoder-taxonomy-list-vertical .tmpcoder-taxonomy-list li>span,
+.tmpcoder-taxonomy-list-vertical .tmpcoder-taxonomy-list li a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.tmpcoder-taxonomy-list-vertical .tmpcoder-sub-taxonomy {
+	padding-left: 20px;
+}
+
+.tmpcoder-taxonomy-list-vertical .tmpcoder-inner-sub-taxonomy {
+	padding-left: 40px;
+}
+
+.tmpcoder-taxonomy-list-vertical .tmpcoder-inner-sub-taxonomy-2 {
+	padding-left: 60px;
+}

@@ -1,0 +1,568 @@
+
+/*--------------------------------------------------------------
+  == Image Hotspots
+  --------------------------------------------------------------*/
+
+.tmpcoder-image-hotspots {
+	position: relative;
+}
+
+.tmpcoder-hotspot-item-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+.tmpcoder-hotspot-image img {
+	width: 100%;
+}
+
+.tmpcoder-hotspot-item {
+	position: absolute;
+}
+
+.tmpcoder-hotspot-text {
+	font-size: 15px;
+}
+
+.tmpcoder-hotspot-content {
+	position: relative;
+	z-index: 15;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.tmpcoder-hotspot-icon-position-left .tmpcoder-hotspot-content {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+
+.tmpcoder-hotspot-item,
+.tmpcoder-hotspot-item:before {
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+	animation-play-state: running;
+}
+
+.tmpcoder-hotspot-trigger-hover .tmpcoder-hotspot-item,
+.tmpcoder-hotspot-trigger-click .tmpcoder-hotspot-item {
+	cursor: pointer;
+}
+
+.tmpcoder-hotspot-tooltip {
+	position: absolute;
+	border-radius: 4px;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 13px;
+	line-height: 1.5;
+	-webkit-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition-timing-function: ease-in-out;
+	-o-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+	z-index: 20;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+	font-size: 13px;
+}
+
+.tmpcoder-hotspot-tooltip:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+.tmpcoder-hotspot-tooltip-position-pro-bt .tmpcoder-hotspot-tooltip,
+.tmpcoder-hotspot-tooltip-position-pro-lt .tmpcoder-hotspot-tooltip,
+.tmpcoder-hotspot-tooltip-position-pro-rt .tmpcoder-hotspot-tooltip {
+	top: -120%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.tmpcoder-hotspot-tooltip-position-top .tmpcoder-hotspot-tooltip:before,
+.tmpcoder-hotspot-tooltip-position-bottom .tmpcoder-hotspot-tooltip:before {
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+}
+
+.tmpcoder-hotspot-tooltip-position-left .tmpcoder-hotspot-tooltip:before,
+.tmpcoder-hotspot-tooltip-position-right .tmpcoder-hotspot-tooltip:before {
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-style: solid;
+}
+
+.tmpcoder-hotspot-tooltip p {
+	margin: 0;
+}
+
+.tmpcoder-tooltip-active .tmpcoder-hotspot-tooltip {
+	visibility: visible;
+	opacity: 1;
+}
+
+.tmpcoder-hotspot-tooltip-position-top .tmpcoder-hotspot-tooltip:before {
+	left: 50%;
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+
+.tmpcoder-hotspot-tooltip-position-bottom .tmpcoder-hotspot-tooltip:before {
+	left: 50%;
+	-webkit-transform: translateX(-50%) rotate(180deg);
+	-ms-transform: translateX(-50%) rotate(180deg);
+	transform: translateX(-50%) rotate(180deg);
+}
+
+.tmpcoder-hotspot-tooltip-position-left .tmpcoder-hotspot-tooltip:before {
+	top: 50%;
+	-webkit-transform: translateY(-50%) rotate(180deg);
+	-ms-transform: translateY(-50%) rotate(180deg);
+	transform: translateY(-50%) rotate(180deg);
+}
+
+.tmpcoder-hotspot-tooltip-position-right .tmpcoder-hotspot-tooltip:before {
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.tmpcoder-hotspot-tooltip-position-top .tmpcoder-hotspot-tooltip,
+.tmpcoder-hotspot-tooltip-position-bottom .tmpcoder-hotspot-tooltip {
+	left: 50%;
+}
+
+.tmpcoder-hotspot-tooltip-position-left .tmpcoder-hotspot-tooltip,
+.tmpcoder-hotspot-tooltip-position-right .tmpcoder-hotspot-tooltip {
+	top: 50%;
+}
+
+.tmpcoder-hotspot-tooltip-position-top.tmpcoder-tooltip-effect-shift-toward .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-50%, -120%);
+	-ms-transform: translate(-50%, -120%);
+	transform: translate(-50%, -120%);
+}
+
+.tmpcoder-hotspot-tooltip-position-top.tmpcoder-tooltip-effect-shift-toward .tmpcoder-tooltip-active .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-50%, -100%);
+	-ms-transform: translate(-50%, -100%);
+	transform: translate(-50%, -100%);
+}
+
+.tmpcoder-hotspot-tooltip-position-bottom.tmpcoder-tooltip-effect-shift-toward .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-50%, 120%);
+	-ms-transform: translate(-50%, 120%);
+	transform: translate(-50%, 120%);
+}
+
+.tmpcoder-hotspot-tooltip-position-bottom.tmpcoder-tooltip-effect-shift-toward .tmpcoder-tooltip-active .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-50%, 100%);
+	-ms-transform: translate(-50%, 100%);
+	transform: translate(-50%, 100%);
+}
+
+.tmpcoder-hotspot-tooltip-position-left.tmpcoder-tooltip-effect-shift-toward .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-120%, -50%);
+	-ms-transform: translate(-120%, -50%);
+	transform: translate(-120%, -50%);
+}
+
+.tmpcoder-hotspot-tooltip-position-left.tmpcoder-tooltip-effect-shift-toward .tmpcoder-tooltip-active .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-100%, -50%);
+	-ms-transform: translate(-100%, -50%);
+	transform: translate(-100%, -50%);
+}
+
+.tmpcoder-hotspot-tooltip-position-right.tmpcoder-tooltip-effect-shift-toward .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(120%, -50%);
+	-ms-transform: translate(120%, -50%);
+	transform: translate(120%, -50%);
+}
+
+.tmpcoder-hotspot-tooltip-position-right.tmpcoder-tooltip-effect-shift-toward .tmpcoder-tooltip-active .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(100%, -50%);
+	-ms-transform: translate(100%, -50%);
+	transform: translate(100%, -50%);
+}
+
+.tmpcoder-hotspot-tooltip-position-top.tmpcoder-tooltip-effect-fade .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-50%, -100%);
+	-ms-transform: translate(-50%, -100%);
+	transform: translate(-50%, -100%);
+}
+
+.tmpcoder-hotspot-tooltip-position-bottom.tmpcoder-tooltip-effect-fade .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-50%, 100%);
+	-ms-transform: translate(-50%, 100%);
+	transform: translate(-50%, 100%);
+}
+
+.tmpcoder-hotspot-tooltip-position-left.tmpcoder-tooltip-effect-fade .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-100%, -50%);
+	-ms-transform: translate(-100%, -50%);
+	transform: translate(-100%, -50%);
+}
+
+.tmpcoder-hotspot-tooltip-position-right.tmpcoder-tooltip-effect-fade .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(100%, -50%);
+	-ms-transform: translate(100%, -50%);
+	transform: translate(100%, -50%);
+}
+
+.tmpcoder-hotspot-tooltip-position-top.tmpcoder-tooltip-effect-scale .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-50%, -100%) scale(0.7);
+	-ms-transform: translate(-50%, -100%) scale(0.7);
+	transform: translate(-50%, -100%) scale(0.7);
+}
+
+.tmpcoder-hotspot-tooltip-position-bottom.tmpcoder-tooltip-effect-scale .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-50%, 100%) scale(0.7);
+	-ms-transform: translate(-50%, 100%) scale(0.7);
+	transform: translate(-50%, 100%) scale(0.7);
+}
+
+.tmpcoder-hotspot-tooltip-position-left.tmpcoder-tooltip-effect-scale .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-100%, -50%) scale(0.7);
+	-ms-transform: translate(-100%, -50%) scale(0.7);
+	transform: translate(-100%, -50%) scale(0.7);
+}
+
+.tmpcoder-hotspot-tooltip-position-right.tmpcoder-tooltip-effect-scale .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(100%, -50%) scale(0.7);
+	-ms-transform: translate(100%, -50%) scale(0.7);
+	transform: translate(100%, -50%) scale(0.7);
+}
+
+.tmpcoder-hotspot-tooltip-position-top.tmpcoder-tooltip-effect-scale .tmpcoder-tooltip-active .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-50%, -100%) scale(1);
+	-ms-transform: translate(-50%, -100%) scale(1);
+	transform: translate(-50%, -100%) scale(1);
+}
+
+.tmpcoder-hotspot-tooltip-position-bottom.tmpcoder-tooltip-effect-scale .tmpcoder-tooltip-active .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-50%, 100%) scale(1);
+	-ms-transform: translate(-50%, 100%) scale(1);
+	transform: translate(-50%, 100%) scale(1);
+}
+
+.tmpcoder-hotspot-tooltip-position-left.tmpcoder-tooltip-effect-scale .tmpcoder-tooltip-active .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(-100%, -50%) scale(1);
+	-ms-transform: translate(-100%, -50%) scale(1);
+	transform: translate(-100%, -50%) scale(1);
+}
+
+.tmpcoder-hotspot-tooltip-position-right.tmpcoder-tooltip-effect-scale .tmpcoder-tooltip-active .tmpcoder-hotspot-tooltip {
+	-webkit-transform: translate(100%, -50%) scale(1);
+	-ms-transform: translate(100%, -50%) scale(1);
+	transform: translate(100%, -50%) scale(1);
+}
+
+@keyframes tmpcoder-hotspot-anim-pulse {
+
+	0%,
+	100%,
+	87% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+	88%,
+	92%,
+	96% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1);
+		transform: scale3d(1.1, 1.1, 1.1);
+	}
+
+	90%,
+	94% {
+		-webkit-transform: scale3d(0.9, 0.9, 0.9);
+		transform: scale3d(0.9, 0.9, 0.9);
+	}
+}
+
+@-webkit-keyframes tmpcoder-hotspot-anim-pulse {
+
+	0%,
+	100%,
+	87% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+	88%,
+	92%,
+	96% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1);
+		transform: scale3d(1.1, 1.1, 1.1);
+	}
+
+	90%,
+	94% {
+		-webkit-transform: scale3d(0.9, 0.9, 0.9);
+		transform: scale3d(0.9, 0.9, 0.9);
+	}
+}
+
+.tmpcoder-hotspot-anim-pulse {
+	-webkit-animation-name: tmpcoder-hotspot-anim-pulse;
+	animation-name: tmpcoder-hotspot-anim-pulse;
+	-webkit-animation-duration: 5s;
+	animation-duration: 5s;
+}
+
+@keyframes tmpcoder-hotspot-anim-shake {
+
+	0%,
+	100%,
+	87% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	88%,
+	92%,
+	96% {
+		-webkit-transform: translate3d(-5px, 0, 0);
+		transform: translate3d(-5px, 0, 0);
+	}
+
+	90%,
+	94% {
+		-webkit-transform: translate3d(5px, 0, 0);
+		transform: translate3d(5px, 0, 0);
+	}
+}
+
+@-webkit-keyframes tmpcoder-hotspot-anim-shake {
+
+	0%,
+	100%,
+	87% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	88%,
+	92%,
+	96% {
+		-webkit-transform: translate3d(-5px, 0, 0);
+		transform: translate3d(-5px, 0, 0);
+	}
+
+	90%,
+	94% {
+		-webkit-transform: translate3d(5px, 0, 0);
+		transform: translate3d(5px, 0, 0);
+	}
+}
+
+.tmpcoder-hotspot-anim-shake {
+	-webkit-animation-name: tmpcoder-hotspot-anim-shake;
+	animation-name: tmpcoder-hotspot-anim-shake;
+	-webkit-animation-duration: 5s;
+	animation-duration: 5s;
+}
+
+@keyframes tmpcoder-hotspot-anim-swing {
+
+	0%,
+	100%,
+	70% {
+		-webkit-transform: rotate3d(0, 0, 1, 0deg);
+		transform: rotate3d(0, 0, 1, 0deg);
+	}
+
+	75% {
+		-webkit-transform: rotate3d(0, 0, 1, 15deg);
+		transform: rotate3d(0, 0, 1, 15deg);
+	}
+
+	80% {
+		-webkit-transform: rotate3d(0, 0, 1, -10deg);
+		transform: rotate3d(0, 0, 1, -10deg);
+	}
+
+	85% {
+		-webkit-transform: rotate3d(0, 0, 1, 5deg);
+		transform: rotate3d(0, 0, 1, 5deg);
+	}
+
+	90% {
+		-webkit-transform: rotate3d(0, 0, 1, -5deg);
+		transform: rotate3d(0, 0, 1, -5deg);
+	}
+}
+
+@-webkit-keyframes tmpcoder-hotspot-anim-swing {
+
+	0%,
+	100%,
+	70% {
+		-webkit-transform: rotate3d(0, 0, 1, 0deg);
+		transform: rotate3d(0, 0, 1, 0deg);
+	}
+
+	75% {
+		-webkit-transform: rotate3d(0, 0, 1, 15deg);
+		transform: rotate3d(0, 0, 1, 15deg);
+	}
+
+	80% {
+		-webkit-transform: rotate3d(0, 0, 1, -10deg);
+		transform: rotate3d(0, 0, 1, -10deg);
+	}
+
+	85% {
+		-webkit-transform: rotate3d(0, 0, 1, 5deg);
+		transform: rotate3d(0, 0, 1, 5deg);
+	}
+
+	90% {
+		-webkit-transform: rotate3d(0, 0, 1, -5deg);
+		transform: rotate3d(0, 0, 1, -5deg);
+	}
+}
+
+.tmpcoder-hotspot-anim-swing {
+	-webkit-animation-name: tmpcoder-hotspot-anim-swing;
+	animation-name: tmpcoder-hotspot-anim-swing;
+	-webkit-animation-duration: 5s;
+	animation-duration: 5s;
+}
+
+@keyframes tmpcoder-hotspot-anim-tada {
+
+	0%,
+	100%,
+	84% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+	85% {
+		-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+	}
+
+	88%,
+	92%,
+	96% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+	}
+
+	90%,
+	94% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+	}
+}
+
+@-webkit-keyframes tmpcoder-hotspot-anim-tada {
+
+	0%,
+	100%,
+	84% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+	85% {
+		-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+	}
+
+	88%,
+	92%,
+	96% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+	}
+
+	90%,
+	94% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+	}
+}
+
+.tmpcoder-hotspot-anim-tada {
+	-webkit-animation-name: tmpcoder-hotspot-anim-tada;
+	animation-name: tmpcoder-hotspot-anim-tada;
+	-webkit-animation-duration: 6s;
+	animation-duration: 6s;
+}
+
+@keyframes tmpcoder-hotspot-anim-glow {
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: scale(1.5);
+		transform: scale(1.5);
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes tmpcoder-hotspot-anim-glow {
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: scale(1.5);
+		transform: scale(1.5);
+		opacity: 0;
+	}
+}
+
+.tmpcoder-hotspot-anim-glow:before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	-webkit-animation-name: tmpcoder-hotspot-anim-glow;
+	animation-name: tmpcoder-hotspot-anim-glow;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+}

@@ -1,0 +1,155 @@
+/* Product Rating */
+.tmpcoder-product-rating-flex.tmpcoder-product-rating-left .inner-block {
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+}
+
+.tmpcoder-product-rating-flex.tmpcoder-product-rating-center .inner-block {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.tmpcoder-product-rating-flex.tmpcoder-product-rating-right .inner-block {
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+.tmpcoder-product-rating a {
+	display: none;
+}
+
+.tmpcoder-pr-show-text-yes .tmpcoder-product-rating a {
+	display: block;
+}
+
+/* Rating */
+.tmpcoder-product-rating .tmpcoder-woo-rating i:before {
+	content: '\002605' !important;
+}
+
+/* Product Rating */
+.tmpcoder-woo-rating i {
+    display: inline;
+    position: relative;
+    font-family: "eicons";
+    font-style: normal;
+    line-height: 1;
+    overflow: hidden;
+}
+
+.tmpcoder-woo-rating i:before {
+    content: '\e934';
+    font-weight: 900;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: inherit;
+    font-family: inherit;
+    overflow: hidden;
+}
+
+.tmpcoder-woo-rating-style-2 .tmpcoder-woo-rating i:before {
+    content: '\002605';
+}
+
+.tmpcoder-woo-rating .tmpcoder-rating-marked,
+.tmpcoder-woo-rating .tmpcoder-rating-unmarked {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.tmpcoder-woo-rating i:last-of-type {
+    margin-right: 0 !important;
+}
+
+.tmpcoder-rating-icon-empty:before {
+    display: none !important;
+}
+
+.tmpcoder-rating-icon-5 .tmpcoder-rating-marked svg {
+    mask: -webkit-gradient(linear, left top, right top, color-stop(50%, black), color-stop(50%, transparent));
+    mask: linear-gradient(to right, black 50%, transparent 50%);
+    -webkit-mask: -webkit-gradient(linear, left top, right top, color-stop(50%, black), color-stop(50%, transparent));
+    -webkit-mask: linear-gradient(to right, black 50%, transparent 50%);
+}
+
+.tmpcoder-rating-icon-0:before,
+.tmpcoder-rating-icon-0 .tmpcoder-rating-marked {
+    width: 0;
+}
+
+.tmpcoder-rating-icon-1:before,
+.tmpcoder-rating-icon-1 .tmpcoder-rating-marked {
+    width: 20%;
+}
+
+.tmpcoder-rating-icon-2:before,
+.tmpcoder-rating-icon-2 .tmpcoder-rating-marked {
+    width: 30%;
+}
+
+.tmpcoder-rating-icon-3:before,
+.tmpcoder-rating-icon-3 .tmpcoder-rating-marked {
+    width: 35%;
+}
+
+.tmpcoder-rating-icon-4:before,
+.tmpcoder-rating-icon-4 .tmpcoder-rating-marked {
+    width: 40%;
+}
+
+.tmpcoder-rating-icon-5:before,
+.tmpcoder-rating-icon-5 .tmpcoder-rating-marked:not(:has(svg)) {
+    width: 50%;
+}
+
+.tmpcoder-rating-icon-6:before,
+.tmpcoder-rating-icon-6 .tmpcoder-rating-marked {
+    width: 60%;
+}
+
+.tmpcoder-rating-icon-7:before,
+.tmpcoder-rating-icon-7 .tmpcoder-rating-marked {
+    width: 65%;
+}
+
+.tmpcoder-rating-icon-8:before,
+.tmpcoder-rating-icon-8 .tmpcoder-rating-marked {
+    width: 70%;
+}
+
+.tmpcoder-rating-icon-9:before,
+.tmpcoder-rating-icon-9 .tmpcoder-rating-marked {
+    width: 80%;
+}
+
+.tmpcoder-rating-icon-full:before {
+    width: 100%;
+}
+
+/* Latest Fix when inline icons are enabled */
+.tmpcoder-rating-icon {
+  position: relative;
+  overflow: hidden;
+}
+
+.tmpcoder-rating-icon .tmpcoder-rating-marked {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+}
+
+.tmpcoder-woo-rating .tmpcoder-rating-icon,
+i[class*="tmpcoder-rating-icon-"] {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}

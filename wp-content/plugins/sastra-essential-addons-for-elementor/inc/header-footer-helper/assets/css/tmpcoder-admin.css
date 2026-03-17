@@ -1,0 +1,824 @@
+span.tmpcoder-shortcode-col-wrap > input {
+    background: inherit;
+    color: inherit;
+    font-size: 12px;
+    border: none;
+    box-shadow: none;
+    padding: 4px 8px;
+    margin: 0;
+}
+input.tmpcoder-large-text{
+    width: 99%;
+}
+.tmpcoder-options-row-heading {
+    border-right: 1px solid #E1E1E1;
+    padding: 15px;
+    width: 45%;
+    vertical-align: middle;
+}
+.tmpcoder-options-row td {
+    padding-left: 12px;
+    padding-right: 12px;
+    border-bottom: 1px solid #f0f0f0;
+    zoom: 1;
+    vertical-align: middle;
+}
+.tmpcoder-options-table .tmpcoder-options-row-content {
+    padding: 15px 10px;
+    position: relative;
+    width: 55%;
+}
+.tmpcoder-options-table.widefat {
+	border-width: 0;
+}
+.tmpcoder-options-row-heading label {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1.4em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 3px;
+    color: #333;
+}
+.tmpcoder-options-row-content select {
+    width: 95%;
+}
+.tmpcoder_radio_options {
+    display: inline-block;
+}
+li#toplevel_page_Settings-page,
+.wp-admin #adminmenu .wp-submenu a[href="themes.php?page=tmpcoder-settings"],
+.wp-admin #adminmenu .wp-submenu a[href="themes.php?page=tmpcoder-guide"],
+.wp-admin #adminmenu .wp-submenu a[href="themes.php?page=tmpcoder-about"] {
+    display: none;
+}
+.appearance_page_tmpcoder-settings #adminmenu .wp-submenu a[href ="edit.php?post_type=elementor-hf" ] {
+    color: #ffffff;
+    font-weight: 600;
+}
+.tmpcoder-heading-inline {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 9px 0 4px 0;
+    line-height: 1.3;
+}
+.tmpcoder-selected-template-type-custom .tmpcoder-shortcode {
+    display: table-row;
+}
+.tmpcoder-selected-template-type-custom .bsf-target-rules-row,
+.tmpcoder-selected-template-type-custom .enable-for-canvas,
+.tmpcoder-shortcode,
+.tmpcoder-selected-template-type-none .bsf-target-rules-row,
+.tmpcoder-selected-template-type-none .tmpcoder-shortcode,
+.tmpcoder-selected-template-type-none .enable-for-canvas,
+.tmpcoder-guide-content .form-table th {
+    display: none;
+}
+/* Notice */
+#header-footer-install-notice img.custom-logo {
+    height: 30px;
+    margin-right: 6px;
+}
+#header-footer-install-notice .notice-container {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#header-footer-install-notice .notice-content {
+    margin-left: 0px;
+}
+#header-footer-install-notice .notice-dismiss {
+    height: 100%;
+}
+/* EHF Settings - Step by Step guide */
+#tmpcoder-meta-box .inside,
+.tmpcoder-admin-guide-section.tmpcoder-admin-about-section {
+    padding: 0px;
+}
+.appearance_page_tmpcoder-guide .nav-tab-wrapper,
+.appearance_page_tmpcoder-about .nav-tab-wrapper,
+.appearance_page_tmpcoder-settings .nav-tab-wrapper {
+    margin-right: 18px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.post-type-elementor-hf .nav-tab-wrapper {
+    margin-bottom: 18px;
+    margin-top: 10px;
+}
+.post-type-elementor-hf .wrap h1.wp-heading-inline,
+.tmpcoder-heading-inline {
+    margin-top: 10px
+}
+.tmpcoder-admin-about-section,
+.tmpcoder-subscription-row {
+    display: flex;
+    justify-content: center;
+}
+.tmpcoder-subscription-row .tmpcoder-input-container {
+    width: 50%;
+    text-align: left;
+    position: relative;    
+    width: 100%;
+}
+.tmpcoder-guide-modal-content .tmpcoder-checkbox-container {
+    display: flex;
+    align-items: flex-start;
+}
+.tmpcoder-guide-modal-content .tmpcoder-admin-column-50:not(.tmpcoder-admin-column-last) {
+    display: flex;
+    align-items: center;
+}
+/* Form CSS */
+.tmpcoder-subscription-row {
+    margin-bottom: 10px;
+}
+.tmpcoder-subscription-row .tmpcoder-subscribe-field:focus {
+    outline: none;
+    box-shadow: none;
+}
+.tmpcoder-subscription-row .tmpcoder-subscribe-field {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 3px;
+    border: 1px solid #585F66;
+    padding: 10px 15px;
+    box-shadow: none;
+    min-height: 44px;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none;
+    background-color: transparent;
+    background-position: right 10px top 55%;
+    margin: 0;
+}
+.tmpcoder-subscription-row .subscription-label {
+    color: #585F66;
+    margin: 12px 10px;
+    position: absolute;
+    top: 0;
+    font-weight: 400;
+    padding: 0 5px;
+    font-size: 14px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.tmpcoder-subscription-row input#tmpcoder_subscribe_accept {
+	border: 1px solid #585F66;
+	border-radius: 3px;
+	margin: 0 4px 0 0;
+}
+
+.tmpcoder-guide-modal-popup .tmpcoder-guide-modal-popup-wrapper .tmpcoder-subscription-row .tmpcoder-input-container:nth-of-type(3) {
+	margin-bottom: 16px;
+}
+
+.tmpcoder-subscription-row .tmpcoder-input-container:not(.subscription-success, .subscription-error) .tmpcoder-subscribe-field:hover {
+    border-color: #2271b1;
+}
+.tmpcoder-subscription-row .tmpcoder-subscribe-field:hover,
+.tmpcoder-subscription-row .tmpcoder-subscribe-field:focus {
+    color: #2c3338;
+}
+.tmpcoder-subscription-row .subscription-anim .subscription-label {
+    background-color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 0;
+    padding: 0 4px;
+    top: -5px;
+    transition: all 0.125s ease;
+    -webkit-transition: all 0.125s ease;
+    color: #2271b1;
+}
+.tmpcoder-subscription-row .subscription-error .tmpcoder-subscribe-field,
+.tmpcoder-subscription-row .subscription-error .tmpcoder-subscribe-field:focus {
+    border-color: #ff0000;
+}
+.tmpcoder-subscription-row .subscription-error .subscription-desc,
+.tmpcoder-subscription-row .subscription-anim.subscription-error .subscription-label {
+    color: #ff0000;
+}
+.tmpcoder-subscription-row .subscription-success .tmpcoder-subscribe-field,
+.tmpcoder-subscription-row .subscription-success .tmpcoder-subscribe-field:focus {
+    border-color: #66a700;
+}
+.tmpcoder-subscription-row .subscription-anim.subscription-success .subscription-label {
+    color: #66a700;
+}
+.tmpcoder-input-container .subscription-desc {
+    padding-left: 2px;
+    opacity: 0;
+    visibility: hidden;
+}
+.tmpcoder-input-container.subscription-error .subscription-desc {
+    opacity: 1;
+    visibility: visible;
+}
+input[type="text"].tmpcoder-subscribe-field,
+select.tmpcoder-subscribe-field {
+    text-align: left;
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    margin-left: 0px;
+}
+.tmpcoder-guide-content p.submit {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.tmpcoder-privacy-policy-container {
+    margin-top: 0;
+    text-align: center;
+    display: none;
+}
+.tmpcoder-subscription-step-2-active ~ .tmpcoder-privacy-policy-container {
+    display: block;
+}
+.tmpcoder-privacy-policy-container .tmpcoder-subscription-policy {
+    margin: 0;
+    padding-top: 15px;
+    font-size: 12px;
+}
+.button-subscription-skip:focus {
+    box-shadow: none;
+}
+.button-subscription-skip {
+    width: 100%;
+    text-align: center;
+    margin-top: .8em;
+    display: inline-block;    
+    font-size: 14px;
+}
+.tmpcoder-guide-content .button {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 13px;
+}
+.tmpcoder-guide-content .button.submitting {
+    margin-right: 3px;
+}
+/* EHF Settings - About Us */
+.tmpcoder-admin-about-section {
+    margin: 0px 19px 23px 0px;
+    padding: 40px;
+    line-height: 2;
+}
+.tmpcoder-admin-about-section p,
+.tmpcoder-admin-addons .addon-item,
+.tmpcoder-admin-addons .addon-item p,
+.tmpcoder-admin-about-section ul {
+    font-size: 15px;
+}
+.tmpcoder-admin-about-us {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.tmpcoder-admin-about-section h1, 
+.tmpcoder-admin-about-section h2, 
+.tmpcoder-admin-about-section h3, 
+.tmpcoder-admin-about-section h4, 
+.tmpcoder-admin-about-section h5 {
+    margin-top: 0;
+    line-height: 1.3;
+}
+.tmpcoder-clear:before {
+    content: " ";
+    display: table;
+}
+.tmpcoder-clear:after,
+.tmpcoder-admin-columns:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+.tmpcoder-admin-columns .tmpcoder-admin-column-40 {
+    width: 40%;
+}
+.tmpcoder-admin-columns .tmpcoder-admin-column-50 {
+    width: 50%;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.tmpcoder-admin-columns .tmpcoder-admin-column-60 {
+    width: 60%;
+}
+.tmpcoder-admin-columns .tmpcoder-admin-column-last .tmpcoder-guide-content {
+    width: 100%;
+}
+.tmpcoder-admin-about-section figure {
+    margin: 0;
+    padding-top: 0px;
+}
+.tmpcoder-admin-about-section figure img {
+    width: 100%;
+    box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+}
+.tmpcoder-admin-about-section figure figcaption {
+    font-size: 15px;
+    color: #686868;
+    margin-top: 5px;
+    text-align: center;
+    line-height: initial;
+}
+.tmpcoder-admin-about-section .tmpcoder-admin-column-40 {
+    padding-left: 15px;
+}
+.tmpcoder-admin-about-section .tmpcoder-admin-column-60 {
+    padding-right: 15px;
+}
+.tmpcoder-admin-about-section *, 
+.tmpcoder-admin-about-section *::before, 
+.tmpcoder-admin-about-section *::after,
+.tmpcoder-admin-addons *,
+.tmpcoder-admin-addons *::before,
+.tmpcoder-admin-addons *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* About Us - Plugins section */
+.tmpcoder-admin-addons .addon-container:last-child {
+    padding-right: 10px;
+}
+.tmpcoder-admin-addons .addon-container:first-child,
+.tmpcoder-admin-addons .addon-container {
+    padding-left: 10px;
+}
+.tmpcoder-admin-addons {
+    padding: 0 27px 0px 10px;
+}
+.tmpcoder-admin-addons .addon-item .details {
+    padding: 20px;
+}
+.tmpcoder-admin-addons .addon-item img {
+    padding: 13px;
+    padding-top: 0px;
+}
+.tmpcoder-admin-addons .addons-container{
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.tmpcoder-admin-addons .addon-container {
+  padding-right: 10px;
+  float: left;
+  width: 33.333333%;
+  margin-bottom: 20px;
+}
+.tmpcoder-admin-addons h4 {
+  font-size: 17px;
+  font-weight: 700;
+}
+.tmpcoder-admin-addons .addon-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin: 0;
+}
+.tmpcoder-admin-addons .addon-item img {
+  float: left;
+  max-width: 80px;
+}
+.tmpcoder-admin-addons .addon-item h5 {
+  margin: 0 0 15px 90px;
+  font-size: 17px;
+  line-height: 1.4em;
+}
+.tmpcoder-admin-addons .addon-item p {
+  margin: 0 0 0 90px;
+}
+.tmpcoder-admin-addons .website-link {
+    color: inherit;
+    text-decoration: none;
+}
+.tmpcoder-admin-addons .addon-item .details {
+  padding: 30px 20px;
+}
+
+.tmpcoder-admin-addons .addon-item .action-button .button {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    box-shadow: 0 1px 0 #cccccc;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    background: #f7f7f7;
+    font-weight: normal;
+}
+
+.tmpcoder-admin-addons .addon-item .action-button .button:hover, 
+.tmpcoder-admin-addons .addon-item .action-button .button:focus {
+    background: #fafafa;
+    border-color: #999;
+    color: #23282d;
+}
+
+.tmpcoder-admin-addons .addon-item .action-button .button.button-primary {
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+
+.tmpcoder-admin-addons .addon-item .action-button .button.button-primary:hover, 
+.tmpcoder-admin-addons .addon-item .action-button .button.button-primary:focus {
+    background: #008ec2;
+    border-color: #006799;
+    color: #fff;
+}
+
+.tmpcoder-admin-addons .addon-item .action-button .button.button-secondary {
+    color: #555;
+    border-color: #cccccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #cccccc;
+}
+
+.tmpcoder-admin-addons .addon-item .action-button .button.button-secondary:hover, 
+.tmpcoder-admin-addons .addon-item .action-button .button.button-secondary:focus {
+    background: #fafafa;
+    border-color: #999;
+    color: #23282d;
+}
+
+.tmpcoder-admin-addons .addon-item .action-button .button.disabled {
+    cursor: default;
+}
+
+.tmpcoder-admin-addons .addon-item .actions {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    min-height: 75px;
+    position: relative;
+}
+  
+.tmpcoder-admin-addons .addon-item .actions .msg {
+    background-color: #f7f7f7;
+    border: none;
+    position: absolute;
+    text-align: center;
+    font-weight: 600;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    z-index: 99;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.tmpcoder-admin-addons .addon-item .actions .msg.success,
+.tmpcoder-admin-addons .addon-item .status .status-active,
+.tmpcoder-admin-addons .addon-item .action-button button.status-active .fa {
+    color: #2a9b39;
+}
+  
+.tmpcoder-admin-addons .addon-item .actions .msg.error,
+.tmpcoder-admin-addons .addon-item .status .status-inactive,
+.tmpcoder-admin-addons .addon-item .action-button button.status-inactive .fa {
+    color: red;
+}
+  
+.tmpcoder-admin-addons .addon-item .status {
+    flex-grow: 1;
+}
+  
+.tmpcoder-admin-addons .addon-item .status .status-download {
+    color: #666;
+}
+  
+.tmpcoder-admin-addons .addon-item .upgrade-button {
+    text-align: center;
+}
+  
+.tmpcoder-admin-addons .addon-item .upgrade-button a {
+    font-weight: 600;
+    width: 110px;
+    text-align: center;
+    padding: 8px 5px;
+}
+.tmpcoder-admin-addons .addon-item .action-button a.button {
+    width: 110px;
+    text-align: center;
+}
+.tmpcoder-admin-addons .addon-item .action-button button {
+    background: none;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: none;
+    cursor: pointer;
+    font-weight: 600;
+    width: 110px;
+    text-align: center;
+    padding: 8px 5px;
+}
+  
+.tmpcoder-admin-addons .addon-item .action-button button:hover, .tmpcoder-admin-addons .addon-item .action-button button.loading {
+    background-color: #e9e9e9;
+}
+  
+.tmpcoder-admin-addons .addon-item .action-button button .fa {
+    margin-right: 8px;
+}
+  
+.tmpcoder-admin-addons .addon-item .action-button button .fa.fa-spinner {
+    margin-right: 0;
+}
+  
+.tmpcoder-admin-addons .addon-item .action-button button.status-download .fa {
+    color: #999;
+}
+  
+.tmpcoder-admin-addons .addon-item .action-button button.disabled {
+    cursor: default;
+    pointer-events: none;
+}
+  
+.tmpcoder-admin-addons .addon-item .action-button button.loading .fa {
+    color: #666;
+}
+  
+.tmpcoder-admin-addons .addon-item .action-button a {
+    text-decoration: none;
+}
+
+/* Modal Popup */
+.tmpcoder-guide-modal-header {
+    padding: 10px;
+    text-align: center;
+}
+.tmpcoder-guide-modal-popup-wrapper .heading {
+    background: #ffffff;
+    padding: 5px 20px;
+    margin-top: 0;
+    box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+    display: flex;
+    justify-content: space-between;
+}
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-admin-guide-section.tmpcoder-admin-about-section,
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-admin-column-50:not(.tmpcoder-admin-column-last) {
+    margin: 0px;
+}
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-admin-column-50:not(.tmpcoder-admin-column-last),
+.tmpcoder-admin-column-last .tmpcoder-guide-content form {
+    padding: 50px;
+}
+.tmpcoder-guide-modal-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    opacity: 0;
+    background: rgba(0,0,0,0.75);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.tmpcoder-guide-modal-content {
+    width: 70%;
+    background-color: #ffffff;
+    opacity: 0;
+    position: relative;
+    margin: 0 auto;
+    transition: all .5s;
+}
+.tmpcoder-guide-modal-popup-wrapper {
+    z-index: 99999;
+    top: 51%;
+    transform: translateY(-50%);
+    margin-bottom: 20px;
+    visibility: hidden;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    bottom: auto;
+}
+.tmpcoder-guide-modal-popup-wrapper .subscription-anim .subscription-label {
+    background-color: #ffffff;
+}
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-admin-about-section {
+    background-color: #f1f3f5;
+}
+.tmpcoder-admin-about-section h3 {
+    font-size: 20px;
+}
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-guide-content form {
+    padding: 0px;
+}
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-guide-content {
+    background-color: #ffffff;
+    box-shadow: 0 2px 30px 0 rgb(0 0 0 / 8%);
+    border: 0px;
+    padding: 50px 50px 25px 50px;
+}
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-admin-columns .tmpcoder-admin-column-50.tmpcoder-admin-column-last {
+    width: 50%;
+    margin: 0;
+    padding: 50px;
+}
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-admin-columns .tmpcoder-admin-column-50 {
+    width: 50%;
+    background: unset;
+    border: 0px;
+}
+.tmpcoder-guide-modal-popup-wrapper .heading {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-logo {
+    height: 35px;
+} 
+.tmpcoder-guide-modal-popup-wrapper h3 {
+    width: 100%;
+    margin-left: 15px;
+}
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-admin-about-section.tmpcoder-admin-columns.tmpcoder-admin-guide-section {
+    max-height: 75vh;
+    overflow: auto;
+}
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-admin-about-section-column {
+    padding-bottom: 20px;
+}
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-subscription-step-1-active .tmpcoder-subscription-step-2,
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-subscription-step-2-active .tmpcoder-subscription-step-1 {
+    display: none;
+}
+/* Limited this only for modal Popup */
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-subscription-row .tmpcoder-input-container,
+.tmpcoder-guide-modal-popup-wrapper .button {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-subscription-row {
+    display: block;
+    margin-bottom: 0px;
+}
+.tmpcoder-guide-modal-popup-wrapper .tmpcoder-admin-about-section-column h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.tmpcoder-admin-about-section-column h3 {
+    margin-bottom: 0;
+    padding: 15px 30px;
+    border-bottom: 1px solid #c3c4c7;
+}
+.tmpcoder-admin-about-section-column h3 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.tmpcoder-show {
+    z-index: 9999;
+} 
+.tmpcoder-show .tmpcoder-modal-close, 
+.tmpcoder-show .tmpcoder-modal-close.action-button,
+.tmpcoder-show .tmpcoder-guide-modal-content {
+    visibility: visible;
+}
+.tmpcoder-show .tmpcoder-guide-modal-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+.tmpcoder-show .tmpcoder-guide-modal-content {
+    opacity: 1;
+}
+.tmpcoder-input-container.tmpcoder-error .tmpcoder-subscribe-field {
+    border-color: #d11212;
+}
+span.tmpcoder-subscribe-message {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px;
+}
+span.tmpcoder-subscribe-message.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-left: 4px solid #93d776;
+}
+span.tmpcoder-subscribe-message.error {
+    color: #d11212;
+    background-color: #f2dede96;
+    border-left: 4px solid #c01a1a66;
+}
+span.dashicons.dashicons-update.tmpcoder-loader {
+    animation: rotation 2s infinite linear;
+    vertical-align: text-top;
+    margin-left: 7px;
+}
+
+@media (max-width: 1249px) {
+    .tmpcoder-admin-addons .addon-container {
+      width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .tmpcoder-admin-addons .addon-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .tmpcoder-admin-about-section .tmpcoder-admin-column-40 {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .tmpcoder-admin-about-section .tmpcoder-admin-column-60 {
+        width: 100%;
+        padding-right: 0;
+    }
+    .tmpcoder-admin-addons .addon-item {
+        margin: 0 0;
+    }
+}
+
+@media screen and ( max-width: 782px ) {
+    .tmpcoder-subscription-row,
+    .tmpcoder-admin-about-section {
+        display: block;
+    }
+    .tmpcoder-guide-modal-popup-wrapper p.button,
+    .tmpcoder-admin-about-section figure {
+        padding-bottom: 0px;
+    }
+    .tmpcoder-admin-guide-section.tmpcoder-admin-columns .tmpcoder-admin-column-50,
+    .tmpcoder-guide-modal-popup-wrapper .tmpcoder-admin-columns .tmpcoder-admin-column-50.tmpcoder-admin-column-last,
+    .tmpcoder-subscription-row .tmpcoder-input-container {
+        width: 100%;
+    }
+    .tmpcoder-guide-modal-popup-wrapper .tmpcoder-admin-columns .tmpcoder-admin-column-50.tmpcoder-admin-column-last,
+    .tmpcoder-guide-modal-popup-wrapper .tmpcoder-guide-content,
+    .tmpcoder-admin-guide-section .tmpcoder-admin-column-50:not(.tmpcoder-admin-column-last) {
+        padding: 15px;
+    }
+    .tmpcoder-subscribe-email span.dashicons.dashicons-email {
+        font-size: 15px;
+        height: 15px;
+        line-height: 1;
+        width: 15px;
+    }
+    .tmpcoder-subscribe-email input.tmpcoder-subscribe-field {
+        min-height: unset;
+        font-size: 10px;
+    }
+    .tmpcoder-subscribe-field {
+        padding: 5px;
+    }
+    .tmpcoder-admin-guide-section.tmpcoder-admin-about-section {
+        display: block;
+    }
+    .tmpcoder-guide-content .button {
+        font-size: 10px;
+    }
+    .tmpcoder-checkbox-container {
+        display: flex;
+    }
+    .tmpcoder-admin-columns .tmpcoder-admin-column-last {
+        padding-top: 0px;
+    }
+    .tmpcoder-subscription-row select.tmpcoder-subscribe-field {
+        padding: 10px 15px;
+    }
+    .tmpcoder-admin-about-section-column h3 {
+        border-bottom: 0px;
+    }
+    .tmpcoder-admin-about-us {
+        margin-right: 10px;
+    }
+    .tmpcoder-admin-addons .addon-container,
+    .tmpcoder-admin-addons .addon-container:last-child {
+        padding-right: 0px;
+    }
+}

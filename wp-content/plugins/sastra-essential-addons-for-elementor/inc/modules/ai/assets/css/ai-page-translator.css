@@ -1,0 +1,556 @@
+/**
+ * Spexo AI Page Translator Styles
+ * 
+ * Styles for AI page translation functionality in Elementor editor
+ *
+ * @package Spexo_Addons
+ * @since 1.0.28
+ */
+
+/* AI Page Translator Button */
+.spexo-ai-page-translator-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    text-decoration: none;
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.spexo-ai-page-translator-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+    color: white;
+}
+
+.spexo-ai-page-translator-btn img {
+    width: 18px;
+    height: 18px;
+    filter: brightness(0) invert(1);
+}
+
+.spexo-ai-page-translator-btn.is-processing {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    cursor: default;
+    pointer-events: none;
+}
+
+.spexo-ai-page-translator-btn.is-processing img {
+    animation: spexo-ai-spin 1s linear infinite;
+}
+
+/* AI Page Translator Modal */
+.spexo-ai-translator-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.spexo-ai-translator-modal.is-active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.spexo-ai-translator-modal-content {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    transform: scale(0.9) translateY(-20px);
+    transition: all 0.3s ease;
+}
+
+.spexo-ai-translator-modal.is-active .spexo-ai-translator-modal-content {
+    transform: scale(1) translateY(0);
+}
+
+/* Modal Header */
+.spexo-ai-translator-modal-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f1f3f4;
+}
+
+.spexo-ai-translator-modal-icon {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spexo-ai-translator-modal-icon img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+}
+
+.spexo-ai-translator-modal-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2d3748;
+}
+
+/* Modal Body */
+.spexo-ai-translator-modal-body {
+    margin-bottom: 25px;
+}
+
+.spexo-ai-translator-form-group {
+    margin-bottom: 20px;
+}
+
+.spexo-ai-translator-form-group:last-child {
+    margin-bottom: 0;
+}
+
+.spexo-ai-translator-form-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 8px;
+}
+
+.spexo-ai-translator-form-select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 14px;
+    background: white;
+    transition: border-color 0.3s ease;
+}
+
+.spexo-ai-translator-form-select:focus {
+    border-color: #667eea;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.spexo-ai-translator-form-textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 15px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+}
+
+.spexo-ai-translator-form-textarea:focus {
+    border-color: #667eea;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* Language Selection Grid */
+.spexo-ai-language-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.spexo-ai-language-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.spexo-ai-language-option:hover {
+    border-color: #667eea;
+    background: #f8f9ff;
+}
+
+.spexo-ai-language-option.is-selected {
+    border-color: #667eea;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.spexo-ai-language-flag {
+    width: 24px;
+    height: 16px;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+.spexo-ai-language-name {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Modal Footer */
+.spexo-ai-translator-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding-top: 20px;
+    border-top: 2px solid #f1f3f4;
+}
+
+.spexo-ai-translator-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.spexo-ai-translator-btn--primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.spexo-ai-translator-btn--primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+    color: white;
+}
+
+.spexo-ai-translator-btn--secondary {
+    background: white;
+    color: #6c757d;
+    border: 2px solid #e2e8f0;
+}
+
+.spexo-ai-translator-btn--secondary:hover {
+    border-color: #6c757d;
+    background: #f8f9fa;
+    color: #495057;
+}
+
+.spexo-ai-translator-btn.is-loading {
+    cursor: default;
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.spexo-ai-translator-btn.is-loading img {
+    animation: spexo-ai-spin 1s linear infinite;
+}
+
+/* Progress Bar */
+.spexo-ai-translator-progress {
+    margin: 20px 0;
+    display: none;
+}
+
+.spexo-ai-translator-progress.is-active {
+    display: block;
+}
+
+.spexo-ai-translator-progress-bar {
+    width: 100%;
+    height: 8px;
+    background: #e2e8f0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.spexo-ai-translator-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    border-radius: 4px;
+    transition: width 0.3s ease;
+    position: relative;
+}
+
+.spexo-ai-translator-progress-fill::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    animation: shimmer 2s infinite;
+}
+
+.spexo-ai-translator-progress-text {
+    text-align: center;
+    font-size: 13px;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+/* Translation Results */
+.spexo-ai-translator-results {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+    display: none;
+}
+
+.spexo-ai-translator-results.is-active {
+    display: block;
+}
+
+.spexo-ai-translator-results-title {
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #495057;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.spexo-ai-translator-results-title img {
+    width: 16px;
+    height: 16px;
+}
+
+.spexo-ai-translator-results-content {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #495057;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.spexo-ai-translator-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #dee2e6;
+}
+
+.spexo-ai-translator-stat {
+    text-align: center;
+}
+
+.spexo-ai-translator-stat-label {
+    font-size: 11px;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+.spexo-ai-translator-stat-value {
+    font-size: 16px;
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Animations */
+@keyframes spexo-ai-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Error Messages */
+.spexo-ai-translator-error {
+    background: #fff5f5;
+    color: #dc3545;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #f5c6cb;
+    margin: 15px 0;
+    font-size: 14px;
+    animation: fadeIn 0.3s ease;
+}
+
+.spexo-ai-translator-error a {
+    color: #0073aa;
+    text-decoration: underline;
+}
+
+.spexo-ai-translator-error a:hover {
+    color: #005177;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .spexo-ai-translator-modal-content {
+        margin: 20px;
+        padding: 20px;
+        width: calc(100% - 40px);
+    }
+    
+    .spexo-ai-translator-modal-title {
+        font-size: 20px;
+    }
+    
+    .spexo-ai-language-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .spexo-ai-translator-modal-footer {
+        flex-direction: column;
+    }
+    
+    .spexo-ai-translator-btn {
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .spexo-ai-translator-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    .spexo-ai-translator-modal-content {
+        background: #2d3748;
+        color: white;
+    }
+    
+    .spexo-ai-translator-modal-header {
+        border-bottom-color: #4a5568;
+    }
+    
+    .spexo-ai-translator-modal-title {
+        color: white;
+    }
+    
+    .spexo-ai-translator-form-label {
+        color: #e2e8f0;
+    }
+    
+    .spexo-ai-translator-form-select,
+    .spexo-ai-translator-form-textarea {
+        background: #4a5568;
+        border-color: #718096;
+        color: white;
+    }
+    
+    .spexo-ai-translator-form-select:focus,
+    .spexo-ai-translator-form-textarea:focus {
+        border-color: #667eea;
+        background: #4a5568;
+    }
+    
+    .spexo-ai-language-option {
+        background: #4a5568;
+        border-color: #718096;
+        color: white;
+    }
+    
+    .spexo-ai-language-option:hover {
+        background: #718096;
+        border-color: #667eea;
+    }
+    
+    .spexo-ai-language-option.is-selected {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+    }
+    
+    .spexo-ai-translator-modal-footer {
+        border-top-color: #4a5568;
+    }
+    
+    .spexo-ai-translator-btn--secondary {
+        background: #4a5568;
+        color: white;
+        border-color: #718096;
+    }
+    
+    .spexo-ai-translator-btn--secondary:hover {
+        background: #718096;
+        border-color: #6c757d;
+    }
+    
+    .spexo-ai-translator-results {
+        background: #4a5568;
+        border-color: #718096;
+    }
+    
+    .spexo-ai-translator-results-title {
+        color: white;
+    }
+    
+    .spexo-ai-translator-results-content {
+        background: #2d3748;
+        border-color: #4a5568;
+        color: white;
+    }
+    
+    .spexo-ai-translator-stats {
+        border-top-color: #4a5568;
+    }
+    
+    .spexo-ai-translator-stat-label {
+        color: #a0aec0;
+    }
+    
+    .spexo-ai-translator-stat-value {
+        color: white;
+    }
+    
+    .spexo-ai-translator-progress-bar {
+        background: #4a5568;
+    }
+    
+    .spexo-ai-translator-progress-text {
+        color: #a0aec0;
+    }
+}

@@ -1,0 +1,223 @@
+/*--------------------------------------------------------------
+  == Progress Bar
+  --------------------------------------------------------------*/
+
+.tmpcoder-prbar-counter-value-suffix {
+	line-height: 1;
+}
+
+.tmpcoder-prbar-hr-line {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.tmpcoder-prbar-hr-line-inner {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	-webkit-transition-property: width;
+	-o-transition-property: width;
+	transition-property: width;
+	overflow: hidden;
+}
+
+.tmpcoder-prbar-hr-line .tmpcoder-prbar-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.tmpcoder-prbar-hr-line .tmpcoder-prbar-title-wrap {
+	position: absolute;
+	top: 50%;
+	left: 12px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.tmpcoder-prbar-layout-hr-line .tmpcoder-prbar-subtitle {
+	/* text-align: left; */
+}
+
+.tmpcoder-prbar-hr-line .tmpcoder-prbar-counter {
+	position: absolute;
+	top: 50%;
+	right: 12px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.tmpcoder-prbar-layout-hr-line .tmpcoder-prbar-title-wrap {
+	float: left;
+}
+
+.tmpcoder-prbar-layout-hr-line .tmpcoder-prbar-counter {
+	float: right;
+}
+
+.tmpcoder-prbar-vr-line {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.tmpcoder-prbar-vr-line-inner {
+	position: relative;
+	width: 100%;
+	height: 0;
+	-webkit-transition-property: height;
+	-o-transition-property: height;
+	transition-property: height;
+	overflow: hidden;
+}
+
+.tmpcoder-prbar-circle {
+	position: relative;
+	display: table;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.tmpcoder-prbar-circle-svg {
+	width: 100%;
+	height: auto;
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	border-radius: 50%;
+}
+
+.tmpcoder-prbar-circle-prline {
+	-webkit-transition-property: stroke-dasharray, stroke-dashoffset;
+	-o-transition-property: stroke-dasharray, stroke-dashoffset;
+	transition-property: stroke-dasharray, stroke-dashoffset;
+	stroke-linecap: butt;
+}
+
+.tmpcoder-prbar-circle .tmpcoder-prbar-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.tmpcoder-prbar-content {
+	text-align: center;
+	overflow: hidden;
+}
+
+.tmpcoder-prbar-counter {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: flex;
+	font-size: 12px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.tmpcoder-prbar-title,
+.tmpcoder-prbar-subtitle {
+	font-size: 12px;
+	text-align: center;
+}
+
+.tmpcoder-prbar-stripe-yes .tmpcoder-prbar-hr-line-inner:after,
+.tmpcoder-prbar-stripe-yes .tmpcoder-prbar-vr-line-inner:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -30px;
+	width: calc(100% + 60px);
+	height: 100%;
+	background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-size: 30px 30px;
+}
+
+.tmpcoder-prbar-stripe-yes.tmpcoder-prbar-stripe-anim-right .tmpcoder-prbar-hr-line-inner:after,
+.tmpcoder-prbar-stripe-yes.tmpcoder-prbar-stripe-anim-right .tmpcoder-prbar-vr-line-inner:after {
+	-webkit-animation: stripe-anim-right 2s linear infinite;
+	animation: stripe-anim-right 2s linear infinite;
+}
+
+.tmpcoder-prbar-stripe-yes.tmpcoder-prbar-stripe-anim-left .tmpcoder-prbar-hr-line-inner:after,
+.tmpcoder-prbar-stripe-yes.tmpcoder-prbar-stripe-anim-left .tmpcoder-prbar-vr-line-inner:after {
+	-webkit-animation: stripe-anim-left 2s linear infinite;
+	animation: stripe-anim-left 2s linear infinite;
+}
+
+@-webkit-keyframes stripe-anim-right {
+	0% {
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	100% {
+		-webkit-transform: translate(30px, 0);
+		transform: translate(30px, 0);
+	}
+}
+
+@keyframes stripe-anim-right {
+	0% {
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	100% {
+		-webkit-transform: translate(30px, 0);
+		transform: translate(30px, 0);
+	}
+}
+
+@-webkit-keyframes stripe-anim-left {
+	0% {
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	100% {
+		-webkit-transform: translate(-30px, 0);
+		transform: translate(-30px, 0);
+	}
+}
+
+@keyframes stripe-anim-left {
+	0% {
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	100% {
+		-webkit-transform: translate(-30px, 0);
+		transform: translate(-30px, 0);
+	}
+}
+
+.elementor-widget-tmpcoder-progress-bar .tmpcoder-prbar-hr-line-inner,
+.elementor-widget-tmpcoder-progress-bar .tmpcoder-prbar-vr-line-inner {
+	background-color: #5729d9;
+}

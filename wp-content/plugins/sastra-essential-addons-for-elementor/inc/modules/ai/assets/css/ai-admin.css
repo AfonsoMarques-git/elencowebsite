@@ -1,0 +1,475 @@
+.spexo-addons_page_spexo-ai-settings #wpcontent {
+    padding-left:0 !important;
+}
+.about-wrap.tmpcoder-theme-welcome {
+    max-width: unset;
+}
+.spexo-ai-settings-page-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 25px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+.spexo-ai-settings-header-icon {
+    background: linear-gradient(135deg, #6A1B9A, #E91E63);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spexo-ai-settings-header-icon img {
+    filter: brightness(0) invert(1);
+    display: block;
+}
+.spexo-ai-settings-header-text {
+    flex: 1;
+}
+.spexo-ai-settings-title {
+    margin: 0 0 5px 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+.spexo-ai-settings-subtitle {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.spexo-ai-settings-form .form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+.spexo-ai-settings-form .form-table tbody tr {
+    border-bottom: 1px solid #f0f0f1;
+}
+.spexo-ai-settings-form .form-table tbody tr:last-child {
+    border-bottom: 0;
+}
+.spexo-ai-settings-form .form-table th {
+    width: 30%;
+    padding: 15px 10px 15px 0;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1d2327;
+    background: transparent;
+    border: 0;
+}
+.spexo-ai-settings-form .form-table td {
+    width: 70%;
+    padding: 15px 0;
+    vertical-align: top;
+    background: transparent;
+    border: 0;
+}
+.spexo-ai-settings-form .form-table td:has(input[type="checkbox"] + label + span) {
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.spexo-ai-settings-form .form-table th label,
+.spexo-ai-settings-form .form-table th .spexo-field-label-wrapper {
+    display: block;
+}
+.spexo-ai-settings-form .form-table th .spexo-field-title,
+.spexo-ai-settings-form .form-table th label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1d2327;
+    margin: 0 0 4px;
+    line-height: 1.4;
+    display: block;
+}
+.spexo-ai-settings-form .form-table th .spexo-field-description,
+.spexo-ai-settings-form .form-table th .description {
+    font-size: 13px;
+    font-weight: 400;
+    color: #646970;
+    margin: 0;
+    line-height: 1.5;
+    display: block;
+}
+.spexo-ai-settings-form select {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1l5 5 5-5' stroke='%23646970' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px 8px;
+    padding-right: 34px;
+}
+.spexo-ai-settings-form input[type="checkbox"]:not(.spexo-toggle input) {
+    position: absolute;
+    z-index: -1000;
+    left: -1000px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+.spexo-ai-settings-form .form-table td > input[type="checkbox"] + label + span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2c3338;
+    line-height: 23px;
+    margin-left: 0;
+}
+.spexo-ai-settings-form .form-table td > input[type="number"] + span {
+    margin-left: 8px;
+    font-size: 14px;
+    color: #646970;
+    font-weight: normal;
+}
+.spexo-ai-settings-form .description {
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #646970;
+    line-height: 1.7;
+    max-width: 650px;
+}
+.spexo-ai-settings-footer {
+    background: transparent;
+    padding: 0;
+    border-top: none;
+    text-align: left;
+    margin-top: 10px;
+}
+.spexo-ai-settings-footer .button-primary {
+    box-shadow: none;
+    border-radius: 4px;
+    transition: all 300ms ease;
+    background: #5729d9;
+    border: 1px solid #5729d9;
+    padding: 9px 25px;
+    font-size: 16px;
+}
+.spexo-ai-settings-footer .button-primary:hover {
+    background: #ffffff;
+    color: #5729d9;
+    border: 1px solid #5729d9;
+}
+.spexo-ai-stats {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin-top: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+.spexo-ai-stats p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #2c3338;
+    font-weight: 500;
+}
+.spexo-ai-stats p:last-child {
+    margin-bottom: 0;
+}
+.spexo-ai-stats strong {
+    font-weight: 600;
+    color: #1d2327;
+}
+.spexo-ai-stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 0 16px 0;
+    background: white;
+}
+.spexo-ai-stats-table tbody {
+    display: table-row-group;
+}
+.spexo-ai-stats-table tr {
+    border-bottom: 1px solid #e8e8e8;
+}
+.spexo-ai-stats-table tr:last-child {
+    border-bottom: none;
+}
+.spexo-ai-stats-table td {
+    padding: 12px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+.spexo-ai-stats-label {
+    font-weight: 600;
+    color: #2c3338;
+    width: 50%;
+    padding-right: 16px;
+}
+.spexo-ai-stats-value {
+    font-weight: 500;
+    color: #1d2327;
+    text-align: right;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.spexo-ai-progress-bar {
+    background: #f0f0f1;
+    border-radius: 4px;
+    height: 10px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 12px;
+    border: 1px solid #dcdcde;
+}
+.spexo-ai-progress {
+    background: linear-gradient(135deg, #5729d9, #5729d9);
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.4s ease;
+    position: relative;
+}
+.spexo-ai-progress::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    animation: shimmer 1.5s infinite;
+}
+@keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+.spexo-ai-settings-form .form-table th + td > p:first-child {
+    margin-top: 0;
+}
+.spexo-ai-settings-form .form-table th + td > p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+    .spexo-ai-settings-content-wrapper {
+        padding: 15px;
+    }
+    .spexo-ai-settings-page-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .spexo-ai-settings-content-wrapper {
+        padding: 10px;
+    }
+    .spexo-ai-settings-page-header {
+        padding: 15px;
+        gap: 12px;
+    }
+    .spexo-ai-settings-title {
+        font-size: 18px;
+    }
+    .spexo-ai-settings-subtitle {
+        font-size: 13px;
+    }
+    .tmpcoder-ai-option-subtitle {
+        padding: 0 15px 12px 15px !important;
+    }
+    .spexo-ai-settings-form .form-table,
+    .spexo-ai-settings-form .form-table tbody,
+    .spexo-ai-settings-form .form-table tr {
+        display: block;
+        width: 100%;
+    }
+    .spexo-ai-settings-form .form-table th,
+    .spexo-ai-settings-form .form-table td {
+        display: block;
+        width: 100% !important;
+        padding: 12px 0 !important;
+        border: 0 !important;
+        background: transparent !important;
+    }
+    .spexo-ai-settings-form .form-table th {
+        padding-bottom: 8px !important;
+        padding-top: 16px !important;
+    }
+    .spexo-ai-settings-form .form-table th:first-child {
+        padding-top: 0 !important;
+    }
+    .spexo-ai-settings-form .form-table td {
+        padding-top: 0 !important;
+    }
+}
+.spexo-ai-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+.spexo-ai-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #667eea;
+    border-top: 2px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.spexo-ai-notice {
+    padding: 12px 16px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 1.7;
+    border: 1px solid;
+}
+.spexo-ai-notice-important {
+    background: #fff5f5;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+.spexo-ai-notice-info {
+    background: #e7f3ff;
+    border-color: #b8daff;
+    color: #004085;
+}
+.spexo-ai-notice strong {
+    font-weight: 600;
+    margin-right: 4px;
+}
+.spexo-ai-message {
+    padding: 12px 18px;
+    border-radius: 5px;
+    margin: 12px 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+.spexo-ai-message.success {
+    background: #d1f2eb;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+}
+.spexo-ai-message.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+.spexo-ai-message.warning {
+    background: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffc107;
+}
+#spexo-refresh-models-btn {
+    padding: 8px 16px !important;
+    border-radius: 6px !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    cursor: pointer !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    transition: all 0.3s ease !important;
+    margin-top: 10px !important;
+    position: relative !important;
+    z-index: 10 !important;
+    text-decoration: none !important;
+    outline: none !important;
+    width: fit-content;
+}
+#spexo-refresh-models-btn .dashicons {
+    margin-right: 5px !important;
+    vertical-align: middle !important;
+    display: inline-block !important;
+    width: 16px !important;
+    height: 16px !important;
+    font-size: 16px !important;
+    line-height: 1 !important;
+}
+.spexo-ai-settings-form select:disabled,
+.spexo-ai-settings-form input[type="number"]:disabled,
+#spexo-refresh-models-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+    background: #e9ecef !important;
+    pointer-events: none;
+}
+.spexo-ai-settings-form input[type="checkbox"]:disabled + label:not(.spexo-toggle) {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.spexo-ai-settings-form .description .dashicons-lock {
+    vertical-align: middle;
+    font-size: 16px;
+}
+.tmpcoder-ai-option-subtitle {
+    margin: -5px 0 15px 0 !important;
+    padding: 0 25px !important;
+    font-size: 13px !important;
+    color: #646970 !important;
+    line-height: 1.6 !important;
+    background: white !important;
+    border: 1px solid #ddd !important;
+    border-top: none !important;
+    border-bottom-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+    padding-bottom: 15px !important;
+    padding-top: 10px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06) !important;
+}
+.settings-wrapper h3{
+    margin-top: 0;
+}
+.spexo-ai-settings-form .form-table td input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 0;
+    float: none;
+}
+.spexo-ai-settings-form .form-table td label {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 8px;
+    justify-content: flex-start;
+}
+.spexo-ai-settings-form .form-table td label input[type="radio"] {
+    margin: 0;
+    order: 1;
+}
+.spexo-ai-settings-form .form-table td fieldset,
+.spexo-ai-settings-form .form-table td .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.spexo-ai-settings-form .form-table td fieldset label,
+.spexo-ai-settings-form .form-table td .radio-group label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    gap: 8px;
+}
+.spexo-ai-settings-form .form-table td fieldset input[type="radio"],
+.spexo-ai-settings-form .form-table td .radio-group input[type="radio"] {
+    margin: 0;
+    order: 1;
+}
+.spexo-ai-settings-form .form-table td label + input[type="radio"],
+.spexo-ai-settings-form .form-table td input[type="radio"] + label {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 8px;
+}

@@ -1,0 +1,237 @@
+/* Add To Cart */
+.tmpcoder-product-add-to-cart * {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.woocommerce .tmpcoder-product-add-to-cart a.added_to_cart {
+	padding: 0;
+}
+
+.woocommerce div.product .tmpcoder-product-add-to-cart form.cart,
+.woocommerce div.product .tmpcoder-product-add-to-cart form.cart .variations {
+	margin: 0;
+}
+
+.woocommerce div.product .tmpcoder-product-add-to-cart form.cart div.quantity {
+	margin: 0;
+}
+
+.tmpcoder-product-adc-align-left .cart,
+.tmpcoder-product-adc-align-left .tmpcoder-product-add-to-cart .tmpcoder-quantity-wrapper {
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+}
+
+.tmpcoder-product-adc-align-center .cart,
+.tmpcoder-product-adc-align-center .tmpcoder-product-add-to-cart .tmpcoder-quantity-wrapper {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.tmpcoder-product-adc-align-right .cart,
+.tmpcoder-product-adc-align-right .tmpcoder-product-add-to-cart .tmpcoder-quantity-wrapper {
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+.tmpcoder-add-to-cart-layout-column.tmpcoder-product-adc-align-left .cart {
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+.tmpcoder-add-to-cart-layout-column.tmpcoder-product-adc-align-center .cart {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.tmpcoder-add-to-cart-layout-column.tmpcoder-product-adc-align-right .cart {
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+}
+
+.tmpcoder-add-to-cart-icons-wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.tmpcoder-product-add-to-cart .quantity {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.tmpcoder-product-add-to-cart .tmpcoder-quantity-wrapper {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.tmpcoder-product-add-to-cart .tmpcoder-quantity-wrapper i {
+	cursor: pointer;
+}
+
+.tmpcoder-quantity-wrap {
+	width: 100%;
+}
+
+.elementor-widget-tmpcoder-product-add-to-cart:not(.tmpcoder-product-qty-align-default) .tmpcoder-quantity-wrapper .qty {
+	-webkit-appearance: textfield;
+	-moz-appearance: textfield;
+	appearance: textfield;
+}
+
+.elementor-widget-tmpcoder-product-add-to-cart:not(.tmpcoder-product-qty-align-default) .tmpcoder-quantity-wrapper .qty::-webkit-inner-spin-button,
+.tmpcoder-quantity-wrap .qty::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+}
+
+.tmpcoder-product-add-to-cart .quantity .qty,
+.tmpcoder-product-add-to-cart .tmpcoder-quantity-wrapper i {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.tmpcoder-buttons-layout-row .woocommerce-variation-add-to-cart {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.tmpcoder-buttons-layout-column .woocommerce-variation-add-to-cart {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+
+.tmpcoder-product-qty-align-left.tmpcoder-buttons-layout-column .woocommerce-variation-add-to-cart .tmpcoder-quantity-wrapper {
+	-ms-flex-item-align: start;
+	align-self: flex-start;
+}
+
+.tmpcoder-product-qty-align-center.tmpcoder-buttons-layout-column .woocommerce-variation-add-to-cart .tmpcoder-quantity-wrapper {
+	-ms-flex-item-align: center;
+	-ms-grid-row-align: center;
+	align-self: center;
+}
+
+.tmpcoder-product-qty-align-right.tmpcoder-buttons-layout-column .woocommerce-variation-add-to-cart .tmpcoder-quantity-wrapper {
+	-ms-flex-item-align: end;
+	align-self: flex-end;
+}
+
+/* .tmpcoder-product-qty-align-before .tmpcoder-quantity-wrapper i:first-child {
+	border-right: 0 !important;
+	border-bottom: 0 !important;
+}
+
+.tmpcoder-product-qty-align-before .tmpcoder-quantity-wrapper i:last-child {
+	border-right: 0 !important;
+}
+
+.tmpcoder-product-qty-align-after .tmpcoder-quantity-wrapper i:first-child {
+	border-left: 0 !important;
+	border-bottom: 0 !important;
+}
+
+.tmpcoder-product-qty-align-after .tmpcoder-quantity-wrapper i:last-child {
+	border-left: 0 !important;
+}
+
+body:not(.rtl) .tmpcoder-product-qty-align-both .tmpcoder-quantity-wrapper i:first-child {
+	border-right: 0 !important;
+}
+
+body:not(.rtl) .tmpcoder-product-qty-align-both .tmpcoder-quantity-wrapper i:last-child {
+	border-left: 0 !important;
+} */
+
+.woocommerce div.product .tmpcoder-product-add-to-cart form.cart .group_table td {
+	vertical-align: middle;
+	padding: 0;
+}
+
+.tmpcoder-product-add-to-cart .reset_variations {
+	display: none;
+}
+
+.tmpcoder-variations-layout-column .variations tr th,
+.tmpcoder-variations-layout-column .variations tr td {
+	padding: 0;
+	width: 100%;
+}
+
+.elementor-widget-tmpcoder-product-add-to-cart a.added_to_cart,
+.elementor-widget-tmpcoder-product-add-to-cart button.single_add_to_cart_button {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 0;
+}
+
+.tmpcoder-product-add-to-cart button.loading:after {
+	top: auto !important;
+}
+
+.tmpcoder-product-add-to-cart  a.added_to_cart {
+	text-align: center;
+}
+
+.tmpcoder-product-add-to-cart .available-on-backorder,
+.tmpcoder-product-add-to-cart .out-of-stock,
+.tmpcoder-product-add-to-cart .in-stock {
+	display: none;
+}
+
+/* External/Afiiliate button */
+.woocommerce-grouped-product-list-item a.button {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 100%;
+	font-weight: 400;
+}

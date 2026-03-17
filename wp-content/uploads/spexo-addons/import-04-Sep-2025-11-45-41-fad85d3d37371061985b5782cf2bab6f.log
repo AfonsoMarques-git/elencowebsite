@@ -1,0 +1,166 @@
+
+Importing from XML https://themes.templatescoder.com/sastra-addon/wp-content/uploads/tmpcoder-templates-kit/demo-04/demo-04-18-04-2025-11-52am.xml
+{"file":"C:\\xampp\\htdocs\\elencocompleto\/wp-content\/uploads\/2025\/09\/demo-04-18-04-2025-11-52am.xml","url":"http:\/\/localhost:8080\/elencocompleto\/wp-content\/uploads\/2025\/09\/demo-04-18-04-2025-11-52am.xml","type":"text\/xml"}
+{"post_title":"demo-04-18-04-2025-11-52am.xml","guid":"http:\/\/localhost:8080\/elencocompleto\/wp-content\/uploads\/2025\/09\/demo-04-18-04-2025-11-52am.xml","post_mime_type":"text\/xml"}
+{"success":true,"data":{"file":"C:\\xampp\\htdocs\\elencocompleto\/wp-content\/uploads\/2025\/09\/demo-04-18-04-2025-11-52am.xml","url":"http:\/\/localhost:8080\/elencocompleto\/wp-content\/uploads\/2025\/09\/demo-04-18-04-2025-11-52am.xml","type":"text\/xml"}}
+9
+Started Import Process
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: WINNT
+Software 		: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12
+MySQL version 		: 10.4.32
+XML Reader 		: Yes
+PHP Version 		: 8.2.12
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 40M
+PHP Extension GD 	: No
+PHP Max Execution Time 	: 2000
+Max Upload Size 	: 40 MB
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: 0
+
+-----
+
+Importing Started! - 11:51:09 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://spexoaddons.com/
+
+---
+
+Inserted - Term 16 - {"term_id":16,"name":"Style Revolve","slug":"style-revolve","term_group":0,"term_taxonomy_id":16,"taxonomy":"category","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 17 - {"term_id":17,"name":"Ultimate Fashion","slug":"ultimate-fashion","term_group":0,"term_taxonomy_id":17,"taxonomy":"category","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 18 - {"term_id":18,"name":"Uncategorized","slug":"uncategorized","term_group":0,"term_taxonomy_id":18,"taxonomy":"category","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 19 - {"term_id":19,"name":"Fashion","slug":"fashion","term_group":0,"term_taxonomy_id":19,"taxonomy":"post_tag","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 20 - {"term_id":20,"name":"Lifestyle","slug":"lifestyle","term_group":0,"term_taxonomy_id":20,"taxonomy":"post_tag","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 21 - {"term_id":21,"name":"Revolve","slug":"revolve","term_group":0,"term_taxonomy_id":21,"taxonomy":"post_tag","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 22 - {"term_id":22,"name":"Style","slug":"style","term_group":0,"term_taxonomy_id":22,"taxonomy":"post_tag","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 23 - {"term_id":23,"name":"Unique","slug":"unique","term_group":0,"term_taxonomy_id":23,"taxonomy":"post_tag","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 24 - {"term_id":24,"name":"Black","slug":"black","term_group":0,"term_taxonomy_id":24,"taxonomy":"product_tag","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 25 - {"term_id":25,"name":"Fashion","slug":"fashion","term_group":0,"term_taxonomy_id":25,"taxonomy":"product_cat","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 26 - {"term_id":26,"name":"Offer","slug":"offer","term_group":0,"term_taxonomy_id":26,"taxonomy":"product_cat","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 27 - {"term_id":27,"name":"Shirt","slug":"shirt","term_group":0,"term_taxonomy_id":27,"taxonomy":"product_tag","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 28 - {"term_id":28,"name":"Shoulder","slug":"shoulder","term_group":0,"term_taxonomy_id":28,"taxonomy":"product_tag","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 29 - {"term_id":29,"name":"Sleeve","slug":"sleeve","term_group":0,"term_taxonomy_id":29,"taxonomy":"product_tag","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 30 - {"term_id":30,"name":"Trending","slug":"trending","term_group":0,"term_taxonomy_id":30,"taxonomy":"product_tag","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 31 - {"term_id":31,"name":"Uncategorized","slug":"uncategorized","term_group":0,"term_taxonomy_id":31,"taxonomy":"product_cat","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 32 - {"term_id":32,"name":"Customer Service","slug":"customer-service","term_group":0,"term_taxonomy_id":32,"taxonomy":"nav_menu","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 33 - {"term_id":33,"name":"Information","slug":"information","term_group":0,"term_taxonomy_id":33,"taxonomy":"nav_menu","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 34 - {"term_id":34,"name":"Main Menu","slug":"main-menu","term_group":0,"term_taxonomy_id":34,"taxonomy":"nav_menu","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 35 - {"term_id":35,"name":"Quick Shop","slug":"quick-shop","term_group":0,"term_taxonomy_id":35,"taxonomy":"nav_menu","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Post 10 - attachment - woocommerce-placeholder
+Inserted - Post 24 - attachment - fashion-logo
+Inserted - Post 25 - attachment - favicon
+Inserted - Post 69 - attachment - placeholder.png
+Inserted - Post 121 - attachment - cart
+Inserted - Post 260 - attachment - placeholder-6.png
+Inserted - Post 261 - attachment - placeholder-7.png
+Inserted - Post 262 - attachment - placeholder-8.png
+Inserted - Post 276 - attachment - slider-2
+Inserted - Post 324 - attachment - slider-11
+Inserted - Post 391 - attachment - bag-icon
+Inserted - Post 432 - attachment - slider-4
+Inserted - Post 535 - attachment - c-02
+Inserted - Post 536 - attachment - c-03
+Inserted - Post 537 - attachment - c-01
+Inserted - Post 595 - attachment - 3
+Inserted - Post 596 - attachment - 4
+Inserted - Post 597 - attachment - 1
+Inserted - Post 598 - attachment - 2
+Inserted - Post 599 - attachment - 1
+Inserted - Post 606 - attachment - 2
+Inserted - Post 616 - attachment - 4
+Inserted - Post 659 - attachment - home-1-slider-image-1
+Inserted - Post 727 - attachment - prod-2-min
+Inserted - Post 728 - attachment - prod-3-min
+Inserted - Post 729 - attachment - prod-4-min
+Inserted - Post 730 - attachment - prod-5-min
+Inserted - Post 731 - attachment - prod-6-min
+Inserted - Post 732 - attachment - prod-7-min
+Inserted - Post 733 - attachment - prod-8-min
+Inserted - Post 734 - attachment - prod-9-min
+Inserted - Post 735 - attachment - prod-10-min
+Inserted - Post 736 - attachment - prod-1-min
+Inserted - Post 814 - attachment - test-5.jpg
+Inserted - Post 815 - attachment - review-img-2.png
+Inserted - Post 816 - attachment - review-img.png
+Inserted - Post 900 - attachment - blog-4
+Inserted - Post 901 - attachment - blog-1
+Inserted - Post 902 - attachment - blog-2
+Inserted - Post 903 - attachment - blog-3
+Inserted - Post 15 - elementor_library - Default Kit
+Inserted - Post 39 - nav_menu_item - 
+Inserted - Post 41 - nav_menu_item - Home
+Inserted - Post 50 - nav_menu_item - 
+Inserted - Post 51 - nav_menu_item - Our Blog
+Inserted - Post 52 - nav_menu_item - 
+Inserted - Post 1138 - attachment - cards
+Inserted - Post 1270 - attachment - banner-1
+Inserted - Post 1343 - attachment - t-7-min.jpg
+Inserted - Post 1362 - attachment - team-1
+Inserted - Post 1363 - attachment - team-2
+Inserted - Post 1364 - attachment - team-3
+Inserted - Post 1365 - attachment - team-4
+Inserted - Post 1369 - attachment - team-2
+Inserted - Post 1376 - attachment - team-4
+Inserted - Post 1673 - attachment - blog-5
+Inserted - Post 1674 - attachment - blog-6
+Inserted - Post 1675 - attachment - blog-3
+Inserted - Post 2387 - attachment - error
+Inserted - Post 2937 - attachment - logo
+Inserted - Post 2938 - page - Homepage
+Inserted - Post 2939 - page - Shop
+Inserted - Post 2940 - page - Cart
+Inserted - Post 2941 - page - Checkout
+Inserted - Post 2942 - page - My account
+Inserted - Post 1008 - nav_menu_item - Track My Order
+Inserted - Post 1009 - nav_menu_item - 
+Inserted - Post 1010 - nav_menu_item - Shipping Info
+Inserted - Post 1011 - nav_menu_item - Return Policy
+Inserted - Post 1013 - nav_menu_item - Size Guide
+Inserted - Post 1015 - nav_menu_item - Who We Are
+Inserted - Post 1016 - nav_menu_item - 
+Inserted - Post 1017 - nav_menu_item - 
+Inserted - Post 1018 - nav_menu_item - Rewards
+Inserted - Post 1020 - nav_menu_item - Pro Program
+Inserted - Post 1022 - nav_menu_item - Women
+Inserted - Post 1023 - nav_menu_item - Men
+Inserted - Post 1024 - nav_menu_item - Clothes
+Inserted - Post 1025 - nav_menu_item - Accessories
+Inserted - Post 1026 - nav_menu_item - Offer Zone
+Inserted - Post 2943 - post - Debunking Myths and Embracing Your Style
+Inserted - Post 14 - product - Womens Summer Tank
+Inserted - Post 28 - theme-advanced-hook - Header
+Inserted - Post 44 - page - About Us
+Inserted - Post 46 - page - Blog
+Inserted - Post 48 - page - Contact Us
+Inserted - Post 737 - product - Confortable Walking Shirt
+Inserted - Post 738 - product - Black Jean Shorts
+Inserted - Post 739 - product - Top Handle Shoulder
+Inserted - Post 741 - product - Rompers Belted Suit
+Inserted - Post 802 - product - Summer Printed Loose
+Inserted - Post 803 - product - Hop Loose Sleeve
+Inserted - Post 804 - product - Holiday Special Shirt
+Inserted - Post 905 - post - Capturing the Essence of Modern Elegance
+Inserted - Post 907 - post - Insider Secrets for Effortless Style Scrape
+Inserted - Post 961 - theme-advanced-hook - Footer
+Inserted - Post 1671 - post - Find the Ideal Color and Size Alternatives
+Inserted - Post 1678 - post - How to Create an Online Shopify Store
+Inserted - Post 1681 - post - Discover the Best Fit Buddy Collections Store
+Inserted - Post 2457 - page - Privacy Policy
+Inserted - Post 2944 - wp_navigation - Navigation
+Inserted - Post 11 - wp_template - 
+Inserted - Post 12 - wp_template - 
+Inserted - Post 1206 - theme-advanced-hook - Shop Page
+Inserted - Post 1569 - wpcf7_contact_form - Contact form 1
+Inserted - Post 1714 - theme-advanced-hook - Single Post
+Inserted - Post 2021 - theme-advanced-hook - Post Archive
+Inserted - Post 2034 - theme-advanced-hook - Search Page Post
+Inserted - Post 2071 - theme-advanced-hook - Single Product
+Inserted - Post 2377 - theme-advanced-hook - 404 Page
+Inserted - Post 2803 - theme-advanced-hook - Product Category
+{"file":"C:\\xampp\\htdocs\\elencocompleto\/wp-content\/uploads\/2025\/09\/demo-04-2025-04-18-11-53am.json","url":"http:\/\/localhost:8080\/elencocompleto\/wp-content\/uploads\/2025\/09\/demo-04-2025-04-18-11-53am.json","type":"application\/json"}
+{"file":"C:\\xampp\\htdocs\\elencocompleto\/wp-content\/uploads\/2025\/09\/demo-04-18-04-2025-11-53am.zip","url":"http:\/\/localhost:8080\/elencocompleto\/wp-content\/uploads\/2025\/09\/demo-04-18-04-2025-11-53am.zip","type":"application\/zip"}
+Imported - Site Options {"0":{"name":"","title":null,"description":null,"author":"spexoadmin","version":"2.0","elementor_version":"3.28.3","created":"2025-04-18 11:52:57","thumbnail":false,"site":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04","site-settings":["global-colors","global-typography","theme-style-typography","theme-style-buttons","theme-style-images","theme-style-form-fields","settings-background","settings-layout","settings-lightbox","settings-page-transitions","settings-custom-css"],"plugins":[{"name":"Contact+Form+7","plugin":"contact-form-7\/wp-contact-form-7","pluginUri":"https:\/\/contactform7.com\/","version":"6.0.4"},{"name":"Elementor","plugin":"elementor\/elementor","pluginUri":"https:\/\/elementor.com\/?utm_source=wp-plugins&amp;utm_campaign=plugin-uri&amp;utm_medium=wp-dash","version":"3.28.3"},{"name":"Redux+Framework","plugin":"redux-framework\/redux-framework","pluginUri":"https:\/\/wordpress.org\/plugins\/redux-framework","version":"4.5.7"},{"name":"Spexo+Addons+for+Elementor","plugin":"sastra-essential-addons-for-elementor\/sastra-essential-addons-for-elementor","pluginUri":"http:\/\/spexoaddons.com\/","version":"1.0.21.1"},{"name":"WooCommerce","plugin":"woocommerce\/woocommerce","pluginUri":"https:\/\/woocommerce.com\/","version":"9.7.0"}],"taxonomies":{"post":["category","post_tag"],"nav_menu_item":["nav_menu"],"product":["product_type","product_visibility","product_cat","product_tag"]},"content":{"post":{"1681":{"title":"Discover the Best Fit Buddy Collections Store","excerpt":"","doc_type":"wp-post","thumbnail":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/wp-content\/uploads\/sites\/5\/2024\/03\/blog-5.jpg","url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/discover-the-best-fit-buddy-collections-store\/","terms":[{"term_id":34,"taxonomy":"post_tag","slug":"revolve"},{"term_id":27,"taxonomy":"post_tag","slug":"style"},{"term_id":26,"taxonomy":"category","slug":"style-revolve"},{"term_id":25,"taxonomy":"category","slug":"ultimate-fashion"}]},"1678":{"title":"How to Create an Online Shopify Store","excerpt":"","doc_type":"wp-post","thumbnail":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/wp-content\/uploads\/sites\/5\/2024\/03\/blog-6.jpg","url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/how-to-create-an-online-shopify-store\/","terms":[{"term_id":27,"taxonomy":"post_tag","slug":"style"},{"term_id":26,"taxonomy":"category","slug":"style-revolve"},{"term_id":25,"taxonomy":"category","slug":"ultimate-fashion"},{"term_id":33,"taxonomy":"post_tag","slug":"unique"}]},"1671":{"title":"Find the Ideal Color and Size Alternatives","excerpt":"","doc_type":"wp-post","thumbnail":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/wp-content\/uploads\/sites\/5\/2024\/03\/blog-3.jpg","url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/find-the-ideal-color-and-size-alternatives\/","terms":[{"term_id":32,"taxonomy":"post_tag","slug":"lifestyle"},{"term_id":26,"taxonomy":"category","slug":"style-revolve"},{"term_id":25,"taxonomy":"category","slug":"ultimate-fashion"},{"term_id":33,"taxonomy":"post_tag","slug":"unique"}]},"907":{"title":"Insider Secrets for Effortless Style Scrape","excerpt":"","doc_type":"wp-post","thumbnail":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/wp-content\/uploads\/sites\/5\/2024\/02\/blog-4.jpg","url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/insider-secrets-for-effortless-style-scrape\/","terms":[{"term_id":28,"taxonomy":"post_tag","slug":"fashion"},{"term_id":27,"taxonomy":"post_tag","slug":"style"},{"term_id":26,"taxonomy":"category","slug":"style-revolve"},{"term_id":25,"taxonomy":"category","slug":"ultimate-fashion"}]},"905":{"title":"Capturing the Essence of Modern Elegance","excerpt":"","doc_type":"wp-post","thumbnail":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/wp-content\/uploads\/sites\/5\/2024\/02\/blog-2.jpg","url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/capturing-the-essence-of-modern-elegance\/","terms":[{"term_id":28,"taxonomy":"post_tag","slug":"fashion"},{"term_id":27,"taxonomy":"post_tag","slug":"style"},{"term_id":26,"taxonomy":"category","slug":"style-revolve"},{"term_id":25,"taxonomy":"category","slug":"ultimate-fashion"}]},"1":{"title":"Debunking Myths and Embracing Your Style","excerpt":"","doc_type":"wp-post","thumbnail":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/wp-content\/uploads\/sites\/5\/2024\/02\/blog-1.jpg","url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/debunking-myths-and-embracing-your-style\/","terms":[{"term_id":28,"taxonomy":"post_tag","slug":"fashion"},{"term_id":27,"taxonomy":"post_tag","slug":"style"},{"term_id":26,"taxonomy":"category","slug":"style-revolve"},{"term_id":25,"taxonomy":"category","slug":"ultimate-fashion"}]}},"page":{"2457":{"title":"Privacy Policy","excerpt":"","doc_type":"wp-page","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/privacy-policy\/","terms":[]},"48":{"title":"Contact Us","excerpt":"","doc_type":"wp-page","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/contact-us\/","terms":[]},"46":{"title":"Blog","excerpt":"","doc_type":"wp-page","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/blog\/","terms":[]},"44":{"title":"About Us","excerpt":"","doc_type":"wp-page","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/about-us\/","terms":[]},"7":{"title":"Cart","excerpt":"","doc_type":"wp-page","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/cart\/","terms":[]},"8":{"title":"Checkout","excerpt":"","doc_type":"wp-page","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/checkout\/","terms":[]},"9":{"title":"My account","excerpt":"","doc_type":"wp-page","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/my-account\/","terms":[]},"2":{"title":"Homepage","excerpt":"","doc_type":"wp-page","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/","terms":[],"show_on_front":true}},"theme-advanced-hook":{"2803":{"title":"Product Category","excerpt":"","doc_type":"wp-post","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/theme-advanced-hook\/user-type_product_category-product-category\/","terms":[]},"2377":{"title":"404 Page","excerpt":"","doc_type":"wp-post","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/theme-advanced-hook\/user-type_404-404-page\/","terms":[]},"2071":{"title":"Single Product","excerpt":"","doc_type":"wp-post","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/theme-advanced-hook\/user-type_single_product-single-product\/","terms":[]},"2034":{"title":"Search Page Post","excerpt":"","doc_type":"wp-post","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/theme-advanced-hook\/user-type_search_result_page-search-page-post\/","terms":[]},"2021":{"title":"Post Archive","excerpt":"","doc_type":"wp-post","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/theme-advanced-hook\/user-type_archive-post-archive\/","terms":[]},"1714":{"title":"Single Post","excerpt":"","doc_type":"wp-post","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/theme-advanced-hook\/user-type_single_post-single-post\/","terms":[]},"1206":{"title":"Shop Page","excerpt":"","doc_type":"wp-post","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/theme-advanced-hook\/user-type_product_archive-shop-page\/","terms":[]},"961":{"title":"Footer","excerpt":"","doc_type":"wp-post","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/theme-advanced-hook\/user-type_footer-footer\/","terms":[]},"28":{"title":"Header","excerpt":"","doc_type":"wp-post","thumbnail":false,"url":"https:\/\/themes.templatescoder.com\/sastra-addon\/demo-04\/theme-advanced-hook\/user-type_header-header\/","terms":[]}},"tmpcoder_mega_menu":[],"e-floating-buttons":[]},"wp-content":{"post":[],"page":[],"nav_menu_item":["39","41","50","51","52","1022","1023","1024","1025","1026","1008","1009","1010","1011","1013","1015","1016","1017","1018","1020"],"e-floating-buttons":[],"elementor_library":[],"product":["14","737","738","739","741","802","803","804"],"theme-advanced-hook":[],"tmpcoder_mega_menu":[]},"custom-post-type-title":{"post":{"name":"post","label":"Posts"},"page":{"name":"page","label":"Pages"},"e-floating-buttons":{"name":"e-floating-buttons","label":"Floating Elements"},"elementor_library":{"name":"elementor_library","label":"My Templates"},"product":{"name":"product","label":"Products"},"theme-advanced-hook":{"name":"theme-advanced-hook","label":"Site Builder"},"tmpcoder_mega_menu":{"name":"tmpcoder_mega_menu","label":"Spexo Mega Menu"}}},"1":{"content":[],"settings":{"template":"default","colors_enable_styleguide_preview":"yes","system_colors":[{"_id":"primary","title":"Primary","color":"#6EC1E4"},{"_id":"secondary","title":"Secondary","color":"#54595F"},{"_id":"text","title":"Text","color":"#7A7A7A"},{"_id":"accent","title":"Accent","color":"#61CE70"}],"custom_colors":[],"typography_enable_styleguide_preview":"yes","system_typography":[{"_id":"primary","title":"Primary","typography_typography":"custom","typography_font_family":"Inter","typography_font_weight":"600"},{"_id":"secondary","title":"Secondary","typography_typography":"custom","typography_font_family":"Inter","typography_font_weight":"400"},{"_id":"text","title":"Text","typography_typography":"custom","typography_font_family":"Inter","typography_font_weight":"400"},{"_id":"accent","title":"Accent","typography_typography":"custom","typography_font_family":"Inter","typography_font_weight":"500"}],"custom_typography":[],"default_generic_fonts":"Sans-serif","body_typography_typography":"custom","link_normal_typography_typography":"custom","button_typography_typography":"custom","container_width":{"unit":"px","size":1600,"sizes":[]},"page_title_selector":"h1.entry-title","default_page_template":"elementor_header_footer","activeItemIndex":1,"viewport_md":768,"viewport_lg":1025,"space_between_widgets":{"column":"18","row":"18","isLinked":true,"unit":"px","size":18}},"metadata":[]},"elementor_disable_color_schemes":"yes","elementor_disable_typography_schemes":"yes","elementor_experiment-e_optimized_css_loading":"inactive"}

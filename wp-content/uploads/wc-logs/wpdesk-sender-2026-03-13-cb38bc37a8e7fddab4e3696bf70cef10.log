@@ -1,0 +1,4 @@
+2026-03-13T11:37:28+00:00 DEBUG Sender payload: {"click_action":"plugin_deactivation","plugin":"flexible-shipping\/flexible-shipping.php","plugin_name":"Flexible Shipping","reason":"not_selected","fs_method_created":4,"additional_data":{"fs_debug_notice_was_enabled":"no","fs_debug_notice_displayed":"no"}}
+2026-03-13T11:37:28+00:00 DEBUG Sender payload: {"click_action":"plugin_deactivation","plugin":"flexible-shipping\/flexible-shipping.php","plugin_name":"Flexible Shipping","reason":"not_selected","fs_method_created":4,"additional_data":{"fs_debug_notice_was_enabled":"no","fs_debug_notice_displayed":"no"}}
+2026-03-13T11:37:30+00:00 DEBUG Sender response: {"headers":[],"body":"","response":{"code":false,"message":false},"cookies":[],"http_response":null}
+2026-03-13T11:37:30+00:00 DEBUG Sender response: {"headers":[],"body":"","response":{"code":false,"message":false},"cookies":[],"http_response":null}

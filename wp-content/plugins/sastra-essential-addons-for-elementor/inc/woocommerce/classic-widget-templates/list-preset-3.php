@@ -1,0 +1,191 @@
+<?php
+/**
+ * Template Name: List Preset 3
+ */
+
+use \Spexo_Addons_Elementor\Classes\Helper;
+use TMPCODER\Widgets\Product_Grid;
+use \Elementor\Group_Control_Image_Size;
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+} // Exit if accessed directly
+
+$product = wc_get_product( get_the_ID() );
+if ( ! $product ) {
+	error_log( '$product not found in ' . __FILE__ );
+	return;
+}
+
+
+if ( has_post_thumbnail() ) {
+	$settings[ 'tmpcoder_image_size_customize' ] = [
+		'id' => get_post_thumbnail_id(),
+	];
+	$settings['tmpcoder_image_size_customize_size'] = $settings['tmpcoder_product_grid_image_size_size'];
+	$thumbnail_html = Group_Control_Image_Size::get_attachment_image_html( $settings,'tmpcoder_image_size_customize' );
+}
+
+$title_tag = isset( $settings['tmpcoder_product_grid_title_html_tag'] ) ? Helper::tmpcoder_validate_html_tag($settings['tmpcoder_product_grid_title_html_tag'])  : 'h2';
+$should_print_compare_btn = isset( $settings['show_compare'] ) && 'yes' === $settings['show_compare'];
+
+if ( tmpcoder_is_availble() ) {
+    $should_print_wishlist_btn = isset( $settings['tmpcoder_product_grid_wishlist'] ) && 'yes' === $settings['tmpcoder_product_grid_wishlist'];
+}
+
+// Improvement
+$grid_style_preset = isset($settings['tmpcoder_product_grid_style_preset']) ? $settings['tmpcoder_product_grid_style_preset'] : '';
+$list_style_preset = isset($settings['tmpcoder_product_list_style_preset']) ? $settings['tmpcoder_product_list_style_preset'] : '';
+$sale_badge_align  = isset( $settings['tmpcoder_product_sale_badge_alignment'] ) ? esc_attr( $settings['tmpcoder_product_sale_badge_alignment'] ) : '';
+$sale_badge_preset = isset( $settings['tmpcoder_product_sale_badge_preset'] ) ? esc_attr( $settings['tmpcoder_product_sale_badge_preset'] ) : '';
+// should print vars
+$should_print_rating = isset( $settings['tmpcoder_product_grid_rating'] ) && 'yes' === $settings['tmpcoder_product_grid_rating'];
+$should_print_quick_view = isset( $settings['tmpcoder_product_grid_quick_view'] ) && 'yes' === $settings['tmpcoder_product_grid_quick_view'];
+$should_print_image_clickable = isset( $settings['tmpcoder_product_grid_image_clickable'] ) && 'yes' === $settings['tmpcoder_product_grid_image_clickable'];
+$should_print_price = isset( $settings['tmpcoder_product_grid_price'] ) && 'yes' === $settings['tmpcoder_product_grid_price'];
+$should_print_excerpt = isset( $settings['tmpcoder_product_grid_excerpt'] ) && ('yes' === $settings['tmpcoder_product_grid_excerpt'] && has_excerpt());
+$widget_id = isset($settings['tmpcoder_widget_id']) ? $settings['tmpcoder_widget_id'] : null;
+
+$sale_badge_text = !empty($settings['tmpcoder_product_sale_text']) ? $settings['tmpcoder_product_sale_text'] :  __( 'Sale!', 'sastra-essential-addons-for-elementor' );
+$stock_out_badge_text = !empty($settings['tmpcoder_product_stockout_text']) ?$settings['tmpcoder_product_stockout_text'] : __( 'Stock <br/> Out', 'sastra-essential-addons-for-elementor' );
+$is_show_badge = $settings['tmpcoder_show_product_sale_badge'];
+
+$quick_view_setting = [
+	'widget_id' => $widget_id,
+	'product_id' => $product->get_id(),
+	'page_id' => $settings['tmpcoder_page_id'],
+];
+$product_wrapper_classes = implode( " ", apply_filters( 'tmpcoder_product_wrapper_class', [], $product->get_id(), 'eicon-woocommerce' ) );
+
+$product_data = [
+	'id'     => get_the_ID(),
+	'title'  => '<div class="tmpcoder-product-title">
+                                <a href="' . esc_url( $product->get_permalink() ) . '" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">' .
+	            sprintf( '<%1$s class="woocommerce-loop-product__title">%2$s</%1$s>', $title_tag, $product->get_title() )
+	            . '</a></div>',
+	'ratings' => $should_print_rating ? wc_get_rating_html( $product->get_average_rating(), $product->get_rating_count() ) : '',
+	'price'   => ''
+];
+
+if ( $should_print_rating ) {
+	$avg_rating = $product->get_average_rating();
+	if( $avg_rating > 0 ){
+		$product_data['ratings'] = wc_get_rating_html($product->get_average_rating(), $product->get_rating_count());
+	} else {
+		$product_data['ratings'] = Helper::tmpcoder_rating_markup( $product->get_average_rating(), $product->get_rating_count() );
+	}
+}
+?>
+<li class="product <?php echo esc_attr( "{$product_wrapper_classes} {$list_style_preset}" ) ?>">
+    <div class="tmpcoder-product-wrap tmpcoder-grid">
+        <div class="product-image-wrap">
+            <div class="image-wrap">
+                <?php
+                if( $should_print_image_clickable ) {
+                    // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+                    echo '<a href="' . esc_url( $product->get_permalink() ) . '" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">';
+                }
+                if ( $is_show_badge ) {
+                    // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+                    echo( ! $product->is_in_stock() ? '<span class="tmpcoder-onsale outofstock ' . esc_attr( $sale_badge_preset . ' ' . $sale_badge_align ) . '">' . $stock_out_badge_text . '</span>' : ( $product->is_on_sale() ? '<span class="tmpcoder-onsale ' . esc_attr( $sale_badge_preset . ' ' . $sale_badge_align ) . '">' . $sale_badge_text . '</span>' : '' ) );
+                }
+                // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+                // echo wp_kses_post( $product->get_image( $settings['tmpcoder_product_grid_image_size_size'], [ 'loading' => 'eager' ] ) );
+
+                Helper::render_product_thumbnail($settings);
+
+                if( $should_print_image_clickable ) {
+                    echo '</a>';
+                }
+                ?>
+            </div>
+        </div>
+        <div class="product-details-wrap">
+            <?php
+            do_action( 'tmpcoder_woocommerce_before_shop_loop_item' );
+            if ( $settings['tmpcoder_wc_loop_hooks'] === 'yes' ) {
+                do_action( 'woocommerce_before_shop_loop_item' );
+            }
+
+            $_product_data['id'] = $product_data['id'];
+
+            if ( isset( $settings['enable_tmpcoder_layout_custom_ordering'] ) && $settings['enable_tmpcoder_layout_custom_ordering'] === 'yes' ){
+                $_product_data['price']       = $product_data['price'];
+                $_product_data['ratings']     = $product_data['ratings'];
+                $_product_data['title']       = $product_data['title'];
+                $_product_data['description'] = $should_print_excerpt ? '<div class="tmpcoder-product-excerpt">
+                <p>' . wp_trim_words( strip_shortcodes( get_the_excerpt() ), $settings['tmpcoder_product_grid_excerpt_length'], $settings['tmpcoder_product_grid_excerpt_expanison_indicator'] ) . '</p></div>' : '';
+            }
+            else{
+                echo '<div class="price-wrap">';
+                if ( $should_print_price ) {
+                    // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+                    echo '<div class="tmpcoder-product-price">' . $product->get_price_html() . '</div>';
+                }
+                if ( $should_print_rating ) {
+                    // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+                    echo wc_get_rating_html( $product->get_average_rating(), $product->get_rating_count() );
+                }
+                echo '</div>
+                <div class="title-wrap">
+                    <div class="tmpcoder-product-title">
+                        <a href="' . esc_url( $product->get_permalink() ) . '" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">';
+                printf( '<%1$s>%2$s</%1$s>', esc_attr( $title_tag ), wp_kses( $product->get_title(), Helper::tmpcoder_allowed_tags() ) );
+                echo '</a>
+                    </div>';
+                if ( $should_print_excerpt ) {
+                    echo '<div class="tmpcoder-product-excerpt">';
+                    // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+                    echo '<p>' . wp_trim_words( strip_shortcodes( get_the_excerpt() ? get_the_excerpt() :
+                            get_the_content() ), $settings['tmpcoder_product_grid_excerpt_length'], $settings['tmpcoder_product_grid_excerpt_expanison_indicator'] ) . '</p>';
+                    echo '</div>';
+                }
+                echo '</div>';
+            }
+                
+            $product_data = apply_filters( 'eael/product-grid/content/reordering', $_product_data, $settings, $product );
+            unset( $product_data['id'] );
+            if ( ! empty( $product_data ) ) {
+                foreach ( $product_data as $content ) {
+                    if ( ! empty( $content ) ) {
+                        echo wp_kses( $content, Helper::tmpcoder_allowed_tags(), Helper::tmpcoder_allowed_protocols() );
+                    }
+                }
+            }
+            ?>
+
+            <ul class="icons-wrap <?php echo esc_attr( $settings['tmpcoder_product_action_buttons_preset'] ); ?>">
+                <?php
+                if ( $should_print_compare_btn ) {
+                    echo '<li class="add-to-compare">';
+                    Product_Grid::print_compare_button( $product->get_id(), 'icon' );
+                    echo '</li>';
+                }
+                ?>
+                <li class="add-to-cart"><?php
+                    woocommerce_template_loop_add_to_cart(); ?></li>
+
+                <?php
+                if ( ! empty( $should_print_wishlist_btn ) ) {
+                    Helper::render_product_wishlist_button($settings, $class='tmpcoder-wishlist-btn');
+                }
+                ?>
+                <?php
+                if( $should_print_quick_view ){?>
+                    <li class="tmpcoder-product-quick-view">
+                        <a id="tmpcoder_quick_view_<?php echo esc_attr( uniqid() ); ?>" data-quickview-setting="<?php echo esc_attr( htmlspecialchars(wp_json_encode($quick_view_setting),ENT_QUOTES) ); ?>"
+                            class="tmpcoder-product-grid-open-popup open-popup-link">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </li>
+                <?php } ?>
+            </ul>
+            <?php
+            if ( $settings['tmpcoder_wc_loop_hooks'] === 'yes' ) {
+                do_action( 'woocommerce_after_shop_loop_item' );
+            }
+            do_action( 'tmpcoder_woocommerce_after_shop_loop_item' );
+            ?>
+        </div>
+    </div>
+</li>

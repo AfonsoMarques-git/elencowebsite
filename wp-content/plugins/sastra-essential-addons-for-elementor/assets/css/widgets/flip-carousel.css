@@ -1,0 +1,81 @@
+/* ---------------------------------- 
+ == Flip Carousel 
+ ------------------------------------ */
+
+.tmpcoder-flip-carousel-wrapper {
+	min-height: 1px;
+}
+
+.tmpcoder-flip-carousel {
+	overflow: hidden !important;
+	opacity: 0;
+}
+
+.tmpcoder-flip-items-wrapper img {
+	margin: auto;
+}
+
+.tmpcoder-flip-items-wrapper {
+	list-style-type: none;
+}
+
+.tmpcoder-flip-carousel ul li.flipster__item {
+	margin: auto;
+}
+
+.tmpcoder-flip-carousel ul li.flipster__item img {
+	width: 100%;
+}
+
+.tmpcoder-flip-carousel .flipster__nav {
+	margin: 0;
+}
+
+.tmpcoder-flip-carousel .flipster__button,
+.tmpcoder-flip-carousel .flipcaption,
+.tmpcoder-flip-carousel .flipster__nav__link {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+	outline: none;
+}
+
+.tmpcoder-flip-carousel .flipster__button {
+	opacity: 1;
+}
+
+.tmpcoder-flip-carousel .flipster__nav__link {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+
+.tmpcoder-flip-carousel .flipster__nav__link::after {
+	display: none;
+}
+
+.tmpcoder-flip-carousel-navigation {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.tmpcoder-flip-carousel ul li.flipster__item {
+		width: 70%;
+	}
+}

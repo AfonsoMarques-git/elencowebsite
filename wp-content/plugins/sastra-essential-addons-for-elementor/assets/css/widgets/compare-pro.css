@@ -1,0 +1,87 @@
+/* == Compare */
+
+/*.tmpcoder-compare-placeholder {
+    opacity: 0;
+}*/
+
+.tmpcoder-compare-empty {
+	text-align: center;
+	margin: 0;
+}
+
+.tmpcoder-compare-products {
+	overflow-x: auto;
+	position: relative;
+}
+
+.tmpcoder-compare-table {
+	margin: 0;
+	border-collapse: collapse;
+}
+
+.tmpcoder-compare-table a {
+	display: inline-block;
+}
+
+.tmpcoder-compare-table th {
+	position: sticky;
+	left: 0;
+	z-index: 1;
+	background-color: #FFF;
+}
+
+.tmpcoder-compare-table th:first-child {
+	left: auto;
+}
+
+.tmpcoder-compare-table td:first-child {
+	position: sticky;
+	left: 0;
+	z-index: 0;
+	background-color: #FFF;
+}
+
+.tmpcoder-compare-table td:first-child {
+	text-align: right;
+}
+
+.tmpcoder-compare-table td:not(:first-child) {
+	overflow-x: auto;
+}
+
+.tmpcoder-compare {
+	position: absolute;
+	display: none;
+	top: 100%;
+	z-index: 999;
+	background: white;
+	width: 375px;
+	border: 1px solid blanchedalmond;
+}
+
+.tmpcoder-compare-table tr:first-child th {
+	border-top-style: none !important;
+}
+
+.tmpcoder-compare-table tr:last-child td:first-of-type,
+.tmpcoder-compare-table tr th:first-child {
+	border-left-style: none !important;
+}
+
+.tmpcoder-compare-table tr:first-child th:last-child {
+	border-right-style: none !important;
+}
+
+.tmpcoder-compare-table tbody tr td:last-child {
+	border-right-style: none !important;
+}
+
+.tmpcoder-compare-table tr:last-child th:first-child,
+.tmpcoder-compare-table tr:last-child td {
+	border-bottom-style: none !important;
+}
+
+.tmpcoder-compare-remove {
+	display: inline-block;
+	background-color: white;
+}

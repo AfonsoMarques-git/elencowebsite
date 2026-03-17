@@ -1,0 +1,67 @@
+/*--------------------------------------------------------------
+  == Logo
+  --------------------------------------------------------------*/
+
+.tmpcoder-logo {
+	position: relative;
+	display: inline-table;
+	overflow: hidden;
+}
+
+.tmpcoder-logo-image img {
+	display: block;
+}
+
+.tmpcoder-logo-description {
+	margin: 0;
+}
+
+.tmpcoder-logo-image,
+.tmpcoder-logo-text {
+	position: relative;
+	display: block;
+	width: 100%;
+	z-index: 7;
+}
+
+.tmpcoder-logo-url {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+
+.tmpcoder-logo-position-left .tmpcoder-logo-image,
+.tmpcoder-logo-position-left .tmpcoder-logo-text {
+	float: left;
+}
+
+.tmpcoder-logo-position-right .tmpcoder-logo-image,
+.tmpcoder-logo-position-right .tmpcoder-logo-text {
+	float: right;
+}
+
+.tmpcoder-logo-position-center .tmpcoder-logo-image {
+	margin: 0 auto;
+}
+
+.tmpcoder-logo-position-center .tmpcoder-logo-text {
+	text-align: center;
+}
+
+.tmpcoder-logo-position-left .tmpcoder-logo-text,
+.tmpcoder-logo-position-right .tmpcoder-logo-text {
+	text-align: left;
+}
+
+.elementor-widget-tmpcoder-logo .tmpcoder-logo-title {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.elementor-widget-tmpcoder-logo .tmpcoder-logo-description {
+	font-size: 13px;
+}

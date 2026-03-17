@@ -1,0 +1,17 @@
+/* -------------------------------------
+   == Reading Progress Bar 
+   ---------------------------------------  */
+
+.tmpcoder-reading-progress-bar-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999999;
+	/* background-color: transparent; */
+}
+
+.tmpcoder-reading-progress-bar {
+	background-color: black;
+	width: 0%;
+}

@@ -1,0 +1,116 @@
+2026-02-24T16:58:40+00:00 INFO Mail sent to gxxxl@afonsomarques.pt for successful subscription - 9652
+2026-02-24T16:58:40+00:00 INFO Subscriber gxxxl@afonsomarques.pt successfully subscribed - 9652
+2026-02-24T19:04:20+00:00 INFO Stock found for Product id 8137 and Background Process queued for 9652,9653
+2026-02-24T19:04:20+00:00 INFO Product id 8137 Instock Background Process started - Total: 2
+2026-02-24T19:05:02+00:00 ERROR Failed to send Automatic Instock Mail for ID 9652 with gxxxl@afonsomarques.pt
+2026-02-24T19:05:04+00:00 ERROR Failed to send Automatic Instock Mail for ID 9653 with axxxxxxxxxxx6@gmail.com
+2026-02-24T19:06:42+00:00 INFO [DELETION LOG] Array
+(
+    [post_id] => 9653
+    [post_title] => axxxxxxxxxxx6@gmail.com
+    [deleted_by] => Admin
+    [user_id] => 1
+    [user_ip] => 127.0.0.1
+    [time] => 2026-02-24 19:06:42
+    [trace] => Array
+(
+    [0] => Array
+        (
+            [file] => C:\xampp\htdocs\elencowebsite\wp-includes\class-wp-hook.php
+            [line] => 343
+            [function] => delete_post_before
+            [class] => CWG_Instock_Auto_Delete
+            [type] => ->
+        )
+
+    [1] => Array
+        (
+            [file] => C:\xampp\htdocs\elencowebsite\wp-includes\class-wp-hook.php
+            [line] => 365
+            [function] => apply_filters
+            [class] => WP_Hook
+            [type] => ->
+        )
+
+    [2] => Array
+        (
+            [file] => C:\xampp\htdocs\elencowebsite\wp-includes\plugin.php
+            [line] => 522
+            [function] => do_action
+            [class] => WP_Hook
+            [type] => ->
+        )
+
+    [3] => Array
+        (
+            [file] => C:\xampp\htdocs\elencowebsite\wp-includes\post.php
+            [line] => 3827
+            [function] => do_action
+        )
+
+    [4] => Array
+        (
+            [file] => C:\xampp\htdocs\elencowebsite\wp-admin\edit.php
+            [line] => 184
+            [function] => wp_delete_post
+        )
+
+)
+
+)
+
+2026-02-24T19:06:42+00:00 INFO [DELETION LOG] Array
+(
+    [post_id] => 9652
+    [post_title] => gxxxl@afonsomarques.pt
+    [deleted_by] => Admin
+    [user_id] => 1
+    [user_ip] => 127.0.0.1
+    [time] => 2026-02-24 19:06:42
+    [trace] => Array
+(
+    [0] => Array
+        (
+            [file] => C:\xampp\htdocs\elencowebsite\wp-includes\class-wp-hook.php
+            [line] => 343
+            [function] => delete_post_before
+            [class] => CWG_Instock_Auto_Delete
+            [type] => ->
+        )
+
+    [1] => Array
+        (
+            [file] => C:\xampp\htdocs\elencowebsite\wp-includes\class-wp-hook.php
+            [line] => 365
+            [function] => apply_filters
+            [class] => WP_Hook
+            [type] => ->
+        )
+
+    [2] => Array
+        (
+            [file] => C:\xampp\htdocs\elencowebsite\wp-includes\plugin.php
+            [line] => 522
+            [function] => do_action
+            [class] => WP_Hook
+            [type] => ->
+        )
+
+    [3] => Array
+        (
+            [file] => C:\xampp\htdocs\elencowebsite\wp-includes\post.php
+            [line] => 3827
+            [function] => do_action
+        )
+
+    [4] => Array
+        (
+            [file] => C:\xampp\htdocs\elencowebsite\wp-admin\edit.php
+            [line] => 184
+            [function] => wp_delete_post
+        )
+
+)
+
+)
+

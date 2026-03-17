@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]><html dir="ltr" lang="pt-pt" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html dir="ltr" lang="pt-pt" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html dir="ltr" lang="pt-pt">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="apple-touch-icon" sizes="180x180" href="/image/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/image/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/image/favicons/favicon-16x16.png">
+<link rel="manifest" href="/image/favicons//manifest.json">
+<link rel="mask-icon" href="/image/favicons//safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+<title>Página não encontrada</title>
+<base href="https://www.elencocompleto.pt/" />
+
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Dosis:400,500,600,700' rel='stylesheet' type='text/css'>
+<link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="catalog/view/theme/elenco/stylesheet/TemplateTrip/bootstrap.min.css" rel="stylesheet" media="screen" />
+<link href="catalog/view/theme/elenco/stylesheet/stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="catalog/view/theme/elenco/stylesheet/TemplateTrip/ttblogstyle.css" rel="stylesheet" type="text/css" />
+
+<link href="catalog/view/theme/elenco/stylesheet/TemplateTrip/lightbox.css" rel="stylesheet" type="text/css" />
+<link href="catalog/view/javascript/jquery/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
+<script src="catalog/view/javascript/menucontrol.js" type="text/javascript"></script>
+<script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+<!-- TemplateTrip custom Theme JS -->
+<script src="catalog/view/javascript/TemplateTrip/addonScript.js" type="text/javascript"></script>
+<script src="catalog/view/javascript/TemplateTrip/lightbox-2.6.min.js" type="text/javascript"></script>
+<script src="catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L2GF53K1NY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L2GF53K1NY');
+</script><link href="catalog/view/fonts/pe-icon-stroke/css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" />
+<meta property="og:title" content="Página não encontrada" >
+<meta property="og:description" content="" >
+	<meta property="og:image" content="https://www.elencocompleto.pt/image/cache/catalog/mstile-144x144-300x300.png" >
+	<meta property="og:image:width" content="300" >
+	<meta property="og:image:height" content="300" >
+	<meta property="og:site_name" content="Elenco Completo" >
+	<meta property="og:type" content="website" >
+</head>
+<body class="error-not_found">
+<div id="page">
+<nav id="top" class="main-head">
+	<div class="container">
+  	<div class="header-top-left">
+	<div class="phone-number">
+
+		<i class="pe-7s-call telefone_topo"></i>
+		<span class="hidden-xs hidden-sm hidden-md">253 532 495</span>
+		</div>
+		
+	</div>
+	<div class="header-top-right">
+	    <div id="top-links" class="nav pull-right">
+      <ul class="list-inline">
+		        <a href="https://www.elencocompleto.pt/index.php?route=account/register"><li><i class="pe-7s-add-user regist_topo icosize" style="font-size:24px; margin-top:-3px;"> </i> <span> Registar</span></li></a>
+    <a href="https://www.elencocompleto.pt/index.php?route=account/login " id="refLogin"> <li><i class="pe-7s-unlock  login_topo icosize"> </i> <span> Entrar </span></li></a>
+  	  		 
+	   	      
+		<!--
+        <li><a href="https://www.elencocompleto.pt/index.php?route=checkout/cart" title="Carrinho de compras"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Carrinho de compras</span></a></li>
+        <li><a href="https://www.elencocompleto.pt/index.php?route=checkout/checkout" title="Finalizar encomenda"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Finalizar encomenda</span></a></li>
+-->    </ul>
+    </div>
+	</div>
+  </div>
+</nav>
+<header>
+	 <div class="container headercontainer">
+	  <div class="col-sm-4 header-left">
+	  <div id="logo">
+          <a href="https://www.elencocompleto.pt/index.php?route=common/home"><img src="/image/logo.svg" title="Elenco Completo" alt="Elenco Completo" style="width:355px;" /></a>
+
+        </div>
+		</div>
+    <div class="col-sm-4 header-searchbar">
+	  	<div id="search" class="input-group searchCtrl">
+  <input type="text" name="search" value="" placeholder="Pesquisa" class="form-control input-lg" />
+  <span class="input-group-btn">
+    <button type="button" class="btn btn-default btn-lg"><i class="fa fa-search"></i></button>
+  </span>
+</div>      </div>
+      <div class="col-sm-3 header-right cartContainer">
+	       <div id="cart" class="btn-group navbar_cart normal cartCtrl">
+
+  <button type="button" data-toggle="dropdown" data-loading-text="Carregando..." class="btn btn-inverse btn-block btn-lg dropdown-toggle">
+    <i class="carticon"></i>
+<!-- <i class="fa fa-shopping-cart"></i> -->
+<!--  <span class="cart-heading">CARRINHO </span> -->
+  <span id="cart-itens">0</span>
+  <span id="cart-total">0,00€</span>
+  </button>
+  <ul class="dropdown-menu pull-right header-cart-toggle">
+        <li>
+      <p class="text-center">O seu carrinho está vazio!</p>
+    </li>
+      </ul>
+</div>
+
+
+
+<!-- Versao do carrinho para o menu secundario -->
+
+<div id="cart2" class="btn-group navbar_cart cart2 cartCtrl" style="display:none">
+
+  <button type="button" data-toggle="dropdown" data-loading-text="Carregando..." onclick="$('#ulmenusecondary').css('display', 'block !important');" class="btn btn-inverse btn-block btn-lg dropdown-toggle">
+ 
+    <span class="cart-heading">Carrinho</span>
+    <span id="cart-total">0,00€</span>
+ <i class=" carticon"></i>
+
+  </button>
+
+  <ul class="dropdown-menu pull-right header-cart-toggle ulmenusecondary">
+        <li>
+      <p class="text-center">O seu carrinho está vazio!</p>
+    </li>
+      </ul>
+</div>
+       </div>
+  </div>
+  </header>
+
+
+<div class="menu-container">
+	<div class="ttfullmenudiv"></div>
+  <div class="container">
+	<div id="tttoplink_block">
+     <ul class="block_content">
+	             <li class="tttoplink"><a title="home" href="#">Home</a></li>
+	      
+
+	      <li class="tttoplink"><a href="/sobre-nos">Sobre Nós</a></li>
+          <li class="tttoplink"><a href="https://www.elencocompleto.pt/index.php?route=product/manufacturer">Marcas</a></li>
+          <li class="tttoplink"><a href="/servicos">Serviços</a></li>
+
+          <li class="tttoplink"><a href="https://www.elencocompleto.pt/index.php?route=product/special">Promoções</a></li>
+		  <li class="tttoplink"><a href="https://www.elencocompleto.pt/index.php?route=information/contact">Contactos</a></li>
+        </ul>
+	</div>
+  </div>
+</div>
+</div>
+
+<div class="menu-container fixedmenu">
+	<div class="ttfullmenudiv"></div>
+  <div class="container">
+	<div id="tttoplink_block">
+     <ul class="block_content">
+	      <li class="tttoplink ttbthome " > <a title="home" class="noneborder" href="#" ><img alt="Elenco Completo" src="/image/symbol.svg" style="width:223px"> </a></li>
+
+	      	      <li class="tttoplink topmenuCtrl"><a class="main_menu_cat nolink" title="categorias" >Categorias</a>
+			<div class="main-category-list left-main-menu">
+<div class="TT-panel-heading">Categorias</div>
+<div class="menu-category">
+<ul class="dropmenu">
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/acessórios-bricolage" class="TT-Category-List"><img src="image/catalog/acbric.png" class="category-img"> <span class="catName" > ACESSÓRIOS BRICOLAGE </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/acessórios-bricolage/agrafos">AGRAFOS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/acessórios-bricolage/bits-elenco-completo-ronfe-guimaraes">BITS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/acessórios-bricolage/buchas-elenco-completo-ronfe-guimaraes">BUCHAS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/acessórios-bricolage/buchas-basculantes-elenco-completo-ronfe-guimaraes">BUCHAS BASCULANTES</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/acessórios-bricolage/buchas-de-berbequim-elenco-completo-ronfe-guimaraes">BUCHAS DE BERBEQUIM</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/acessórios-bricolage/fio,blu,elenco,completo,ronfe,guimaraes">FIO BLU</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/acessórios-bricolage/jogos-machos-elenco-cpmpleto.ronfe-guimaraes">JOGOS MACHOS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/acessórios-bricolage/paquimetros-elenco-completo-ronfe-guimaraes">PAQUÍMETROS</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="tt-category-li">
+	<a href="https://www.elencocompleto.pt/acessorios-telemovel-outros-elenco-completo-ronfe-guimaraes"> <img src="image/catalog/2x24a.jpg" class="category-img">ACESSÓRIOS TELEMÓVEL/OUTROS </a>
+  	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes" class="TT-Category-List"><img src="image/catalog/elenco/at.site/Agricultura-2-e1589813272604-810x360.jpg" class="category-img"> <span class="catName" > AGRICULTURA </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/acessorios-agricolas">Acessórios Agrícolas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/acessórios-pulverizadores-ronfe-elenco-completo-guimaraes">Acessórios Pulverizadores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/adubos-fertilizantes-ronfe-elenco-completo-guimaraes">Adubos/Fertilizantes</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/ancinhos-sachos-ronfe-elenco-completo-guimaraes">Ancinhos e Sachos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/arrolhadores-capsuladores">Arrolhadores e Capsuladores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/aspersores">Aspersores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=521_482">Bebedouros e Comedouros</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/capsulas-elenco-completo-ronfe-guimaraes">CÁPSULAS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/discos-de-corte-elenco-completo-ronfe-guimaraes">DISCOS DE CORTE</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/enxadas">Enxadas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/ferramentas-agricolas">Ferramentas Agrícolas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/foices-ronfe-elenco-completo-guimaraes">Foices</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/garrafeiras">Garrafeiras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/lava-garrafas-ronfe-elenco-completo-guimaraes">Lava Garrafas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/motobombas-elenco-completo-ronfe-guimaraes">MOTOBOMBAS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/Picaretas-ronfe-elenco-completo-guimaraes-2">Picaretas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/poda-e-vindima">Poda e Vindima</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/pulverizadores">Pulverizadores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/sementes-agricultura">Sementes</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/agricultura-elenco-completo-ronfe-guimaraes/unioes-ligacoes">Uniões e Ligações</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/animais" class="TT-Category-List"><img src="image/catalog/colina.jpg" class="category-img"> <span class="catName" > Animais  </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=552_440">Ratoeiras e Armadilhas</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/ar-comprimo-elenco-completo-ronfe-guimaraes" class="TT-Category-List"><img src="image/catalog/ar.jpg" class="category-img"> <span class="catName" > Ar Comprimido </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ar-comprimo-elenco-completo-ronfe-guimaraes/ligacoes-elenco-completo-ronfe-guimaraes">Ligações</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="tt-category-li">
+	<a href="https://www.elencocompleto.pt/automatismos"> <img src="image/catalog/atomatic.jpg" class="category-img">Automatismos </a>
+  	  </li>
+  
+    <li class="tt-category-li">
+	<a href="https://www.elencocompleto.pt/brindes-e-acessorios-ronfe-elenco-completo-guimaraes"> <img src="image/catalog/elenco/IMG_0532.JPG" class="category-img">Brindes/Acessórios </a>
+  	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/canalizaçao" class="TT-Category-List"><img src="image/catalog/canalizacao.jpg" class="category-img"> <span class="catName" > Canalização </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/canalizaçao/Abraçadeiras ">Abraçadeiras </a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/canalizaçao/Acessórios De Latão">Acessórios Latão</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/canalizaçao/Buchas">Buchas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/canalizaçao/Canais e Grelhas">Canais e Grelhas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/canalizaçao/chaves-crescentes2">Chaves Crescentes</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=315_337">Lava Loiças</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/canalizaçao/Ligações de Aperto Rápido">Ligações de Aperto Rápido</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/canalizaçao/Sifões e Excêntricos">Sifões e Excêntricos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/canalizaçao/Tubos">Tubos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/canalizaçao/Ventiladores">Ventiladores</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/carpintaria,ronfe,guimaraes,elenco-completo" class="TT-Category-List"><img src="image/catalog/carpintaria.jpg" class="category-img"> <span class="catName" > Carpintaria </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/carpintaria,ronfe,guimaraes,elenco-completo/betumes-de-madeira">Betumes de madeira</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/carpintaria,ronfe,guimaraes,elenco-completo/cantos-de-rodape">Cantos de rodapé</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/carpintaria,ronfe,guimaraes,elenco-completo/fecho-magnetico-elenco-completo-ronfe-guimaraes">FECHOS MAGNÉTICO</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/carpintaria,ronfe,guimaraes,elenco-completo/formoes-ronfe-elenco-completo-guimaraes">Formões</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/carpintaria,ronfe,guimaraes,elenco-completo/grosas-ronfe-elenco-completo-drogaria-guimaraes">Grosas </a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/carpintaria,ronfe,guimaraes,elenco-completo/lapis-carpinteiro-marcadores">Lápis e Marcadores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/carpintaria,ronfe,guimaraes,elenco-completo/pistolas-pregar">Pistolas pregar</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/carpintaria,ronfe,guimaraes,elenco-completo/serras-sabre">Serras Sabre</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/carpintaria,ronfe,guimaraes,elenco-completo/serras-tico-tico">Serras Tico-Tico</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/carpintaria,ronfe,guimaraes,elenco-completo/suportes-de-reforço-elenco-completo">SUPORTES DE REFORÇO</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/cofres-e-fechaduras" class="TT-Category-List"><img src="image/catalog/image.jpg" class="category-img"> <span class="catName" > Cofres e Fechaduras </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/cofres-e-fechaduras/aloquetes">Aloquetes</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/cofres-e-fechaduras/Cilindros">Cilindros</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/cofres-e-fechaduras/Fechos-ronfe-elenco-completo-guimaraes">Fechos</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/colas-e-vedantes" class="TT-Category-List"><img src="image/catalog/silicone soudal.gif" class="category-img"> <span class="catName" > Colas e Vedantes </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/colas-e-vedantes/buchas-químicas">Buchas químicas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/colas-e-vedantes/ceys-aguastop-cola-e-vedantes">CEYS AGUASTOP</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/colas-e-vedantes/cola">Colas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/colas-e-vedantes/espumas">Espumas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/colas-e-vedantes/gama-ceys-ronfe-elenco-completo-guimaraes">Gama Ceys</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/colas-e-vedantes/gama-multibond-ronfe-elenco-completo-guimaraes">Gama Multibond</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/colas-e-vedantes/gama-polymax-uhu-ronfe-elenco-completo-guimaraes">Gama Polymax UHU</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/colas-e-vedantes/gama-t-rex-ronfe-elenco-completo-guimaraes">Gama T-Rex</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/colas-e-vedantes/Impermeabilizantes">Impermeabilizantes</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/colas-e-vedantes/massas-reparacao-ronfe-elenco-completo-guimaraes">Massas Reparação</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/colas-e-vedantes/Pistolas">Pistolas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/colas-e-vedantes/Silicone Cola e Veda Quimicos">Silicones </a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="tt-category-li">
+	<a href="https://www.elencocompleto.pt/compressores-geradores"> <img src="image/catalog/elenco/at.site/compressor.jpg" class="category-img">Compressores/Geradores </a>
+  	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/Construcao-civil" class="TT-Category-List"><img src="image/catalog/ferramentas-da-construção-na-pilha-13032301.jpg" class="category-img"> <span class="catName" > Construção Civil </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/aguaplast-construcao-civil">Águaplast</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=300_730">ANDAIMES</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/betoneiras">Betoneiras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/bolsas-ferramentas">Bolsas de ferramenta</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/carrinhos-mao-armazem">Carrinhos Mão e Armazém</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/cinzeis-ponteiros-construcao">Cinzéis/Ponteiros</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/cruzetas-cunhas">Cruzetas e Cunhas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/fio-blu-construcao-civil">Fio Blu</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/fitas-niveis-e-lasers">Fitas, Níveis e Lasers</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/garibaldes-elenco-completo-ronfe-guimaraes">GARIBALDES</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/maquinas-diferenciais-tornos">Maquinas, Diferenciais e Tornos </a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/martelo-machado-marreta">Martelos, Machados e Marretas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/pas">Pás</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/perfis-elenco-completo-ronfe-guimaraes">PERFIS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/Picaretas-ronfe-elenco-completo-guimaraes">Picaretas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/prego-aco-ferro">Prego Aço e Ferro</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/raspadores-ronfe-elenco-completo-guimaraes">Raspadores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/reguas">Réguas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/talochas3">Talochas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/tampas-galvanizadas">Tampas Galvanizadas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Construcao-civil/tubo-ferro-galvanizado-elenco-completo-ronfe-guimaraes">TUBO FERRO GALVANIZADO</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/discos-e-lixas" class="TT-Category-List"><img src="image/catalog/discos-e-lixas.jpg" class="category-img"> <span class="catName" > Discos e Lixas </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/discos-e-lixas/boinas-discos-e-lixas">Boinas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/discos-e-lixas/discos-corte-inox-ronfe-elenco-completo-guimaraes">Discos Corte Inox</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/discos-e-lixas/discos-de-lixa-ronfe-elenco-completo-guimaraes">Discos de lixa</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/discos-e-lixas/discos-diamante">Discos Diamante</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/discos-e-lixas/discos-lamelados-ronfe-elenco-completo-guimaraes">Discos lamelados</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/discos-e-lixas/discos-para-madeira-ronfe-elenco-completo-guimaraes">Discos p/madeira</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/discos-e-lixas/Tacos-ronfe-elenco-completo-guimaraes">Tacos</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/equipamentos-de-protecao" class="TT-Category-List"><img src="image/catalog/equipamento protecao.jpg" class="category-img"> <span class="catName" > Equipamentos Proteção </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/equipamentos-de-protecao/calcado-trabalho">Calçado trabalho /segurança</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/equipamentos-de-protecao/cintas-de-aperto-elevacao">Cintas de Aperto e Elevação</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/equipamentos-de-protecao/fatos-e-capa-de-chuva">Fatos e Capa de Chuva</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/equipamentos-de-protecao/gancho-carga-elenco-completo-ronfe-guimaraes">Gancho Carga</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/equipamentos-de-protecao/luva-de-trabalho">Luvas de Trabalho</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/equipamentos-de-protecao/mascaras-elenco-completo-ronfe-guimaraes">Máscaras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/equipamentos-de-protecao/oculos-de-protecao">ÓCULOS DE PROTEÇÃO</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/equipamentos-de-protecao/capacete-mascaras-oculos">Vestuário </a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/Escadas-Redes-e-Outros" class="TT-Category-List"><img src="image/catalog/redes-escadas.png" class="category-img"> <span class="catName" > Escadas, Redes e Outros </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Escadas-Redes-e-Outros/Abracadeiras-poste-painel">Abraçadeiras Poste Painel</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Escadas-Redes-e-Outros/arames">Arames</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Escadas-Redes-e-Outros/escadas-articuladas">Escadas Articuladas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Escadas-Redes-e-Outros/escadas-duplas">Escadas Duplas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Escadas-Redes-e-Outros/escadas-multifunções">Escadas Multifunções</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Escadas-Redes-e-Outros/escadas-multiposicoes">Escadas Multiposições</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Escadas-Redes-e-Outros/escadas-simples">Escadas Simples</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Escadas-Redes-e-Outros/escadas-sotao">Escadas Sótão</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Escadas-Redes-e-Outros/escadas-triplas">Escadas Triplas</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/escovas-de-aço" class="TT-Category-List"><img src="image/catalog/ESCOVA ACO.jpg" class="category-img"> <span class="catName" > Escovas de Aço </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/escovas-de-aço/catrabuchas">Catrabuchas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/escovas-de-aço/escova-para-berbequim-manual">Escova para Berbequim / Manual</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/escovas-de-aço/escova-para -esmeriladora">Escova Para Esmeriladora</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/escovas-de-aço/escova-para-rebarbadora">Escova Para Rebarbadora</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/escovas-de-aço/limpa-chamines">Limpa Chaminés </a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/ferragens" class="TT-Category-List"><img src="image/catalog/ferragens.jpg" class="category-img"> <span class="catName" > Ferragens </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/anilhos">Anilhos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/cantoneiras-mosquetoes">Cantoneiras e Mosquetões</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/casquilhos-ronde-elenco-completo-guimaraes">Casquilhos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/cintas-tacos-folhas-lixa">Cintas Tacos e folhas de Lixa </a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/dobradicas">Dobradiças</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/ferragens-fechos-elenco-completo-ronfe-guimaraes">Fechos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/Fêmeas-ronfe-elenco-completo-guimaraes">Fêmeas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/Parafusos-ronfe-elenco-completo-guimaraes">Parafusos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/pitoes-camaroes-escapulas">Pitões, Camarões e Escapulas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/puxadores">Puxadores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/rebites-ferragens">Rebites</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/rodas-e-rolamentos">Rodas e rolamentos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/suportes-de-reforço-elenco-completo-ronfe-guimaraes">SUPORTES DE REFORÇO</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/tracadores-po">Traçadores e Pó</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/ferragens/uniao-de-varao-ronfe-elenco-completo-guimaraes">União de Varão</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/Ferramentas" class="TT-Category-List"><img src="image/catalog/ferramentas.jpg" class="category-img"> <span class="catName" > Ferramentas </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/abracadeiras-fivela">Abraçadeiras Fivela</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/agrafadores-manuais">Agrafadores manuais</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/alicates-e-turquesas">Alicates e Turquesas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/cabo-fibra-e-madeira">Cabos Fibra e Madeira</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/chaves-angulares-ronfe-elenco-completo-guimaraes">Chaves Angulares</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/chaves-boca-ronfe-elenco-completo-guimaraes">Chaves Boca</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/chave-caixa-elenco-completo-ronfe-guimaraes">Chaves Caixa</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/chaves-crescentes">Chaves Crescentes</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/chaves-fenda-cruz">Chaves Fendas/Cruz</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/chaves-luneta-elenco-completo-ronfe-guimaraes">Chaves Luneta</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/chaves-roquete-ferramentas-elenco-completo-ronfe-guimaraes">Chaves Roquete</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/chaves-sextavadas">Chaves Sextavadas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/chaves,tubo,ferramentas,elenco,completo">Chaves Tubo</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/chaves-umbrak-torx-elenco-completo-ronfe-guimaraes">CHAVES UMBRAK / TORX</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/colheres-espatulas-palustras">Colheres / Espátulas / Palustras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/corta-arames">Corta Arames</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/corta-tubos">Corta tubos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/grampos-ferramentas-elenco-completo-ronfe-guimaraes-drogaria">Grampos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/jogos-autoclair">Jogos Autoclair</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/jogos-de-chaves">Jogos de chaves</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/martelos-marretas">Martelos e Marretas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/Paquimetros-ferramentas">Paquímetros</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/raspadores-ronfe-elenco-completo-guimaraes-3">Raspadores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/Serras-Formoes-Ronfe-elenco-Completo-guimaraes">Serras e  Formões </a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/talochas">Talochas </a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/tarraxas-e-serras">Tarraxas </a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/Ferramentas/tornos">Tornos</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/brocas-e-outros" class="TT-Category-List"><img src="image/catalog/brocas ferro.jpg" class="category-img"> <span class="catName" > Ferramentas de Corte/ Brocas  </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/brocas-e-outros/brocas-craneanas">Brocas Craneanas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/brocas-e-outros/Brocas De Ferro">Brocas de Ferro</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/brocas-e-outros/brocas-de-madeira">Brocas De Madeira</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/brocas-e-outros/broca-de-pedra-betao">Brocas De Pedra/Betão</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/brocas-e-outros/Brocas de Vidro">Brocas de Vidro</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/brocas-e-outros/brocas-easy-cut">Brocas Easy Cut</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/brocas-e-outros/brocas-escalonadas">Brocas escalonadas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/brocas-e-outros/brocas-para-azulejo-elenco-completo-ronfe-guimaraes">Brocas Para Azulejo</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/brocas-e-outros/brocas-planas-puas">BROCAS PLANAS/PUAS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/brocas-e-outros/diamantes-ronfe-elenco-completo-guimaraes">Diamantes</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/brocas-e-outros/folhas-serra-ferramentas-corte-elenco-completo-ronfe-guimaraes">Folhas Serra</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/brocas-e-outros/navalhas-ronfe-elenco-completo-guimaraes">Navalhas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=566_431">X-atos e Lâminas</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/jardim" class="TT-Category-List"><img src="image/catalog/elenco/at.site/transferir.jpg" class="category-img"> <span class="catName" > Jardim </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/acessórios-de-rega">Acessórios de rega </a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/acessorios-lavadores">Acessórios Lavadores </a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/acessórios-aparador">Acessórios para aparadores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/aparadores,ronfe,guimaraes,elenco-completo">Aparadores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/aspiradores-sopradores">Aspiradores Sopradores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/coberturas-elenco-completo-ronfe-guimaraes">Coberturas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/contentores-e2-barris">CONTENTORES E BARRIS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/corta-relvas">Corta Relvas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/corta-sebes">Corta Sebes</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/eletrosserras">Eletrosserras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/lavadores-alta-pressao">LAVADORES ALTA PRESSÃO</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/mangueiras-rega">Mangueiras Rega</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/motosserras-elenco-completo-ronfe-guimaraes">MOTOSSERRAS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/torneira-.mangueira-enroladores">Suportes  Mangueiras </a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/jardim/tesoura-elenco-completo-ronfe-guimaraes">Tesouras</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/limpeza-manutencao" class="TT-Category-List"><img src="image/catalog/lipar.jpg" class="category-img"> <span class="catName" > Limpeza e Manutenção </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/limpeza-manutencao/desinfetante-limpeza">Desinfetante</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/limpeza-manutencao/sprays-tecnicos-ronfe-elenco-completo-guimaraes">Sprays Técnicos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/limpeza-manutencao/vassouras-e-varredores">Vassouras e Varredores</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/malas-e-caixas" class="TT-Category-List"><img src="image/catalog/caixa-plastica-maleta-para-ferramentas-vd-3001-com-3-compartimentos-vonder-3651798.jpg" class="category-img"> <span class="catName" > Malas de Ferramentas </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/malas-e-caixas/acessorios-para-malas">Acessorios para malas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/malas-e-caixas/caixas">Caixas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/malas-e-caixas/malas-metalicas">Malas Metálicas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/malas-e-caixas/malas-plasticas">Malas Plásticas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=302_495">Mochilas Stanley</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/maquinas-de-pintura-e-acessorios" class="TT-Category-List"><img src="image/catalog/Design sem nome-5.jpg" class="category-img"> <span class="catName" > Máq.pintura/acessórios </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-de-pintura-e-acessorios/pistolas-pintura">Pistolas Pintura </a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-de-pintura-e-acessorios/raspadores-ronfe-elenco-completo-guimaraes-2">Raspadores</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes" class="TT-Category-List"><img src="image/catalog/newlist_6.jpg" class="category-img"> <span class="catName" > Máquinas  </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/aparafusadoras">Aparafusadoras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/aspiradores,ronfe,guimaraes,elenco-completo">Aspiradores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=313_480">Baterias</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/berbequins">Berbequins</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/decoradores-multifuncoes">Decapadores Multifunções</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/dewalt-elenco-completo-ronfe-guimaraes">DeWalt</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/escovas-elenco-completo-ronfe-guimaraes">Escovas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/esmeriladoras">Esmeriladoras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/furadores-de-coluna">Furadores de coluna</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/lixadoras">LIXADORAS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/maquinas-de-afiar">Máquinas de afiar</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/maquinas-agrafar">Máquinas de Agrafar</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/martelos-demolidores">Martelos Demolidores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/martelos-perfuradores">Martelos Perfuradores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/Misturadoras-ronfe-elenco-completo-guimaraes">Misturadoras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/motobomba-elenco-completo-ronfe-guimaraes">MOTOBOMBAS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/pistolas-ar-quente-elenco-completo-ronfe-guimaraes">Pistolas de Ar Quente</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/Plainas-ronfe-elenco-completo-guimaraes">Plainas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/polidoras2">Polidoras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/rebarbadoras">Rebarbadoras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/serras-circular">Serra Circular</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/serra-esquadria">Serra Esquadria</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/serras-sabre-2">Serras Sabre </a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-elenco-completo-ronfe-guimaraes/serras-tico-tico-2">Serras Tico-Tico</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/maquinas-agricolas" class="TT-Category-List"><img src="image/catalog/agricola.jpg" class="category-img"> <span class="catName" > Máquinas Agrícolas </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-agricolas/acessorios-motoenxada">Acessórios motoenxada</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-agricolas/acessórios-motosserra">Acessórios motosserra</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=551_467">Acessórios Roçadora</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-agricolas/motoenxadas">Motoenxadas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-agricolas/motoserras">Motosserras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-agricolas/rachadoras">Rachadoras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-agricolas/rocadoras">Roçadoras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/maquinas-agricolas/varejadores">Varejadores</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/material-eletrico" class="TT-Category-List"><img src="image/catalog/e1ce4dec0a854594910350288407ea92.jpg" class="category-img"> <span class="catName" > Material Elétrico </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/acessórios-eletricos">Acessórios elétricos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/adaptadores1">Adaptadores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/armaduras">Armaduras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/busca-polos-e-fita-isoladora">Busca-Polos e fita Isoladora</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/cabos-de-reboque-ronfe-elenco-completo-guimaraes">Cabos de Reboque</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/cabos-eletricos-ronfe-elenco-completo-guimaraes">Cabos Elétricos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/caixas-de-derivacao">Caixas de derivação</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/calhas-ronfe-elenco-completo-guimaraes">Calhas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/casquilhos">Casquilhos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/comutadores">Comutadores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/condensadores-elenco-completo-ronfe-guimaraes">CONDENSADORES</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/extensoes">Extensões</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/extratores-para-ventilacao-ronfe-elenco-completo-guimaraes">Extratores P/Ventilação</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/fichas-electricas">Fichas Eléctricas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/ficha-tv">Fichas Tv</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/interruptores">Interruptores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/Lampadas-ronfe-elenco-completo-guimaraes">Lâmpadas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/lanternas-pilhas">Lanternas e Pilhas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/led">Led</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/programadores-e-campainhas">Programadores e Campainhas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/projetores-luz">Projetores de Luz</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/tomadas-electricas">Tomadas Eléctricas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/triplas">Triplas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/material-eletrico/tubo-gris-ronfe-elenco-completo-guimaraes">Tubos Gris</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/mecanica-oficina" class="TT-Category-List"><img src="image/catalog/elenco/at.site/gestao-da-qualidade-na-oficina-mecanica.jpg" class="category-img"> <span class="catName" > MECÂNICA E OFICINA </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/bancadas-de-trabalho">Bancadas de Trabalho</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/betumes">Betumes</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/boinas-mecanica-e-oficina">Boinas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/bombas-de-lubrificacao">Bombas de lubrificação</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/bomba-de-pe">Bombas de pé</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/carregadores-de-bateria">CARREGADORES DE BATERIA</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/chave-de-velas-ronfe-elenco-completo-guimaraes">Chave de Velas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/cinzeis-ponteiros-mecanica">Cinzéis/Ponteiros</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/elevadores">Elevadores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/GRUAS">GRUAS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=488_494">GUINCHOS ELÉTRICOS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/limpeza">Limpeza</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/MACACOS">MACACOS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/Paquimetros-meccanica-e-oficina">Paquímetros</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/polidoras">Polidoras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/mecanica-oficina/PRENSAS">PRENSAS</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="tt-category-li">
+	<a href="https://www.elencocompleto.pt/molas-elenco-completo-ronfe-guimaraes"> <img src="image/catalog/mol.jpg" class="category-img">Molas </a>
+  	  </li>
+  
+    <li class="tt-category-li">
+	<a href="https://www.elencocompleto.pt/outros-elenco-completo-ronfe-guimaraes"> <img src="image/catalog/outros.jpg" class="category-img">OUTROS </a>
+  	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448" class="TT-Category-List"><img src="image/catalog/pichelaria1.jpg" class="category-img"> <span class="catName" > PIchelaria </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_452">Acessorios Latão</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_461">Acessórios Pichelaria</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_612">Adaptadores Misturadora</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_453">Aperto Rápido</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_750">Aperto Rápido</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_458">Autoclismos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_519">Bombas submersíveis</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_487">BOMBAS TRASFEGA</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_705">Castelos de Torneira</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_704">JUNÇÕES DE TORNEIRA DE JARDIM</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_454">Ligações Malha Aço</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_749">Material PP-R</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_451">Sifons</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_747">Suporte Chuveiro</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_701">Tampas WC</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_455">Telefones</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_450">Tesoura PVC</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_459">Torneiras Esquadria</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_456">Válvulas Lavatório</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=448_457">Vedantes</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/produtos-a-gas" class="TT-Category-List"><img src="image/catalog/kit-macarico-portatil-italgas-5it-cartucho-8067.jpg" class="category-img"> <span class="catName" > Produtos a Gás </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-a-gas/acessorios-mangueira-gas-ronfe-elenco-completo-guimaraes">Acessórios Mangueira gás</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=309_446">Chamuscadores e Ferros a Gás</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-a-gas/maçaricos">Maçaricos </a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/produtos-para-casa" class="TT-Category-List"><img src="image/catalog/casa.jpg" class="category-img"> <span class="catName" > Produtos para casa </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/acessorios-aspiradores-elenco-completo-ronfe-guimaraes">Acessórios Aspiradores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/acessorios-cortinados-produto-para-casa-elenco-completo-ronfe-guimaraes">Acessórios Cortinados</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/argolas">Argolas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/autoclismos">Autoclismos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=548_483">Balanças</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=548_484">Baldes</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/bancas">Bancas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=548_436">Batentes e Números</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/Caixas-de-Correio">Caixas de Correio</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=548_442">Churrasqueiras e Lareiras</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/contentores-e-barris">CONTENTORES E BARRIS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=548_437">Desentupidores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/Estendais para chão-parede-tecto-varandas">Estendais para chão, parede, tecto e varandas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/ligacoes-chuveiro-elenco-completo-ronfe-guimaraes">Ligações Chuveiro</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=548_430">Monocomandos Cozinhas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/monocomandos-wc-ronfe-elenco-completo-guimaraes">Monocomandos WC</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=548_438">Óleo Doméstico </a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/Piscina-ronfe-elenco-completo-guimaraes">Piscina</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=548_444">Plásticos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/Roldanas-Cabos-Esticadores">Roldanas, Cabos e Esticadores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=548_432">Saca Rolhas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=548_729">Silhuetas WC</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/tampas-wc-ronfe-elenco-completo-guimaraes">Tampas WC</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/tanques-fibra">Tanques Fibra</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/index.php?route=product/category&amp;path=548_433">Tesouras e Facas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/produtos-para-casa/vedacao-de-portas-janelas">Vedação Portas/Janelas</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="tt-category-li">
+	<a href="https://www.elencocompleto.pt/produtos-quimicos"> <img src="image/catalog/elenco/at.site/produtos-quimicos.jpg" class="category-img">Produtos Químicos </a>
+  	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/rodas-carrinhos-e-outros-elenco-completo-ronfe-guimaraes" class="TT-Category-List"><img src="image/catalog/carrinhos.PNG" class="category-img"> <span class="catName" > Rodas, Carrinhos e Outros </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/rodas-carrinhos-e-outros-elenco-completo-ronfe-guimaraes/carrinhos-e-rodas-elenco-completo-ronfe-guimaraes">Carrinhos e Rodas</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/salamandras,fogoes,aquecimentos,ronfe,guimaraes,elenco-completo" class="TT-Category-List"><img src="image/catalog/salamandra.jpg" class="category-img"> <span class="catName" > Salamandras / Fogões / Aquecimentos </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/salamandras,fogoes,aquecimentos,ronfe,guimaraes,elenco-completo/acessórios">Acessórios Aquecimentos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/salamandras,fogoes,aquecimentos,ronfe,guimaraes,elenco-completo/estufas">Estufas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/salamandras,fogoes,aquecimentos,ronfe,guimaraes,elenco-completo/tubos-curvas-chapeus-inox">TUBOS/CURVAS/CHAPÉUS INOX</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/soldagem,elenco-complelto,guimaraes" class="TT-Category-List"><img src="image/catalog/soldagem2.jpg" class="category-img"> <span class="catName" > Soldadura </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/soldagem,elenco-complelto,guimaraes/acessorios-de-soldar">Acessórios soldar</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/soldagem,elenco-complelto,guimaraes/aparelhos-soldar">APARELHOS SOLDAR</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/soldagem,elenco-complelto,guimaraes/olhais-de-soldadura-ronfe-elenco-completo-guimaraes">Olhais Soldadura</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/spray-lubrificantes" class="TT-Category-List"><img src="image/catalog/a0556.jpg" class="category-img"> <span class="catName" > Sprays / Lubrificantes  </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/spray-lubrificantes/alta,temperatura,ronfe,guimaraes,elenco-completo">Alta Temperatura</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/spray-lubrificantes/anilinas,ronfe,guimaraes,elenco-completo,corantes">ANILINAS</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/spray-lubrificantes/extintores">Extintores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/spray-lubrificantes/lubrificantes">Lubrificantes</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/spray-lubrificantes/oleo-elenco-completo-ronfe-guimaraes">Óleos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/spray-lubrificantes/spray-tecnico-elenco-completo-ronfe-guimaraes">Sprays Técnicos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/spray-lubrificantes/sprays-zinco-ronfe-elenco-completo-guimaraes">Sprays Zinco</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/spray-lubrificantes/decapante-rapido">Tintas Spray</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="TT-Sub-List dropdown tt-category-li">
+
+	<a href="https://www.elencocompleto.pt/tintas-e-pincelaria" class="TT-Category-List"><img src="image/catalog/tintas.jpg" class="category-img"> <span class="catName" > TINTAS / PINCELARIA </span> </a>
+	<span class="active_menu"></span>
+  		<div class="dropdown-menu">
+		 <ul>
+		 	 			           					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/acrilicos-tintas">Acrílicos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/aguaplast-tintas">Águaplast</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/altas-temperaturas-ronfe-elenco-completo-guimaraes">Altas Temperaturas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/capoto">Capoto</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/diluentes-ronfe-elenco-completo-guimaraes">Diluentes</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/Endurecedores-ronfe-elenco-completo-guimaraes">Endurecedores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/esmalte,ronfe,guimaraes,elenco-completo">Esmalte</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/fita-de-pintura-filmes">Fitas e Filmes</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/massas">Massas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/Pincéis-ronfe-elenco-completo-guimaraes">Pincéis</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/produtos-p-madeira-elenco-completo-ronfe-guimaraes">Produtos p/ Madeira</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/rodos-e-limpadores">Rodos e Limpadores</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/rolos">Rolos</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/tabuleiros-e-coberturas">Tabuleiros e Coberturas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/talochas2">Talochas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/tintas-plasticas-ronfe-elenco-completo-guimaraes">Tintas plásticas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/trinchas-e-rolos">Trinchas</a>
+														</li>
+	                          					<li class="dropdown-inner">
+											<a href="https://www.elencocompleto.pt/tintas-e-pincelaria/vernizes,ronfe,guimaraes,elenco-completo">Vernizes</a>
+														</li>
+	                		 </ul>
+		 </div>
+	  </li>
+  
+    <li class="tt-category-li">
+	<a href="https://www.elencocompleto.pt/sinalizacao-elenco-completo-ronfe-guimaraes"> <img src="image/catalog/sinal.jpg" class="category-img">SINALIZAÇÃO </a>
+  	  </li>
+   </ul>
+</div>
+</div>
+		  </li>
+		  	      <li class="tttoplink"><a href="/sobre-nos">Sobre Nós</a></li>
+          <li class="tttoplink"><a href="https://www.elencocompleto.pt/index.php?route=product/manufacturer">Marcas</a></li>
+          <li class="tttoplink"><a href="/servicos">Serviços</a></li>
+
+          <li class="tttoplink"><a href="https://www.elencocompleto.pt/index.php?route=product/special">Promoções</a></li>
+		  <li class="tttoplink "><a href="https://www.elencocompleto.pt/index.php?route=information/contact" class="noneborder">Contactos</a></li>
+		  <li class="tttoplink">
+
+      	 </li>
+      	 <li class="tttoplink"> <div id="cart" class="btn-group navbar_cart normal cartCtrl">
+
+  <button type="button" data-toggle="dropdown" data-loading-text="Carregando..." class="btn btn-inverse btn-block btn-lg dropdown-toggle">
+    <i class="carticon"></i>
+<!-- <i class="fa fa-shopping-cart"></i> -->
+<!--  <span class="cart-heading">CARRINHO </span> -->
+  <span id="cart-itens">0</span>
+  <span id="cart-total">0,00€</span>
+  </button>
+  <ul class="dropdown-menu pull-right header-cart-toggle">
+        <li>
+      <p class="text-center">O seu carrinho está vazio!</p>
+    </li>
+      </ul>
+</div>
+
+
+
+<!-- Versao do carrinho para o menu secundario -->
+
+<div id="cart2" class="btn-group navbar_cart cart2 cartCtrl" style="display:none">
+
+  <button type="button" data-toggle="dropdown" data-loading-text="Carregando..." onclick="$('#ulmenusecondary').css('display', 'block !important');" class="btn btn-inverse btn-block btn-lg dropdown-toggle">
+ 
+    <span class="cart-heading">Carrinho</span>
+    <span id="cart-total">0,00€</span>
+ <i class=" carticon"></i>
+
+  </button>
+
+  <ul class="dropdown-menu pull-right header-cart-toggle ulmenusecondary">
+        <li>
+      <p class="text-center">O seu carrinho está vazio!</p>
+    </li>
+      </ul>
+</div>
+ </li>
+     </ul>
+	</div>
+  </div>
+</div>
+<div class="container">
+  <ul class="breadcrumb">
+        <li><a href="https://www.elencocompleto.pt/index.php?route=common/home"><i class="fa fa-home"></i></a></li>
+        <li><a href="https://www.elencocompleto.pt/index.php?route=error/not_found">Página não encontrada</a></li>
+      </ul>
+  <div class="row">                <div id="content" class="col-sm-12 print-bg-image request-not-found">
+	      <h1>Página não encontrada</h1>
+      <p>A página que está à procura não foi encontrada.</p>
+      <div class="buttons">
+        <div class="pull-right"><a href="https://www.elencocompleto.pt/index.php?route=common/home" class="btn btn-primary">Continuar</a></div>
+      </div>
+      </div>
+    </div>
+</div>
+</div>
+<footer>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js"></script>
+  
+  <div class="container">
+    <div class="row">
+	  	  <div class="footer-column footer-left col-sm-3">
+		<aside id="footer-left" class="">
+    <div class="html-content">
+      	<div class="box-content">      <h5>Informações</h5>
+        <ul class="list-unstyled">
+            <li>    <a href="/termos-e-condicoes">Termos e Condições     </a></li>
+            <li>    <a href="/resolucao-de-litigios">Resolução de Litígios  </a></li>
+            <li>    <a href="/politica-privacidade">Política de Privacidade</a></li>
+            <li>    <a href="/trocas-e-devolucoes">Trocas e Devoluções    </a></li>
+            <li>    <a href="/utilizacao-de-cookies">Política de Cookies    </a></li>
+            
+        </ul></div>
+  </div>
+  </aside>
+	  </div>
+	  
+    
+             <div class="col-sm-3 footer-column footer-apoio-ao-cliente">
+        <h5>Apoio ao Cliente</h5>
+        <ul class="list-unstyled">
+	       
+         <li><a href="https://www.elencocompleto.pt/index.php?route=product/compare">Lista de Comparação</a></li>
+
+         <li><a href="metodos-de-pagamento">Métodos de Pagamento</a></li>
+         <li><a target="_blank" href="https://www.livroreclamacoes.pt/inicio" alt="Livro de Reclamações">Livro de Reclamações</a></li>
+         <li><a href="/expedicao">Expedição</a></li>
+         <li><a href="https://www.elencocompleto.pt/index.php?route=information/contact">Contactos</a></li>
+         
+         <li class="only-responsive"><a href="/termos-e-condicoes">Termos & Condições</a></li>
+         <li class="only-responsive"><a href="/politica-privacidade">Política de Privacidade</a></li>
+         <li class="only-responsive"><a href="/Utilizacao-de-cookies">Política de Cookies</a></li>
+         <li class="only-responsive"><a href="/resolucao-de-litigios">Resolução de Litígios</a></li>
+         <li class="only-responsive"><a href="/trocas-e-devolucoes">Trocas & Devoluções</a></li>
+
+
+        </ul>
+      </div>
+      <div class="col-sm-3 footer-column footer-minha-conta">
+        <h5>A Minha Conta</h5>
+        <ul class="list-unstyled">
+
+                      <li><a href="https://www.elencocompleto.pt/index.php?route=account/login">Iniciar Sessão</a></li>
+            <li><a href="https://www.elencocompleto.pt/index.php?route=account/register">Registar Conta</a></li>
+                <li><a href="https://www.elencocompleto.pt/index.php?route=account/order">Encomendas</a></li>
+		  <li><a href="https://www.elencocompleto.pt/index.php?route=account/return/add">Solicitar uma Devolução</a></li>
+      <li><a href="https://www.elencocompleto.pt/index.php?route=information/sitemap">Mapa do site</a></li>
+		</ul>
+      </div>
+
+	  	  <div class="footer-column footer-right col-sm-3">
+		<aside id="footer-right" class="col-sm-3">
+    <div class="html-content">
+      	<div class="box-content"><div class="contact-us">
+<h5>Contactos</h5>
+<ul class="list-unstyled">
+<li class="address">	<i class="pe-7s-map-marker" style="line-height:1.5; height: 100%;"></i>
+<span class="contact-address">Rua São Tiago 215, Ronfe&nbsp;<br>&nbsp;4805-437 Guimarães&nbsp;</span></li>
+<li class="contact">
+<i class="pe-7s-call"></i>
+<span class="phone"> 253 532 495</span></li>
+<li class="contact contact2">
+<i class="pe-7s-phone"></i>
+<span class="phone">911 503 903</span></li>
+<li class="email">
+<i class="pe-7s-mail"></i>
+<span class="email-address"><a href="mailto:geral@elencocompleto.pt"> geral@elencocompleto.pt </a></span>
+</li>
+</ul>
+</div></div>
+  </div>
+  </aside>
+	  </div>
+	  
+    </div>
+
+  </div>
+  <div class="footer-bottom">
+  	<div class="container">
+	        <div>
+
+      	<span class="pull-left"> Todos os direitos reservados a <a href="index.php?route=common/home">Elenco Completo</a></span>
+
+      	<span class="pull-right">Website desenvolvido por <a href="https://www.agilstore.pt/" target="_blank">Agilstore ® Informática & Design</a> </span>
+
+      </div>
+
+  		  	</div>
+	</div>
+  
+    <div class="facebook-slider">
+    <a href="javascript:void(0)" id="questionbox-side-phonebutton" class="show_hide">
+      <div class="text alignleft">Facebook</div>
+    </a>
+  </div>
+
+  <div style="text-align: left; display: none;" id="hideShow" class="facebookFeed">
+    <div class="right-side-content hidden1">
+      <div class="slider-phone active">
+        <h3 style="font-size:23px; margin-bottom:10px; margin-top:10px; margin-left:10px" >SIGA-NOS</h2>
+        <p></p>
+        <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/drogaria.elencocompleto/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/drogaria.elencocompleto/" class="fb-xfbml-parse-ignore"><a href="Elenco Completo">Elenco Completo</a></blockquote></div>
+        <div id="fb-root"></div>
+      </div>
+      <a class="slider-close" id="hideDiv" href="javascript:void(0)"><i class="pe-7s-close" style="font-size:23px; color:#333;"> </i></a>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript">
+jQuery('.show_hide').click(function(){
+            jQuery("#hideShow").show();
+        });
+jQuery('#hideDiv').click(function(){
+            jQuery("#hideShow").hide();
+        });
+
+</script>
+<script type="text/javascript">
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_PT/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script type="text/javascript">
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_PT/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+</body></html>

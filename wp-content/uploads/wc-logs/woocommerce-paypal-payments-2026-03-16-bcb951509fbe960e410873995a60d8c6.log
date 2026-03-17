@@ -1,0 +1,85 @@
+2026-03-16T17:30:32+00:00 DEBUG #7712 - [New Request] GET /elencowebsite/wp-admin/admin.php
+2026-03-16T17:30:33+00:00 DEBUG #7712 - GET https://api.woocommerce.com/integrations/ppc/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-03-16T17:30:33+00:00 WARNING #7712 - [Error] Not Found CONTEXT: {"args":{"method":"GET","headers":{"Authorization":"Bearer token","Content-Type":"application/json"}},"response":{"headers":{},"body":"{"statusCode":404,"error":"Not Found","message":"Not Found"}","response":{"code":404,"message":"Not Found"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}}
+2026-03-16T17:30:47+00:00 DEBUG #5976 - [New Request] GET /elencowebsite/wp-json/wc/v3/wc_paypal/webhooks
+2026-03-16T17:30:47+00:00 DEBUG #5976 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-03-16T17:30:52+00:00 DEBUG #5498 - [New Request] POST /elencowebsite/wp-json/wc/v3/wc_paypal/login_link
+2026-03-16T17:30:52+00:00 DEBUG #5498 - Loaded onboarding URL from cache: production-advanced_vaulting-express_checkout-
+2026-03-16T17:30:52+00:00 INFO #5498 - Using cached onboarding URL for: production-advanced_vaulting-express_checkout-
+2026-03-16T17:31:04+00:00 DEBUG #9840 - [New Request] POST /elencowebsite/wp-json/wc/v3/wc_paypal/login_link
+2026-03-16T17:31:04+00:00 DEBUG #9840 - Loaded onboarding URL from cache: production-advanced_vaulting-express_checkout-
+2026-03-16T17:31:04+00:00 INFO #9840 - Using cached onboarding URL for: production-advanced_vaulting-express_checkout-
+2026-03-16T17:31:04+00:00 DEBUG #2202 - [New Request] POST /elencowebsite/wp-json/wc/v3/wc_paypal/login_link
+2026-03-16T17:31:04+00:00 DEBUG #2202 - Loaded onboarding URL from cache: production-advanced_vaulting-express_checkout-
+2026-03-16T17:31:04+00:00 INFO #2202 - Using cached onboarding URL for: production-advanced_vaulting-express_checkout-
+2026-03-16T17:34:42+00:00 DEBUG #7824 - [New Request] GET /elencowebsite/wp-json/wc/v3/wc_paypal/webhooks
+2026-03-16T17:34:42+00:00 DEBUG #7824 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-03-16T17:34:46+00:00 DEBUG #6951 - [New Request] POST /elencowebsite/wp-json/wc/v3/wc_paypal/login_link
+2026-03-16T17:34:46+00:00 DEBUG #6951 - Loaded onboarding URL from cache: production-advanced_vaulting-express_checkout-
+2026-03-16T17:34:46+00:00 INFO #6951 - Using cached onboarding URL for: production-advanced_vaulting-express_checkout-
+2026-03-16T17:34:52+00:00 DEBUG #3814 - [New Request] POST /elencowebsite/wp-json/wc/v3/wc_paypal/login_link
+2026-03-16T17:34:52+00:00 DEBUG #3814 - Loaded onboarding URL from cache: production-advanced_vaulting-express_checkout-
+2026-03-16T17:34:52+00:00 INFO #3814 - Using cached onboarding URL for: production-advanced_vaulting-express_checkout-
+2026-03-16T17:34:52+00:00 DEBUG #8433 - [New Request] POST /elencowebsite/wp-json/wc/v3/wc_paypal/login_link
+2026-03-16T17:34:52+00:00 DEBUG #8433 - Loaded onboarding URL from cache: production-advanced_vaulting-express_checkout-
+2026-03-16T17:34:52+00:00 INFO #8433 - Using cached onboarding URL for: production-advanced_vaulting-express_checkout-
+2026-03-16T17:37:19+00:00 DEBUG #5742 - [New Request] GET /elencowebsite/wp-json/wc/v3/wc_paypal/webhooks
+2026-03-16T17:37:19+00:00 DEBUG #5742 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-03-16T17:37:23+00:00 DEBUG #1040 - [New Request] POST /elencowebsite/wp-json/wc/v3/wc_paypal/login_link
+2026-03-16T17:37:23+00:00 DEBUG #1040 - Loaded onboarding URL from cache: production-advanced_vaulting-express_checkout-
+2026-03-16T17:37:23+00:00 INFO #1040 - Using cached onboarding URL for: production-advanced_vaulting-express_checkout-
+2026-03-16T17:37:30+00:00 DEBUG #1674 - [New Request] POST /elencowebsite/wp-json/wc/v3/wc_paypal/login_link
+2026-03-16T17:37:30+00:00 DEBUG #4719 - [New Request] POST /elencowebsite/wp-json/wc/v3/wc_paypal/login_link
+2026-03-16T17:37:30+00:00 DEBUG #1674 - Loaded onboarding URL from cache: production-advanced_vaulting-express_checkout-
+2026-03-16T17:37:30+00:00 DEBUG #4719 - Loaded onboarding URL from cache: production-advanced_vaulting-express_checkout-
+2026-03-16T17:37:30+00:00 INFO #1674 - Using cached onboarding URL for: production-advanced_vaulting-express_checkout-
+2026-03-16T17:37:30+00:00 INFO #4719 - Using cached onboarding URL for: production-advanced_vaulting-express_checkout-
+2026-03-16T17:48:42+00:00 DEBUG #1954 - [New Request] GET /elencowebsite/wp-json/wc/v3/wc_paypal/webhooks
+2026-03-16T17:48:42+00:00 DEBUG #1954 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-03-16T17:48:45+00:00 DEBUG #5184 - [New Request] POST /elencowebsite/wp-json/wc/v3/wc_paypal/login_link
+2026-03-16T17:48:45+00:00 DEBUG #5184 - Loaded onboarding URL from cache: production-advanced_vaulting-express_checkout-
+2026-03-16T17:48:45+00:00 INFO #5184 - Using cached onboarding URL for: production-advanced_vaulting-express_checkout-
+2026-03-16T17:48:53+00:00 DEBUG #6327 - [New Request] POST /elencowebsite/wp-json/wc/v3/wc_paypal/login_link
+2026-03-16T17:48:53+00:00 DEBUG #4918 - Loaded onboarding URL from cache: production-advanced_vaulting-express_checkout-
+2026-03-16T17:48:53+00:00 INFO #4918 - Using cached onboarding URL for: production-advanced_vaulting-express_checkout-
+2026-03-16T17:48:53+00:00 INFO #6327 - Using cached onboarding URL for: production-advanced_vaulting-express_checkout-

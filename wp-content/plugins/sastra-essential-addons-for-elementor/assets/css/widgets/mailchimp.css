@@ -1,0 +1,83 @@
+
+/*--------------------------------------------------------------
+  == Mailchimp
+  --------------------------------------------------------------*/
+
+.tmpcoder-mailchimp-fields {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.tmpcoder-mailchimp-email label,
+.tmpcoder-mailchimp-email input,
+.tmpcoder-mailchimp-first-name label,
+.tmpcoder-mailchimp-first-name input,
+.tmpcoder-mailchimp-last-name label,
+.tmpcoder-mailchimp-last-name input,
+.tmpcoder-mailchimp-phone-number label,
+.tmpcoder-mailchimp-phone-number input {
+	display: block;
+	width: 100%;
+}
+
+.tmpcoder-mailchimp-layout-hr .tmpcoder-mailchimp-fields {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+}
+
+.tmpcoder-mailchimp-layout-vr .tmpcoder-mailchimp-fields {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.tmpcoder-mailchimp-layout-hr .tmpcoder-mailchimp-email,
+.tmpcoder-mailchimp-layout-hr .tmpcoder-mailchimp-first-name,
+.tmpcoder-mailchimp-layout-hr .tmpcoder-mailchimp-last-name,
+.tmpcoder-mailchimp-layout-hr .tmpcoder-mailchimp-phone-number {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+}
+
+.tmpcoder-mailchimp-subscribe .tmpcoder-mailchimp-subscribe-btn {
+	width: 100%;
+	padding: 0 !important;
+	outline: none !important;
+	cursor: pointer;
+}
+
+.tmpcoder-mailchimp-message,
+.tmpcoder-mailchimp-success-message,
+.tmpcoder-mailchimp-error-message {
+	display: none;
+}
+
+.elementor-widget-tmpcoder-mailchimp .tmpcoder-mailchimp-header h3 {
+	font-size: 28px;
+	font-weight: 800;
+	margin-top: 0;
+}
+
+.elementor-widget-tmpcoder-mailchimp .tmpcoder-mailchimp-header p {
+	font-size: 14px;
+}
+
+.elementor-widget-tmpcoder-mailchimp .tmpcoder-mailchimp-fields label {
+	font-size: 13px;
+}
+
+.elementor-widget-tmpcoder-mailchimp .tmpcoder-mailchimp-subscribe-btn {
+	background-color: #5729d9;
+}
+
+.elementor-widget-tmpcoder-mailchimp .tmpcoder-mailchimp-subscribe-btn:hover {
+	background-color: #5729d9;
+}

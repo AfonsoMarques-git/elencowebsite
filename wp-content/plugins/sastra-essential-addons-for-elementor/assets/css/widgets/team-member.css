@@ -1,0 +1,153 @@
+/*--------------------------------------------------------------
+  == Team Member
+  --------------------------------------------------------------*/
+
+.tmpcoder-team-member {
+	overflow: hidden;
+}
+
+.tmpcoder-member-content {
+	overflow: hidden;
+}
+
+.tmpcoder-member-name {
+	display: block;
+	line-height: 1;
+}
+
+/*.elementor .elementor-widget-tmpcoder-team-member .tmpcoder-member-name {
+	font-size: 24px;
+	font-weight: 500;
+}*/
+
+/*.tmpcoder-member-job {
+	font-size: 13px;
+}
+
+.tmpcoder-member-description {
+	font-size: 15px;
+	line-height: 1.4;
+}*/
+
+.tmpcoder-member-media {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+.tmpcoder-member-image {
+	overflow: hidden;
+}
+
+.tmpcoder-member-overlay-content {
+	position: relative;
+}
+
+.tmpcoder-member-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.tmpcoder-member-social-media {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
+}
+
+.tmpcoder-member-social {
+	display: block;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 45px;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+	text-align: center;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	cursor: pointer;
+}
+
+.tmpcoder-member-social i {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: inherit;
+}
+
+.tmpcoder-member-social:last-child {
+	margin-right: 0 !important;
+}
+
+.tmpcoder-team-member-social-media-left .tmpcoder-member-social-media {
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+}
+
+.tmpcoder-team-member-social-media-right .tmpcoder-member-social-media {
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+.tmpcoder-team-member-social-media-center .tmpcoder-member-social-media {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.tmpcoder-member-btn {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #222222;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.tmpcoder-member-btn span {
+	position: relative;
+	z-index: 2;
+	opacity: 1 !important;
+}
+
+.tmpcoder-member-btn:before,
+.tmpcoder-member-btn:after {
+	z-index: 1 !important;
+}
+
+.tmpcoder-member-divider {
+	overflow: hidden;
+}
+
+.tmpcoder-member-divider:after {
+	content: "";
+	display: block;
+	width: 100%;
+	margin-top: 0;
+	overflow: hidden;
+}
+
+.tmpcoder-team-member-divider-left .tmpcoder-member-divider:after {
+	float: left;
+}
+
+.tmpcoder-team-member-divider-right .tmpcoder-member-divider:after {
+	float: right;
+}
+
+.tmpcoder-team-member-divider-center .tmpcoder-member-divider:after {
+	margin-left: auto;
+	margin-right: auto;
+}
+.elementor-widget-tmpcoder-team-member .tmpcoder-member-image img {display: block;}

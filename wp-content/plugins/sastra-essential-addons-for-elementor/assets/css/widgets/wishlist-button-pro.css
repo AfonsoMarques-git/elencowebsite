@@ -1,0 +1,31 @@
+/* == Wishlist Button */
+
+.tmpcoder-wishlist-add,
+.tmpcoder-wishlist-remove {
+	display: inline-block;
+	background-color: white;
+}
+
+.tmpcoder-wishlist-add.tmpcoder-button-hidden,
+.tmpcoder-wishlist-remove.tmpcoder-button-hidden {
+	display: none;
+}
+
+.tmpcoder-wishlist-add i,
+.tmpcoder-wishlist-remove i {
+	font-family: "Font Awesome 5 Free" !important;
+}
+
+.tmpcoder-grid button,
+.tmpcoder-grid [type="submit"],
+.tmpcoder-grid [type="button"] {
+	background-color: transparent;
+	border: 1px solid #5729d9;
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
+
+.tmpcoder-wishlist-remove i {
+	font-weight: 900 !important;
+}
